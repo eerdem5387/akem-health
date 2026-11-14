@@ -16,11 +16,11 @@
   },
   "nav": {
     "home": "Ana Səhifə",
-    "treatments": "Müalicələr & Paketlər",
+    "treatments": "Müalicələr",
     "about": "Haqqımızda",
-    "hospitals": "Tərəfdaş Xəstəxanalar",
-    "certificates": "Sertifikatlarımız",
-    "vipExperience": "Hər Şey Daxil VIP Təcrübə",
+    "hospitals": "Xəstəxanalar",
+    "certificates": "Sertifikatlar",
+    "vipExperience": "VIP Təcrübə",
     "contact": "Əlaqə",
     "mobileHome": "Ana Səhifə",
     "mobileTreatments": "Müalicələr",
@@ -104,6 +104,48 @@
       { "icon": "flight_takeoff", "label": "Turizm Şurası A Qrupu" },
       { "icon": "cardiology", "label": "ISAPS Üzvü Cərrahlar" }
     ],
+    "getawaySection": {
+      "eyebrow": "Səyahətə Dəyər Bir Müalicə",
+      "title": "Müalicənizi Tətilə Çevirin",
+      "desc": "Pulsuz VIP hava limanı transferi, 5 ulduzlu yerləşmə və dünya standartlarında mütəxəssislərlə müalicəniz, qorxulacaq bir şey deyil, səyahətinizin zövqlü bir hissəsinə çevrilir. Sağalarkən, yanınızdakı xüsusi koordinatorunuzla İstanbulu öz sürətinizdə kəşf edin.",
+      "checklist": ["Pulsuz VIP Hava Limanı Transferi", "5 Ulduzlu Otel Yerləşməsi", "Dünya Standartlarında Müalicə Seçimləri"]
+    },
+    "servicesSection": {
+      "eyebrow": "Xidmət Zəmanətlərimiz",
+      "title": "Akem Health-i Fərqləndirən Nədir",
+      "items": [
+        {
+          "icon": "public",
+          "title": "Beynəlxalq Xidmət",
+          "desc": "İstanbuldakı mərkəz ofisimizə əlavə olaraq, koordinasiya komandamız Birləşik Krallıq, Avropa və Körfəz bölgəsindəki xəstələrimizə də dəstək göstərir."
+        },
+        {
+          "icon": "verified",
+          "title": "Sertifikatlı Xidmət",
+          "desc": "Səhiyyə Nazirliyi akkreditasiyasına əlavə olaraq, Turizm Şurası üzvlüyümüz və beynəlxalq etibarlılığı olan keyfiyyət sertifikatımız mövcuddur."
+        },
+        {
+          "icon": "support_agent",
+          "title": "Müalicədən Sonrakı Xidmət",
+          "desc": "Müalicənizdən sonra, xarici dil bilən tibb bacılarımız telefon və video görüş vasitəsilə fərdi dəstək göstərir."
+        },
+        {
+          "icon": "vaccines",
+          "title": "Otel Daxilində Tibb Bacısı Xidməti",
+          "desc": "Müalicə müddətiniz boyunca otelinizdə yerində tibb bacısı dəstəyi təmin edirik."
+        },
+        {
+          "icon": "health_and_safety",
+          "title": "Sağlamlıq Turizmi Sığortası",
+          "desc": "Bizimlə müalicə olan beynəlxalq xəstələrimiz sağlamlıq turizmi sığortası ilə təmin olunur."
+        },
+        {
+          "icon": "fact_check",
+          "title": "Pulsuz Müalicə Planı",
+          "desc": "Müalicə tamamlansın və ya tamamlanmasın, sizə pulsuz və fərdiləşdirilmiş müalicə planı təqdim edirik."
+        }
+      ]
+    },
     "treatmentsSection": {
       "eyebrow": "Klinik Mükəmməllik Sahələri",
       "titleMobile": "Populyar Müalicələr",

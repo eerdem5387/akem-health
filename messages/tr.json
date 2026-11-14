@@ -16,11 +16,11 @@
   },
   "nav": {
     "home": "Ana Sayfa",
-    "treatments": "Tedaviler & Paketler",
+    "treatments": "Tedaviler",
     "about": "Hakkımızda",
-    "hospitals": "Anlaşmalı Hastaneler",
-    "certificates": "Sertifikalarımız",
-    "vipExperience": "Her Şey Dahil VIP Deneyim",
+    "hospitals": "Hastaneler",
+    "certificates": "Sertifikalar",
+    "vipExperience": "VIP Deneyim",
     "contact": "İletişim",
     "mobileHome": "Ana Sayfa",
     "mobileTreatments": "Tedaviler",
@@ -104,6 +104,48 @@
       { "icon": "flight_takeoff", "label": "Turizm Kurulu A Grubu" },
       { "icon": "cardiology", "label": "ISAPS Üyesi Cerrahlar" }
     ],
+    "getawaySection": {
+      "eyebrow": "Seyahate Değer Bir Tedavi",
+      "title": "Tedavinizi Bir Tatile Dönüştürün",
+      "desc": "Ücretsiz VIP havalimanı transferi, 5 yıldızlı konaklama ve dünya standartlarında uzmanlarla tedaviniz, korkulan bir şey değil seyahatinizin keyifli bir parçası haline gelir. İyileşirken, yanınızdaki özel koordinatörünüzle İstanbul'u kendi hızınızda keşfedin.",
+      "checklist": ["Ücretsiz VIP Havalimanı Transferi", "5 Yıldızlı Otel Konaklaması", "Dünya Standartlarında Tedavi Seçenekleri"]
+    },
+    "servicesSection": {
+      "eyebrow": "Hizmet Garantilerimiz",
+      "title": "Akem Health'i Farklı Kılan Nedir",
+      "items": [
+        {
+          "icon": "public",
+          "title": "Uluslararası Hizmet",
+          "desc": "İstanbul'daki merkez ofisimize ek olarak, koordinasyon ekibimiz Birleşik Krallık, Avrupa ve Körfez bölgesindeki hastalarımıza da destek sağlar."
+        },
+        {
+          "icon": "verified",
+          "title": "Sertifikalı Hizmet",
+          "desc": "Sağlık Bakanlığı akreditasyonuna ek olarak, Turizm Kurulu üyeliğimiz ve uluslararası geçerliliği olan kalite sertifikamız bulunmaktadır."
+        },
+        {
+          "icon": "support_agent",
+          "title": "Tedavi Sonrası Hizmet",
+          "desc": "Tedavinizin ardından, yabancı dil bilen hemşirelerimiz telefon ve görüntülü görüşme ile birebir destek sağlar."
+        },
+        {
+          "icon": "vaccines",
+          "title": "Otelde Hemşire Hizmeti",
+          "desc": "Tedavi süreniz boyunca otelinizde yerinde hemşirelik desteği sağlıyoruz."
+        },
+        {
+          "icon": "health_and_safety",
+          "title": "Sağlık Turizmi Sigortası",
+          "desc": "Bizimle tedavi olan uluslararası hastalarımız sağlık turizmi sigortası kapsamındadır."
+        },
+        {
+          "icon": "fact_check",
+          "title": "Ücretsiz Tedavi Planı",
+          "desc": "Tedavi tamamlansın ya da tamamlanmasın, size ücretsiz ve kişiye özel bir tedavi planı sunuyoruz."
+        }
+      ]
+    },
     "treatmentsSection": {
       "eyebrow": "Klinik Mükemmeliyet Alanları",
       "titleMobile": "Popüler Tedaviler",

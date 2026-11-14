@@ -16,11 +16,11 @@
   },
   "nav": {
     "home": "Home",
-    "treatments": "Treatments & Packages",
+    "treatments": "Treatments",
     "about": "About Us",
-    "hospitals": "Partner Hospitals",
+    "hospitals": "Hospitals",
     "certificates": "Certificates",
-    "vipExperience": "All-Inclusive VIP Experience",
+    "vipExperience": "VIP Experience",
     "contact": "Contact",
     "mobileHome": "Home",
     "mobileTreatments": "Treatments",
@@ -104,6 +104,48 @@
       { "icon": "flight_takeoff", "label": "Tourism Board A-Grade" },
       { "icon": "cardiology", "label": "ISAPS Member Surgeons" }
     ],
+    "getawaySection": {
+      "eyebrow": "A Treatment Worth Travelling For",
+      "title": "Turn Your Treatment Into a Getaway",
+      "desc": "Free VIP airport transfer, a 5-star stay and world-class specialists — your treatment becomes part of the trip, not the reason you dread it. While you recover, enjoy Istanbul at your own pace with a dedicated coordinator by your side.",
+      "checklist": ["Free VIP Airport Transfer", "5-Star Hotel Accommodation", "World-Class Treatment Options"]
+    },
+    "servicesSection": {
+      "eyebrow": "Service Guarantees",
+      "title": "What Makes Akem Health Different",
+      "items": [
+        {
+          "icon": "public",
+          "title": "International Service",
+          "desc": "Alongside our Istanbul headquarters, our coordination team supports patients across the UK, Europe and the Gulf."
+        },
+        {
+          "icon": "verified",
+          "title": "Certified Service",
+          "desc": "On top of Ministry of Health accreditation, we hold Tourism Board membership and internationally recognised quality certification."
+        },
+        {
+          "icon": "support_agent",
+          "title": "Post-Treatment Service",
+          "desc": "After your treatment, our foreign-language-speaking nurses support you one-on-one by phone and video call."
+        },
+        {
+          "icon": "vaccines",
+          "title": "In-Hotel Nurse Service",
+          "desc": "We provide on-site nursing support at your hotel throughout your treatment period."
+        },
+        {
+          "icon": "health_and_safety",
+          "title": "Health Tourism Insurance",
+          "desc": "International patients receiving treatment with us are covered by health tourism insurance."
+        },
+        {
+          "icon": "fact_check",
+          "title": "Free Treatment Plan",
+          "desc": "Whether or not you proceed with treatment, we provide a free, personalised treatment plan."
+        }
+      ]
+    },
     "treatmentsSection": {
       "eyebrow": "Clinical Excellence Areas",
       "titleMobile": "Popular Treatments",

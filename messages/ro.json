@@ -16,11 +16,11 @@
   },
   "nav": {
     "home": "Acasă",
-    "treatments": "Tratamente & Pachete",
+    "treatments": "Tratamente",
     "about": "Despre Noi",
-    "hospitals": "Spitale Partenere",
-    "certificates": "Certificările Noastre",
-    "vipExperience": "Experiență VIP All-Inclusive",
+    "hospitals": "Spitale",
+    "certificates": "Certificări",
+    "vipExperience": "Experiență VIP",
     "contact": "Contact",
     "mobileHome": "Acasă",
     "mobileTreatments": "Tratamente",
@@ -104,6 +104,48 @@
       { "icon": "flight_takeoff", "label": "Autoritatea de Turism Categoria A" },
       { "icon": "cardiology", "label": "Chirurgi Membri ISAPS" }
     ],
+    "getawaySection": {
+      "eyebrow": "Un Tratament Pentru Care Merită Să Călătoriți",
+      "title": "Transformați Tratamentul Într-o Escapadă",
+      "desc": "Transfer VIP gratuit de la aeroport, o ședere de 5 stele și specialiști de talie mondială — tratamentul dumneavoastră devine o parte plăcută a călătoriei, nu un motiv de îngrijorare. În timp ce vă recuperați, bucurați-vă de Istanbul în ritmul propriu, alături de coordonatorul dumneavoastră dedicat.",
+      "checklist": ["Transfer VIP Gratuit de la Aeroport", "Cazare la Hotel de 5 Stele", "Opțiuni de Tratament de Talie Mondială"]
+    },
+    "servicesSection": {
+      "eyebrow": "Garanțiile Noastre de Serviciu",
+      "title": "Ce Face Akem Health Diferit",
+      "items": [
+        {
+          "icon": "public",
+          "title": "Serviciu Internațional",
+          "desc": "Pe lângă sediul nostru central din Istanbul, echipa noastră de coordonare sprijină pacienți din Regatul Unit, Europa și zona Golfului."
+        },
+        {
+          "icon": "verified",
+          "title": "Serviciu Certificat",
+          "desc": "Pe lângă acreditarea Ministerului Sănătății, deținem calitatea de membru al Autorității de Turism și o certificare de calitate recunoscută internațional."
+        },
+        {
+          "icon": "support_agent",
+          "title": "Serviciu Post-Tratament",
+          "desc": "După tratamentul dumneavoastră, asistentele noastre vorbitoare de limbi străine vă oferă sprijin individual prin telefon și apel video."
+        },
+        {
+          "icon": "vaccines",
+          "title": "Serviciu de Asistentă Medicală la Hotel",
+          "desc": "Oferim sprijin medical la fața locului, la hotelul dumneavoastră, pe toată durata tratamentului."
+        },
+        {
+          "icon": "health_and_safety",
+          "title": "Asigurare de Turism Medical",
+          "desc": "Pacienții internaționali care se tratează la noi sunt acoperiți de o asigurare de turism medical."
+        },
+        {
+          "icon": "fact_check",
+          "title": "Plan de Tratament Gratuit",
+          "desc": "Indiferent dacă decideți să continuați tratamentul sau nu, vă oferim un plan de tratament gratuit și personalizat."
+        }
+      ]
+    },
     "treatmentsSection": {
       "eyebrow": "Domenii de Excelență Clinică",
       "titleMobile": "Tratamente Populare",

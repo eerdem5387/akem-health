@@ -7,11 +7,13 @@ import { Icon } from "@/components/ui/Icon";
 import { homeDoctorsMeta, homePatientsMeta, homeTreatmentsMeta, hospitalImage } from "@/lib/home";
 import { Link } from "@/i18n/navigation";
 import { site } from "@/lib/site";
+import { vipImages } from "@/lib/vip";
 
 type Step = { icon: string; title: string; desc: string; footer: string; footerIcon: string };
 type Accreditation = { icon: string; label: string };
 type CostRow = { name: string; uk: string; price: string };
 type FaqItem = { question: string; answer: string };
+type ServiceItem = { icon: string; title: string; desc: string };
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -22,6 +24,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const accreditations = t.raw("accreditations") as Accreditation[];
   const costRows = t.raw("costRows") as CostRow[];
   const faqs = t.raw("faqs") as FaqItem[];
+  const getawayChecklist = t.raw("getawaySection.checklist") as string[];
+  const serviceItems = t.raw("servicesSection.items") as ServiceItem[];
+  const dentalImage = homeTreatmentsMeta.find((p) => p.id === "dental")!.image;
 
   return (
     <div className="flex w-full flex-col">
@@ -66,6 +71,96 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Treatment-as-getaway */}
+      <section className="bg-surface-container-low py-space-xl lg:py-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-12">
+          <div className="grid grid-cols-1 items-center gap-space-xl lg:grid-cols-12">
+            <Reveal className="lg:col-span-6">
+              <span className="text-label-badge font-bold tracking-wider text-secondary uppercase">
+                {t("getawaySection.eyebrow")}
+              </span>
+              <h2 className="mt-1 text-headline-lg-mobile font-bold text-primary lg:text-headline-lg">
+                {t("getawaySection.title")}
+              </h2>
+              <p className="mt-3 text-body-md text-on-surface-variant">{t("getawaySection.desc")}</p>
+              <ul className="mt-6 flex flex-col gap-space-sm">
+                {getawayChecklist.map((item) => (
+                  <li key={item} className="flex items-center gap-space-sm">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-secondary/15 text-secondary">
+                      <Icon name="check" className="text-base" />
+                    </span>
+                    <span className="text-body-md font-medium text-on-surface">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+            <Reveal className="lg:col-span-6" delay={0.1}>
+              <div className="grid grid-cols-5 gap-3 sm:gap-4">
+                <div className="relative col-span-2 h-72 overflow-hidden rounded-2xl shadow-lg sm:h-80">
+                  <Image
+                    alt={t("getawaySection.title")}
+                    className="object-cover"
+                    fill
+                    sizes="(max-width:1024px) 40vw, 240px"
+                    src={dentalImage}
+                    unoptimized
+                  />
+                </div>
+                <div className="col-span-3 flex flex-col gap-3 sm:gap-4">
+                  <div className="relative h-36 overflow-hidden rounded-2xl shadow-lg sm:h-[9.5rem]">
+                    <Image
+                      alt=""
+                      className="object-cover"
+                      fill
+                      sizes="(max-width:1024px) 60vw, 360px"
+                      src={hospitalImage}
+                      unoptimized
+                    />
+                  </div>
+                  <div className="relative h-32 overflow-hidden rounded-2xl shadow-lg sm:h-36">
+                    <Image
+                      alt=""
+                      className="object-cover"
+                      fill
+                      sizes="(max-width:1024px) 60vw, 360px"
+                      src={vipImages.spa}
+                      unoptimized
+                    />
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Service guarantees */}
+      <section className="bg-surface py-space-xl lg:py-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-12">
+          <Reveal className="mx-auto mb-space-xl max-w-2xl text-center">
+            <span className="text-label-badge font-bold tracking-wider text-secondary uppercase">
+              {t("servicesSection.eyebrow")}
+            </span>
+            <h2 className="mt-1 text-headline-lg-mobile font-bold text-primary lg:text-headline-lg">
+              {t("servicesSection.title")}
+            </h2>
+          </Reveal>
+          <StaggerGroup className="grid grid-cols-1 gap-space-md sm:grid-cols-2 lg:grid-cols-3">
+            {serviceItems.map((item) => (
+              <StaggerItem key={item.title}>
+                <div className="flex h-full flex-col gap-space-sm rounded-xl bg-surface-container-low p-6">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-secondary/10 text-secondary">
+                    <Icon name={item.icon} className="text-2xl" />
+                  </div>
+                  <h3 className="text-headline-sm font-bold text-primary">{item.title}</h3>
+                  <p className="text-body-sm text-on-surface-variant">{item.desc}</p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
         </div>
       </section>
 
