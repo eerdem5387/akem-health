@@ -27,7 +27,7 @@ export function FloatingCta() {
       </div>
 
       {/* Mobile WhatsApp pill */}
-      <aside className="fixed end-4 bottom-24 z-40 flex flex-col items-end gap-2 lg:hidden">
+      <aside className="fixed end-4 bottom-[calc(1rem+env(safe-area-inset-bottom))] z-40 flex flex-col items-end gap-2 lg:hidden">
         <a
           aria-label={t("whatsappDirect")}
           className="flex h-12 items-center gap-2 rounded-full bg-secondary py-0 pe-4 ps-3 text-on-secondary shadow-[0_10px_25px_-4px_rgba(11,37,69,0.2)] transition-all active:scale-95 hover:opacity-95"

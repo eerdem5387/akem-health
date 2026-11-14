@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import { FloatingCta } from "@/components/layout/FloatingCta";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
-import { MobileNav } from "@/components/layout/MobileNav";
 import { PageTransition } from "@/components/motion/PageTransition";
 import { fontVariables, localeFontClassName } from "@/lib/fonts";
 import { routing, type Locale } from "@/i18n/routing";
@@ -60,12 +59,11 @@ export default async function LocaleLayout({
       <body className="flex min-h-full flex-col bg-surface font-body text-on-surface">
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="w-full flex-1 bg-surface pt-16 pb-24 lg:pt-[7.5rem] lg:pb-0">
+          <main className="w-full flex-1 bg-surface pt-16 lg:pt-[7.5rem]">
             <PageTransition>{children}</PageTransition>
           </main>
           <Footer />
           <FloatingCta />
-          <MobileNav />
         </NextIntlClientProvider>
       </body>
     </html>

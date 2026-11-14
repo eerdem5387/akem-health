@@ -17,10 +17,4 @@ export const site = {
     { href: "/vip-experience", key: "vipExperience" },
     { href: "/contact", key: "contact" },
   ],
-  mobileNav: [
-    { href: "/", key: "mobileHome", icon: "home" },
-    { href: "/treatments", key: "mobileTreatments", icon: "medical_services" },
-    { href: "/vip-experience", key: "mobileVip", icon: "hotel_class" },
-    { href: "/contact", key: "mobileContact", icon: "chat", cta: true },
-  ],
 } as const;

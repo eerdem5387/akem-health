@@ -21,11 +21,7 @@
     "hospitals": "Hastaneler",
     "certificates": "Sertifikalar",
     "vipExperience": "VIP Deneyim",
-    "contact": "İletişim",
-    "mobileHome": "Ana Sayfa",
-    "mobileTreatments": "Tedaviler",
-    "mobileVip": "VIP Hizmet",
-    "mobileContact": "İletişim"
+    "contact": "İletişim"
   },
   "footer": {
     "newsletterLabel": "VIP Sağlık Bülteni",
@@ -33,7 +29,11 @@
     "newsletterDesc": "Türkiye'deki akredite hastaneler, cerrahi başarı oranları ve VIP transfer paketleri hakkında detaylı e-katalog edinin.",
     "emailPlaceholder": "E-posta adresiniz",
     "downloadButton": "Kataloğu İndir",
-    "badges": ["JCI Akredite", "Turizm Kurulu Yetkili", "Sağlık Bakanlığı Kayıtlı"],
+    "badges": [
+      "JCI Akredite",
+      "Turizm Kurulu Yetkili",
+      "Sağlık Bakanlığı Kayıtlı"
+    ],
     "description": "Dünya standartlarında cerrahi uzmanlık, JCI akreditasyonlu hastaneler ve 5 yıldızlı konaklama deneyimini tek bir kusursuz tedavi seyahatinde buluşturan uluslararası sağlık ortağınız.",
     "popularTreatmentsTitle": "Popüler Tedaviler",
     "popularTreatmentsList": [
@@ -54,7 +54,11 @@
     "contactTitle": "İletişim & Lokasyon",
     "partnerLine": "5 Yıldızlı Partner Konaklama Ağı",
     "copyright": "© 2025 Akem Health. Tüm hakları saklıdır. Resmi Uluslararası Sağlık Turizmi Yetki Belgesi Sahibidir.",
-    "legalLinks": ["Aydınlatma Metni (KVKK)", "Gizlilik Politikası", "Kullanım Şartları"]
+    "legalLinks": [
+      "Aydınlatma Metni (KVKK)",
+      "Gizlilik Politikası",
+      "Kullanım Şartları"
+    ]
   },
   "home": {
     "mobileHero": {
@@ -88,27 +92,58 @@
       "avatarMore": "+4k"
     },
     "metrics": [
-      { "value": "18.400+", "label": "Memnun Uluslararası Hasta" },
-      { "value": "52 Ülke", "label": "Global Tercih" },
-      { "value": "%99.3", "label": "Klinik Başarı Skoru" },
-      { "value": "4.9", "label": "Bağımsız Değerlendirme Platformları" }
+      {
+        "value": "18.400+",
+        "label": "Memnun Uluslararası Hasta"
+      },
+      {
+        "value": "52 Ülke",
+        "label": "Global Tercih"
+      },
+      {
+        "value": "%99.3",
+        "label": "Klinik Başarı Skoru"
+      },
+      {
+        "value": "4.9",
+        "label": "Bağımsız Değerlendirme Platformları"
+      }
     ],
     "accreditationBanner": {
       "title": "Uluslararası Güven Standartları",
       "desc": "Resmi Sağlık Bakanlığı yetkisiyle denetlenen ve küresel sertifikalara sahip altyapı."
     },
     "accreditations": [
-      { "icon": "shield", "label": "JCI Akreditasyonu" },
-      { "icon": "verified_user", "label": "ISO 9001:2015" },
-      { "icon": "health_and_safety", "label": "Sağlık Bakanlığı Lisanslı" },
-      { "icon": "flight_takeoff", "label": "Turizm Kurulu A Grubu" },
-      { "icon": "cardiology", "label": "ISAPS Üyesi Cerrahlar" }
+      {
+        "icon": "shield",
+        "label": "JCI Akreditasyonu"
+      },
+      {
+        "icon": "verified_user",
+        "label": "ISO 9001:2015"
+      },
+      {
+        "icon": "health_and_safety",
+        "label": "Sağlık Bakanlığı Lisanslı"
+      },
+      {
+        "icon": "flight_takeoff",
+        "label": "Turizm Kurulu A Grubu"
+      },
+      {
+        "icon": "cardiology",
+        "label": "ISAPS Üyesi Cerrahlar"
+      }
     ],
     "getawaySection": {
       "eyebrow": "Seyahate Değer Bir Tedavi",
       "title": "Tedavinizi Bir Tatile Dönüştürün",
       "desc": "Ücretsiz VIP havalimanı transferi, 5 yıldızlı konaklama ve dünya standartlarında uzmanlarla tedaviniz, korkulan bir şey değil seyahatinizin keyifli bir parçası haline gelir. İyileşirken, yanınızdaki özel koordinatörünüzle İstanbul'u kendi hızınızda keşfedin.",
-      "checklist": ["Ücretsiz VIP Havalimanı Transferi", "5 Yıldızlı Otel Konaklaması", "Dünya Standartlarında Tedavi Seçenekleri"]
+      "checklist": [
+        "Ücretsiz VIP Havalimanı Transferi",
+        "5 Yıldızlı Otel Konaklaması",
+        "Dünya Standartlarında Tedavi Seçenekleri"
+      ]
     },
     "servicesSection": {
       "eyebrow": "Hizmet Garantilerimiz",
@@ -163,7 +198,10 @@
       "hair": {
         "title": "Safir FUE & DHI Saç Restorasyonu",
         "desc": "Maksimum greft garantisi, iğnesiz anestezi, sedasyon seçeneği ve 12 aylık kök hücre destek protokolü.",
-        "tags": ["Safir Bıçak Teknolojisi", "Ömür Boyu Garanti Sertifikası"],
+        "tags": [
+          "Safir Bıçak Teknolojisi",
+          "Ömür Boyu Garanti Sertifikası"
+        ],
         "priceNote": "/ Her Şey Dahil",
         "topBadge": "3 Günlük VIP Paket",
         "bottomBadge": "%75 İngiltere Fiyat Avantajı"
@@ -171,7 +209,10 @@
       "plastic": {
         "title": "Yüz & Vücut Plastik Cerrahisi",
         "desc": "Piezo ultrasonik rinoplasti, Vaser liposuction, meme estetiği ve kombine mom makeover uygulamaları.",
-        "tags": ["Piezo Ultrasonik Cerrahi", "JCI Hastane Güvencesi"],
+        "tags": [
+          "Piezo Ultrasonik Cerrahi",
+          "JCI Hastane Güvencesi"
+        ],
         "priceNote": "/ Her Şey Dahil",
         "topBadge": "7 Günlük VIP İyileşme",
         "bottomBadge": "3D Morpheus Simülasyonu"
@@ -179,7 +220,10 @@
       "dental": {
         "title": "Hollywood Smile & İmplantoloji",
         "desc": "E-max porselen lamine, premium zirkonyum kaplama ve anında yükleme implant protokolleri.",
-        "tags": ["Premium İmplant Sistemleri", "3D Dijital Mockup"],
+        "tags": [
+          "Premium İmplant Sistemleri",
+          "3D Dijital Mockup"
+        ],
         "priceNote": "/ Her Şey Dahil",
         "topBadge": "5 Günlük Dönüşüm",
         "bottomBadge": "CAD/CAM Dijital Tasarım"
@@ -187,7 +231,10 @@
       "bariatric": {
         "title": "Tüp Mide & Gastrik Bypass",
         "desc": "Kapalı laparoskopik sleeve gastrektomi, kaçak testleri, kapsamlı kardiometabolik check-up ve özel refakatçi desteği.",
-        "tags": ["A+ Cerrahi Ekipman", "Online Takip Programı"],
+        "tags": [
+          "A+ Cerrahi Ekipman",
+          "Online Takip Programı"
+        ],
         "priceNote": "/ Her Şey Dahil",
         "topBadge": "4 Günlük Hastane & Otel",
         "bottomBadge": "12 Ay Bariatrik Diyetisyen"
@@ -195,7 +242,10 @@
       "eye": {
         "title": "Lazer Göz & Trifokal Akıllı Lens",
         "desc": "No-Touch Laser ve ömür boyu gözlük bağımsızlığı sunan trifokal katarakt/presbiyopi ameliyatları.",
-        "tags": ["Gelişmiş Lazer Teknolojisi", "Ağrısız 15 Dakika"],
+        "tags": [
+          "Gelişmiş Lazer Teknolojisi",
+          "Ağrısız 15 Dakika"
+        ],
         "priceNote": "/ İki Göz Dahil",
         "topBadge": "3 Günlük Paket",
         "bottomBadge": "Akıllı Lens Teknolojisi"
@@ -271,9 +321,18 @@
         "experience": "21 Yıl Cerrahi Deneyim",
         "bio": "Ultrasonik rinoplasti ve vücut şekillendirmede EBOPRAS tescilli 6.500+ başarılı vaka.",
         "stats": [
-          { "value": "6.5k+", "label": "Operasyon" },
-          { "value": "%99.4", "label": "Memnuniyet" },
-          { "value": "4 Dil", "label": "EN/RU/AR/TR" }
+          {
+            "value": "6.5k+",
+            "label": "Operasyon"
+          },
+          {
+            "value": "%99.4",
+            "label": "Memnuniyet"
+          },
+          {
+            "value": "4 Dil",
+            "label": "EN/RU/AR/TR"
+          }
         ]
       },
       "doctor2": {
@@ -282,9 +341,18 @@
         "experience": "16 Yıl Uzmanlık",
         "bio": "ISHRS üyesi. Safir FUE ve DHI tekniği ile greft yaşam oranında %98.8 kanıtlanmış başarı.",
         "stats": [
-          { "value": "8.2k+", "label": "Vaka" },
-          { "value": "%98.8", "label": "Greft Tutma" },
-          { "value": "3 Dil", "label": "EN/AR/TR" }
+          {
+            "value": "8.2k+",
+            "label": "Vaka"
+          },
+          {
+            "value": "%98.8",
+            "label": "Greft Tutma"
+          },
+          {
+            "value": "3 Dil",
+            "label": "EN/AR/TR"
+          }
         ]
       },
       "doctor3": {
@@ -293,9 +361,18 @@
         "experience": "18 Yıl Klinik Deneyim",
         "bio": "Dijital gülüş tasarımında Hollywood Smile ve anında yükleme implant sistemlerinde 5.000'den fazla uluslararası hasta referansı.",
         "stats": [
-          { "value": "5.1k+", "label": "Gülüş Tasarımı" },
-          { "value": "%99.7", "label": "Başarı Oranı" },
-          { "value": "3 Dil", "label": "EN/RU/TR" }
+          {
+            "value": "5.1k+",
+            "label": "Gülüş Tasarımı"
+          },
+          {
+            "value": "%99.7",
+            "label": "Başarı Oranı"
+          },
+          {
+            "value": "3 Dil",
+            "label": "EN/RU/TR"
+          }
         ]
       }
     },
@@ -343,10 +420,26 @@
       "assuranceTitle": "T.C. Sağlık Turizmi Lisanslı"
     },
     "costRows": [
-      { "name": "Safir FUE Saç Ekimi", "uk": "£6.500", "price": "£1.650" },
-      { "name": "Piezo Rinoplasti", "uk": "£7.200", "price": "£2.500" },
-      { "name": "Hollywood Smile (20 Diş)", "uk": "£11.000", "price": "£2.950" },
-      { "name": "Tüp Mide Ameliyatı", "uk": "£9.800", "price": "£2.800" }
+      {
+        "name": "Safir FUE Saç Ekimi",
+        "uk": "£6.500",
+        "price": "£1.650"
+      },
+      {
+        "name": "Piezo Rinoplasti",
+        "uk": "£7.200",
+        "price": "£2.500"
+      },
+      {
+        "name": "Hollywood Smile (20 Diş)",
+        "uk": "£11.000",
+        "price": "£2.950"
+      },
+      {
+        "name": "Tüp Mide Ameliyatı",
+        "uk": "£9.800",
+        "price": "£2.800"
+      }
     ],
     "faqSection": {
       "eyebrow": "Aklınızdaki Sorular",
@@ -375,7 +468,11 @@
       "eyebrow": "Zaman Kaybetmeyin",
       "title": "Sağlık Yolculuğunuzu Bugün Başlatın",
       "desc": "Uzman hekimlerimizden tamamen ücretsiz, bağlayıcılığı olmayan tedavi planınızı ve her şey dahil fiyat teklifinizi 15 dakika içinde edinin.",
-      "features": ["Gizli Maliyet Yok", "Ömür Boyu Cerrahi Garanti", "VIP 5 Yıldızlı Konaklama"],
+      "features": [
+        "Gizli Maliyet Yok",
+        "Ömür Boyu Cerrahi Garanti",
+        "VIP 5 Yıldızlı Konaklama"
+      ],
       "primaryCta": "Ücretsiz Medikal Rapor İncelemesi",
       "whatsappCta": "WhatsApp Canlı Danışman"
     }
@@ -400,12 +497,30 @@
     "emailPlaceholder": "david@example.com",
     "treatmentLabel": "Tedavi Branşı",
     "treatmentOptions": [
-      { "value": "hair", "label": "Saç Ekimi & Restorasyon (Safir / DHI)" },
-      { "value": "aesthetic", "label": "Estetik & Plastik Cerrahi (Rinoplasti / Göğüs / Lipo)" },
-      { "value": "dental", "label": "Hollywood Smile & Dijital İmplantoloji" },
-      { "value": "eye", "label": "Göz Cerrahisi & Akıllı Multifokal Lens" },
-      { "value": "bariatric", "label": "Obezite & Bariatrik Cerrahi (Tüp Mide)" },
-      { "value": "other", "label": "Diğer / Genel Medikal Danışmanlık" }
+      {
+        "value": "hair",
+        "label": "Saç Ekimi & Restorasyon (Safir / DHI)"
+      },
+      {
+        "value": "aesthetic",
+        "label": "Estetik & Plastik Cerrahi (Rinoplasti / Göğüs / Lipo)"
+      },
+      {
+        "value": "dental",
+        "label": "Hollywood Smile & Dijital İmplantoloji"
+      },
+      {
+        "value": "eye",
+        "label": "Göz Cerrahisi & Akıllı Multifokal Lens"
+      },
+      {
+        "value": "bariatric",
+        "label": "Obezite & Bariatrik Cerrahi (Tüp Mide)"
+      },
+      {
+        "value": "other",
+        "label": "Diğer / Genel Medikal Danışmanlık"
+      }
     ],
     "uploadLabel": "Fotoğraf / Röntgen Yükle (Opsiyonel)",
     "uploadHint": "PNG, JPG, PDF (Maks 15MB)",
@@ -435,102 +550,256 @@
     "emptyTitle": "Bu kategoride öne çıkan paket yakında eklenecek. Kişisel teklif için bizimle iletişime geçin.",
     "emptyCta": "Ücretsiz Teklif Al",
     "categories": [
-      { "id": "all", "label": "Tüm Tedaviler (16)" },
-      { "id": "hair", "label": "Saç Ekimi & Restorasyon" },
-      { "id": "dental", "label": "Diş & Hollywood Smile" },
-      { "id": "plastic", "label": "Plastik & Yüz Cerrahisi" },
-      { "id": "bariatric", "label": "Obezite & Metabolik Cerrahi" },
-      { "id": "eye", "label": "Göz & No-Touch Lazer" }
+      {
+        "id": "all",
+        "label": "Tüm Tedaviler (16)"
+      },
+      {
+        "id": "hair",
+        "label": "Saç Ekimi & Restorasyon"
+      },
+      {
+        "id": "dental",
+        "label": "Diş & Hollywood Smile"
+      },
+      {
+        "id": "plastic",
+        "label": "Plastik & Yüz Cerrahisi"
+      },
+      {
+        "id": "bariatric",
+        "label": "Obezite & Metabolik Cerrahi"
+      },
+      {
+        "id": "eye",
+        "label": "Göz & No-Touch Lazer"
+      }
     ],
     "benefits": [
-      { "icon": "hotel", "title": "5 Yıldızlı Konaklama", "desc": "Partner lüks otel ağımız" },
-      { "icon": "directions_car", "title": "VIP Şoförlü Transfer", "desc": "Havalimanı, otel ve klinik transferleri" },
-      { "icon": "translate", "title": "Kişisel Koordinatör", "desc": "Ana dilinizde 7/24 rehberlik" },
-      { "icon": "security", "title": "Resmi Tedavi Garantisi", "desc": "Uluslararası sigorta ve sertifika" }
+      {
+        "icon": "hotel",
+        "title": "5 Yıldızlı Konaklama",
+        "desc": "Partner lüks otel ağımız"
+      },
+      {
+        "icon": "directions_car",
+        "title": "VIP Şoförlü Transfer",
+        "desc": "Havalimanı, otel ve klinik transferleri"
+      },
+      {
+        "icon": "translate",
+        "title": "Kişisel Koordinatör",
+        "desc": "Ana dilinizde 7/24 rehberlik"
+      },
+      {
+        "icon": "security",
+        "title": "Resmi Tedavi Garantisi",
+        "desc": "Uluslararası sigorta ve sertifika"
+      }
     ],
     "packages": {
       "hair": {
         "title": "VIP Sapphire FUE Saç Ekimi Paketi",
         "categoryLabel": "Saç Ekimi & Triko-Cerrahi",
-        "badges": ["En Çok Tercih Edilen", "Safir FUE Tekniği"],
+        "badges": [
+          "En Çok Tercih Edilen",
+          "Safir FUE Tekniği"
+        ],
         "euPrice": "€5.400",
         "price": "€1.850",
         "savings": "%65 Net Tasarruf",
         "duration": "3 Gece / 4 Gün",
         "metrics": [
-          { "icon": "timer", "label": "İşe Dönüş", "value": "3. Gün" },
-          { "icon": "flight_takeoff", "label": "Uçuş İzni", "value": "48 Saat" },
-          { "icon": "workspace_premium", "label": "Garanti", "value": "Ömür Boyu" }
+          {
+            "icon": "timer",
+            "label": "İşe Dönüş",
+            "value": "3. Gün"
+          },
+          {
+            "icon": "flight_takeoff",
+            "label": "Uçuş İzni",
+            "value": "48 Saat"
+          },
+          {
+            "icon": "workspace_premium",
+            "label": "Garanti",
+            "value": "Ömür Boyu"
+          }
         ],
         "includes": [
-          { "title": "Maksimum Greft İmplantasyonu", "desc": "Donör alana zarar vermeden 4.500 - 5.500+ greft" },
-          { "title": "Regeneratif Destek", "desc": "PRP Terapisi ve Oksijenli Mezoterapi seansı dahil" },
-          { "title": "5 Yıldızlı Konaklama", "desc": "Boğaz manzaralı partner otel (3 Gece, Kahvaltı Dahil)" },
-          { "title": "Özel VIP Ulaşım", "desc": "Havalimanı - Otel - Hastane arası premium şoförlü transferler" },
-          { "title": "Kapsamlı Medikal Bakım Kiti", "desc": "1 Yıllık biyotin şampuan, losyon ve özel boyun yastığı" }
+          {
+            "title": "Maksimum Greft İmplantasyonu",
+            "desc": "Donör alana zarar vermeden 4.500 - 5.500+ greft"
+          },
+          {
+            "title": "Regeneratif Destek",
+            "desc": "PRP Terapisi ve Oksijenli Mezoterapi seansı dahil"
+          },
+          {
+            "title": "5 Yıldızlı Konaklama",
+            "desc": "Boğaz manzaralı partner otel (3 Gece, Kahvaltı Dahil)"
+          },
+          {
+            "title": "Özel VIP Ulaşım",
+            "desc": "Havalimanı - Otel - Hastane arası premium şoförlü transferler"
+          },
+          {
+            "title": "Kapsamlı Medikal Bakım Kiti",
+            "desc": "1 Yıllık biyotin şampuan, losyon ve özel boyun yastığı"
+          }
         ]
       },
       "dental": {
         "title": "Hollywood Smile & E-Max Porselen Paketi",
         "categoryLabel": "Estetik Diş & Gülüş Tasarımı",
-        "badges": ["Hollywood Smile", "Premium E-Max Porselen"],
+        "badges": [
+          "Hollywood Smile",
+          "Premium E-Max Porselen"
+        ],
         "euPrice": "€9.200",
         "price": "€3.200",
         "savings": "%66 Net Tasarruf",
         "duration": "6 Gece / 7 Gün",
         "metrics": [
-          { "icon": "timer", "label": "İşe Dönüş", "value": "Aynı Gün" },
-          { "icon": "flight_takeoff", "label": "Uçuş İzni", "value": "Son Seans" },
-          { "icon": "workspace_premium", "label": "Garanti", "value": "10 Yıl Resmi" }
+          {
+            "icon": "timer",
+            "label": "İşe Dönüş",
+            "value": "Aynı Gün"
+          },
+          {
+            "icon": "flight_takeoff",
+            "label": "Uçuş İzni",
+            "value": "Son Seans"
+          },
+          {
+            "icon": "workspace_premium",
+            "label": "Garanti",
+            "value": "10 Yıl Resmi"
+          }
         ],
         "includes": [
-          { "title": "16 - 20 Üye Premium E-Max / Zirkonyum", "desc": "Doğal translusens ve kişiye özel renk seçimi" },
-          { "title": "3D Dijital Gülüş Mock-up Simülasyonu", "desc": "İşlem başlamadan nihai gülüşünüzü görme imkanı" },
-          { "title": "6 Gece Lüks Butik veya 5* Otel Konaklaması", "desc": "Boğaz hattında veya şehir merkezinde" },
-          { "title": "Panoramik 3D Tomografi & Temizlik", "desc": "İleri teknoloji tanı ve hijyen paketi dahil" },
-          { "title": "VIP Şoförlü Transferler", "desc": "Tüm randevular ve havaalanı için 7/24 hizmet" }
+          {
+            "title": "16 - 20 Üye Premium E-Max / Zirkonyum",
+            "desc": "Doğal translusens ve kişiye özel renk seçimi"
+          },
+          {
+            "title": "3D Dijital Gülüş Mock-up Simülasyonu",
+            "desc": "İşlem başlamadan nihai gülüşünüzü görme imkanı"
+          },
+          {
+            "title": "6 Gece Lüks Butik veya 5* Otel Konaklaması",
+            "desc": "Boğaz hattında veya şehir merkezinde"
+          },
+          {
+            "title": "Panoramik 3D Tomografi & Temizlik",
+            "desc": "İleri teknoloji tanı ve hijyen paketi dahil"
+          },
+          {
+            "title": "VIP Şoförlü Transferler",
+            "desc": "Tüm randevular ve havaalanı için 7/24 hizmet"
+          }
         ]
       },
       "plastic": {
         "title": "Doğal Rinoplasti (Burun Estetiği) Paketi",
         "categoryLabel": "Yüz & Estetik Cerrahi",
-        "badges": ["Ultrasonik Piezo", "Morluksuz Teknik"],
+        "badges": [
+          "Ultrasonik Piezo",
+          "Morluksuz Teknik"
+        ],
         "euPrice": "€7.500",
         "price": "€2.750",
         "savings": "%63 Net Tasarruf",
         "duration": "6 Gece / 7 Gün",
         "metrics": [
-          { "icon": "timer", "label": "İşe Dönüş", "value": "7. Gün" },
-          { "icon": "flight_takeoff", "label": "Uçuş İzni", "value": "7. Gün (Kontrol)" },
-          { "icon": "workspace_premium", "label": "Akreditasyon", "value": "JCI Onaylı" }
+          {
+            "icon": "timer",
+            "label": "İşe Dönüş",
+            "value": "7. Gün"
+          },
+          {
+            "icon": "flight_takeoff",
+            "label": "Uçuş İzni",
+            "value": "7. Gün (Kontrol)"
+          },
+          {
+            "icon": "workspace_premium",
+            "label": "Akreditasyon",
+            "value": "JCI Onaylı"
+          }
         ],
         "includes": [
-          { "title": "Piezo Ultrasonik Cerrahi", "desc": "Kemik dokuya nazik, minimum morluk ve hızlı iyileşme" },
-          { "title": "1 Gece JCI Akredite Hastane Yatışı", "desc": "Özel suit oda ve 24 saat hemşire takibi" },
-          { "title": "5 Gece 5 Yıldızlı Otel Dinlenmesi", "desc": "Özel hazırlanmış yumuşak diyet oda servisi" },
-          { "title": "Kontrol & Splint Çıkarma", "desc": "Cerrah tarafından bizzat tampon ve atel alımı" },
-          { "title": "Özel Şehir Dinlenme Paketi", "desc": "Boğaz turu veya sakinleştirici iyileşme rehberi" }
+          {
+            "title": "Piezo Ultrasonik Cerrahi",
+            "desc": "Kemik dokuya nazik, minimum morluk ve hızlı iyileşme"
+          },
+          {
+            "title": "1 Gece JCI Akredite Hastane Yatışı",
+            "desc": "Özel suit oda ve 24 saat hemşire takibi"
+          },
+          {
+            "title": "5 Gece 5 Yıldızlı Otel Dinlenmesi",
+            "desc": "Özel hazırlanmış yumuşak diyet oda servisi"
+          },
+          {
+            "title": "Kontrol & Splint Çıkarma",
+            "desc": "Cerrah tarafından bizzat tampon ve atel alımı"
+          },
+          {
+            "title": "Özel Şehir Dinlenme Paketi",
+            "desc": "Boğaz turu veya sakinleştirici iyileşme rehberi"
+          }
         ]
       },
       "bariatric": {
         "title": "Tüp Mide & Metabolik Cerrahi Paketi",
         "categoryLabel": "Obezite & Metabolizma",
-        "badges": ["Metabolik Cerrahi", "Laparoskopik Sleeve"],
+        "badges": [
+          "Metabolik Cerrahi",
+          "Laparoskopik Sleeve"
+        ],
         "euPrice": "€11.000",
         "price": "€3.400",
         "savings": "%69 Net Tasarruf",
         "duration": "6 Gece / 7 Gün",
         "metrics": [
-          { "icon": "timer", "label": "İşe Dönüş", "value": "10-14 Gün" },
-          { "icon": "flight_takeoff", "label": "Uçuş İzni", "value": "6. Gün (Kaçak Testi)" },
-          { "icon": "workspace_premium", "label": "Destek", "value": "12 Ay Diyetisyen" }
+          {
+            "icon": "timer",
+            "label": "İşe Dönüş",
+            "value": "10-14 Gün"
+          },
+          {
+            "icon": "flight_takeoff",
+            "label": "Uçuş İzni",
+            "value": "6. Gün (Kaçak Testi)"
+          },
+          {
+            "icon": "workspace_premium",
+            "label": "Destek",
+            "value": "12 Ay Diyetisyen"
+          }
         ],
         "includes": [
-          { "title": "Kapsamlı 40+ Pre-op Testi", "desc": "Endoskopi, kardiyoloji, göğüs hastalıkları konsültasyonu" },
-          { "title": "3 Gece Hastane + 3 Gece 5* Otel", "desc": "Refakatçiniz için konaklama ve yemekler dahil" },
-          { "title": "Post-Op Kaçak Testleri (Leak Test)", "desc": "Taburcu öncesi floroskopik çift kontrol" },
-          { "title": "12 Ay Online Bariatrik Diyetisyen", "desc": "Ülkenize döndüğünüzde aylık online takip ve menü planlama" },
-          { "title": "Tüm İlaçlar & Multivitamin Seti", "desc": "İlk 3 aylık medikal takviye seti teslimi" }
+          {
+            "title": "Kapsamlı 40+ Pre-op Testi",
+            "desc": "Endoskopi, kardiyoloji, göğüs hastalıkları konsültasyonu"
+          },
+          {
+            "title": "3 Gece Hastane + 3 Gece 5* Otel",
+            "desc": "Refakatçiniz için konaklama ve yemekler dahil"
+          },
+          {
+            "title": "Post-Op Kaçak Testleri (Leak Test)",
+            "desc": "Taburcu öncesi floroskopik çift kontrol"
+          },
+          {
+            "title": "12 Ay Online Bariatrik Diyetisyen",
+            "desc": "Ülkenize döndüğünüzde aylık online takip ve menü planlama"
+          },
+          {
+            "title": "Tüm İlaçlar & Multivitamin Seti",
+            "desc": "İlk 3 aylık medikal takviye seti teslimi"
+          }
         ]
       }
     }
@@ -542,9 +811,18 @@
     "titleEnd": " Odaklanın. Geri Kalan Her Şeyi Biz Düşündük.",
     "desc": "Akem Health ile tedavi süreciniz bir ameliyathane kapısında başlamaz; İstanbul semalarında başlar. Özel VIP şoförünüzden 5 yıldızlı Boğaz konaklamanıza, kişisel ana dil koordinatörünüzden 365 günlük dijital takibinize kadar her saniye planlandı.",
     "metrics": [
-      { "value": "100%", "label": "VIP Uçtan Uca Lojistik" },
-      { "value": "7/24", "label": "Kişisel Medikal Asistan" },
-      { "value": "12 Ay", "label": "Klinik Uzaktan Takip" }
+      {
+        "value": "100%",
+        "label": "VIP Uçtan Uca Lojistik"
+      },
+      {
+        "value": "7/24",
+        "label": "Kişisel Medikal Asistan"
+      },
+      {
+        "value": "12 Ay",
+        "label": "Klinik Uzaktan Takip"
+      }
     ],
     "primaryCta": "VIP Deneyim Paketini Oluştur",
     "secondaryCta": "Hasta Yolculuğunu İzle",
@@ -604,9 +882,21 @@
     "transferDesc": "Uluslararası yolculuklarda en büyük stres kaynağı olan şehir içi ulaşımı tamamen ortadan kaldırıyoruz. Her randevunuza özel VIP şoförünüzle, trafiğe takılmadan ve tam vaktinde ulaşırsınız.",
     "transferBadge": "Lisanslı Özel Filo",
     "transferFeatures": [
-      { "icon": "person_pin", "title": "İsim Tabelalı VIP Karşılama", "desc": "Gümrük çıkışında koordinatörünüz veya şoförünüz sizi adınıza hazırlanmış tabletle karşılar, valizlerinizi taşır." },
-      { "icon": "airline_seat_recline_extra", "title": "Premium Donanımlı Konfor", "desc": "Operasyon sonrası hassasiyet düşünülerek ayarlanabilir ortopedik deri koltuklar, steril klima filtreleri ve kablosuz internet." },
-      { "icon": "schedule", "title": "Esnek ve Sınırsız Sefer Hakkı", "desc": "Tedavi süreniz boyunca tüm kontrol, pansuman veya eczane ihtiyaçlarınızda aracınız 20 dakika içinde hazır." }
+      {
+        "icon": "person_pin",
+        "title": "İsim Tabelalı VIP Karşılama",
+        "desc": "Gümrük çıkışında koordinatörünüz veya şoförünüz sizi adınıza hazırlanmış tabletle karşılar, valizlerinizi taşır."
+      },
+      {
+        "icon": "airline_seat_recline_extra",
+        "title": "Premium Donanımlı Konfor",
+        "desc": "Operasyon sonrası hassasiyet düşünülerek ayarlanabilir ortopedik deri koltuklar, steril klima filtreleri ve kablosuz internet."
+      },
+      {
+        "icon": "schedule",
+        "title": "Esnek ve Sınırsız Sefer Hakkı",
+        "desc": "Tedavi süreniz boyunca tüm kontrol, pansuman veya eczane ihtiyaçlarınızda aracınız 20 dakika içinde hazır."
+      }
     ],
     "hotelsEyebrow": "Huzurlu İyileşme Alanları",
     "hotelsTitle": "5 Yıldızlı Partner Konaklama & Medikal Konfor",
@@ -616,29 +906,52 @@
         "name": "The Bosphorus Pearl Residence",
         "badge": "Boğaz Manzaralı",
         "desc": "Geniş balkonlu süitler, 24 saat medikal oda servisi ve cerrahi sonrası özel organik menü seçenekleri.",
-        "features": ["Hastaneye yalnızca 8 dakika mesafe", "Hipoalerjenik ve ses yalıtımlı odalar"]
+        "features": [
+          "Hastaneye yalnızca 8 dakika mesafe",
+          "Hipoalerjenik ve ses yalıtımlı odalar"
+        ]
       },
       "quasar": {
         "name": "Quasar City Suites",
         "badge": "Şehir Merkezi",
         "desc": "Kliniklerimize yakın, akıllı oda teknolojisi ve refakatçiler için özel oturma alanları.",
-        "features": ["Oda içi ayarlanabilir medikal başlıklar", "7/24 hemşire çağrı entegrasyonu"]
+        "features": [
+          "Oda içi ayarlanabilir medikal başlıklar",
+          "7/24 hemşire çağrı entegrasyonu"
+        ]
       },
       "serenity": {
         "name": "Serenity Garden Residence",
         "badge": "Huzur & Wellness",
         "desc": "Tarihi koru içinde dinlenme olanağı, sessiz bahçeler ve cerrahi sonrası lenf drenaj / dinlenme destekleri.",
-        "features": ["Cerrahiye özel taze beslenme menüsü", "Özel teraslı yürüyüş parkurları"]
+        "features": [
+          "Cerrahiye özel taze beslenme menüsü",
+          "Özel teraslı yürüyüş parkurları"
+        ]
       }
     },
     "ratingLabel": "5 Yıldız Lüks",
     "languageEyebrow": "Dil Engeli Yok",
     "languageTitle": "7/24 Yanınızda Olan Kişisel Medikal Asistanınız",
     "languageDesc": "Yabancı bir ülkede sağlık hizmeti alırken en kritik unsur doğru iletişimdir. Akem Health'te her hastaya, kendi ana dilini akıcı konuşan lisanslı bir medikal tercüman ve vaka yöneticisi tahsis edilir.",
-    "languages": ["İngilizce (English)", "Rusça (Русский)", "Arapça (العربية)", "Gürcüce (ქართული)", "Romence (Română)"],
+    "languages": [
+      "İngilizce (English)",
+      "Rusça (Русский)",
+      "Arapça (العربية)",
+      "Gürcüce (ქართული)",
+      "Romence (Română)"
+    ],
     "languageFeatures": [
-      { "icon": "clinical_notes", "title": "Tıbbi Evrak Çevirisi", "desc": "Tüm epikriz raporları, laboratuvar sonuçları ve reçeteleriniz yeminli tercüme ile ana dilinize çevrilir." },
-      { "icon": "prescriptions", "title": "İlaç & Eczane Temini", "desc": "Gerekli tüm medikal bakım kremleri, ilaçlar ve korse/bandajlar asistanınız tarafından otelinize getirilir." }
+      {
+        "icon": "clinical_notes",
+        "title": "Tıbbi Evrak Çevirisi",
+        "desc": "Tüm epikriz raporları, laboratuvar sonuçları ve reçeteleriniz yeminli tercüme ile ana dilinize çevrilir."
+      },
+      {
+        "icon": "prescriptions",
+        "title": "İlaç & Eczane Temini",
+        "desc": "Gerekli tüm medikal bakım kremleri, ilaçlar ve korse/bandajlar asistanınız tarafından otelinize getirilir."
+      }
     ],
     "coordinatorCardTitle": "Atanan Hasta Koordinatörünüz",
     "coordinatorCertified": "Sağlık Bakanlığı Sertifikalı",
@@ -652,9 +965,21 @@
     "wellnessTitle": "İyileşme Sonrası İstanbul'un Büyüleyici Huzuru",
     "wellnessDesc": "Tedavinizin ardından hekiminiz seyahat ve hafif yürüyüş onayı verdiğinde, İstanbul'u en ayrıcalıklı ve yorulmadan keşfetmeniz için özel gezi seçenekleri sunuyoruz.",
     "wellnessFeatures": [
-      { "icon": "directions_boat", "title": "Özel Boğaz Tekne Gezisi", "desc": "Kalabalıklardan uzak, temiz deniz havası eşliğinde 2 saatlik panoramik Boğaz turu ile zihninizi tazeleyin." },
-      { "icon": "spa", "title": "Hafif Wellness & İyileşme Masajları", "desc": "Cerrahi izin dahilinde uzman fizyoterapistler tarafından sunulan ödem dağıtıcı ve rahatlatıcı hafif terapiler." },
-      { "icon": "palette", "title": "Özel Rehberli Tarihi Yarımada Ziyareti", "desc": "Yorulmadan, tekerlekli sandalye veya VIP araç transfer destekli Ayasofya ve Sultanahmet kültür buluşması." }
+      {
+        "icon": "directions_boat",
+        "title": "Özel Boğaz Tekne Gezisi",
+        "desc": "Kalabalıklardan uzak, temiz deniz havası eşliğinde 2 saatlik panoramik Boğaz turu ile zihninizi tazeleyin."
+      },
+      {
+        "icon": "spa",
+        "title": "Hafif Wellness & İyileşme Masajları",
+        "desc": "Cerrahi izin dahilinde uzman fizyoterapistler tarafından sunulan ödem dağıtıcı ve rahatlatıcı hafif terapiler."
+      },
+      {
+        "icon": "palette",
+        "title": "Özel Rehberli Tarihi Yarımada Ziyareti",
+        "desc": "Yorulmadan, tekerlekli sandalye veya VIP araç transfer destekli Ayasofya ve Sultanahmet kültür buluşması."
+      }
     ],
     "followUpEyebrow": "Uluslararası Takip Protokolü",
     "followUpTitle": "Evinize Döndüğünüzde de Yalnız Değilsiniz.",
@@ -666,7 +991,11 @@
     "complianceLine": "Tüm verileriniz HIPAA ve GDPR uluslararası sağlık veri güvenliği standartlarında korunur.",
     "portalTitle": "Akem Health Care Portal",
     "portalActive": "365 Gün Aktif",
-    "portalRows": ["Video Konsültasyon — Planlandı", "İyileşme Fotoğrafı — İncelendi", "Garanti Sertifikası — Aktif"],
+    "portalRows": [
+      "Video Konsültasyon — Planlandı",
+      "İyileşme Fotoğrafı — İncelendi",
+      "Garanti Sertifikası — Aktif"
+    ],
     "portalCta": "VIP Paketinizi Yapılandırın"
   },
   "about": {
@@ -674,17 +1003,41 @@
     "title": "İlk Aramadan Ömür Boyu Takibe, Sizin Etrafınızda Kurulan Bakım",
     "desc": "Akem Health, uluslararası hastaları Türkiye'nin en akredite hastaneleri ve cerrahlarıyla buluştururken, her tedaviyi kusursuz bir VIP seyahat deneyimiyle sarmalar.",
     "stats": [
-      { "value": "2016", "label": "Kuruluş" },
-      { "value": "18.400+", "label": "Tedavi Edilen Hasta" },
-      { "value": "52", "label": "Hizmet Verilen Ülke" },
-      { "value": "%99.3", "label": "Başarı Oranı" }
+      {
+        "value": "2016",
+        "label": "Kuruluş"
+      },
+      {
+        "value": "18.400+",
+        "label": "Tedavi Edilen Hasta"
+      },
+      {
+        "value": "52",
+        "label": "Hizmet Verilen Ülke"
+      },
+      {
+        "value": "%99.3",
+        "label": "Başarı Oranı"
+      }
     ],
     "valuesEyebrow": "Bizi Yönlendiren Değerler",
     "valuesTitle": "Misyon, Vizyon & Değerler",
     "values": [
-      { "icon": "flag", "title": "Misyonumuz", "desc": "Dünya standartlarında, akredite sağlık hizmetini güvenlik veya saygınlıktan ödün vermeden herkes için erişilebilir ve ekonomik kılmak." },
-      { "icon": "visibility", "title": "Vizyonumuz", "desc": "Uluslararası hastalar ile Türkiye'nin önde gelen sağlık kurumları arasındaki en güvenilir köprü olmak." },
-      { "icon": "favorite", "title": "Hasta Odaklı Bakım", "desc": "Hastane seçiminden otel rezervasyonuna kadar her karar, hastanın konforu ve klinik sonucu etrafında alınır." }
+      {
+        "icon": "flag",
+        "title": "Misyonumuz",
+        "desc": "Dünya standartlarında, akredite sağlık hizmetini güvenlik veya saygınlıktan ödün vermeden herkes için erişilebilir ve ekonomik kılmak."
+      },
+      {
+        "icon": "visibility",
+        "title": "Vizyonumuz",
+        "desc": "Uluslararası hastalar ile Türkiye'nin önde gelen sağlık kurumları arasındaki en güvenilir köprü olmak."
+      },
+      {
+        "icon": "favorite",
+        "title": "Hasta Odaklı Bakım",
+        "desc": "Hastane seçiminden otel rezervasyonuna kadar her karar, hastanın konforu ve klinik sonucu etrafında alınır."
+      }
     ],
     "storyEyebrow": "Hikayemiz",
     "storyTitle": "Akem Health'i Neden Kurduk",
@@ -696,12 +1049,36 @@
     "whyEyebrow": "Hastalar Neden Bizi Seçiyor",
     "whyTitle": "Akem Health'i Farklı Kılan Nedir",
     "why": [
-      { "icon": "verified", "title": "Sadece Akredite Ağ", "desc": "Yalnızca JCI akreditasyonlu hastaneler ve uluslararası sertifikalı cerrahlarla çalışıyoruz." },
-      { "icon": "payments", "title": "Şeffaf Sabit Fiyatlandırma", "desc": "Teklifiniz kesindir — varışınızdan sonra gizli ücret çıkmaz." },
-      { "icon": "translate", "title": "Her Zaman Kendi Dilinizde", "desc": "Dilinizi akıcı konuşan özel bir koordinatör her adımda size rehberlik eder." },
-      { "icon": "support_agent", "title": "365 Gün Destek", "desc": "Takip bakımı, ülkenize döndükten sonra da uzun süre devam eder." },
-      { "icon": "hotel", "title": "Gerçek Her Şey Dahil Paketler", "desc": "Tedavi, 5 yıldızlı konaklama, transfer ve bakım sonrası takip tek bir fiyatta." },
-      { "icon": "security", "title": "Garantili Protokoller", "desc": "Her prosedür yazılı bir tedavi garantisiyle desteklenir." }
+      {
+        "icon": "verified",
+        "title": "Sadece Akredite Ağ",
+        "desc": "Yalnızca JCI akreditasyonlu hastaneler ve uluslararası sertifikalı cerrahlarla çalışıyoruz."
+      },
+      {
+        "icon": "payments",
+        "title": "Şeffaf Sabit Fiyatlandırma",
+        "desc": "Teklifiniz kesindir — varışınızdan sonra gizli ücret çıkmaz."
+      },
+      {
+        "icon": "translate",
+        "title": "Her Zaman Kendi Dilinizde",
+        "desc": "Dilinizi akıcı konuşan özel bir koordinatör her adımda size rehberlik eder."
+      },
+      {
+        "icon": "support_agent",
+        "title": "365 Gün Destek",
+        "desc": "Takip bakımı, ülkenize döndükten sonra da uzun süre devam eder."
+      },
+      {
+        "icon": "hotel",
+        "title": "Gerçek Her Şey Dahil Paketler",
+        "desc": "Tedavi, 5 yıldızlı konaklama, transfer ve bakım sonrası takip tek bir fiyatta."
+      },
+      {
+        "icon": "security",
+        "title": "Garantili Protokoller",
+        "desc": "Her prosedür yazılı bir tedavi garantisiyle desteklenir."
+      }
     ],
     "ctaTitle": "Yolculuğunuza Bizimle Başlamaya Hazır mısınız?",
     "ctaDesc": "Bugün bir hasta koordinatörüyle konuşun ve ücretsiz, bağlayıcılığı olmayan tedavi planınızı alın.",
@@ -722,22 +1099,41 @@
         "name": "Akem Merkez Hastanesi",
         "city": "İstanbul, Levent",
         "desc": "Plastik cerrahi, diş estetiği ve genel cerrahide uzmanlaşmış, uluslararası hastalar için özel süitlere sahip amiral gemisi A+ JCI akredite tesis.",
-        "specialties": ["Plastik Cerrahi", "Diş Estetiği", "Genel Cerrahi"],
-        "badges": ["JCI Akredite", "ISO 9001:2015"]
+        "specialties": [
+          "Plastik Cerrahi",
+          "Diş Estetiği",
+          "Genel Cerrahi"
+        ],
+        "badges": [
+          "JCI Akredite",
+          "ISO 9001:2015"
+        ]
       },
       "bosphorus": {
         "name": "Akem Boğaz Medikal Merkezi",
         "city": "İstanbul, Şişli",
         "desc": "En son safir FUE ve lazer göz teknolojisiyle donatılmış saç restorasyonu ve göz hastalıkları uzmanlık merkezi.",
-        "specialties": ["Saç Restorasyonu", "Göz Hastalıkları"],
-        "badges": ["JCI Akredite", "Sağlık Bakanlığı Lisanslı"]
+        "specialties": [
+          "Saç Restorasyonu",
+          "Göz Hastalıkları"
+        ],
+        "badges": [
+          "JCI Akredite",
+          "Sağlık Bakanlığı Lisanslı"
+        ]
       },
       "metabolic": {
         "name": "Akem Metabolik Sağlık Enstitüsü",
         "city": "İstanbul, Ataşehir",
         "desc": "Yoğun bakım ünitesi ve tam zamanlı multidisipliner diyetisyen ekibiyle donatılmış özel bariatrik ve metabolik cerrahi enstitüsü.",
-        "specialties": ["Bariatrik Cerrahi", "Metabolik Sağlık"],
-        "badges": ["JCI Akredite", "Sağlık Bakanlığı Lisanslı"]
+        "specialties": [
+          "Bariatrik Cerrahi",
+          "Metabolik Sağlık"
+        ],
+        "badges": [
+          "JCI Akredite",
+          "Sağlık Bakanlığı Lisanslı"
+        ]
       }
     },
     "ctaTitle": "Vakanıza Hangi Hastanenin Uygun Olduğunu Bilmek İster misiniz?",
@@ -752,12 +1148,42 @@
     "listEyebrow": "Kurumsal Sertifikalar",
     "listTitle": "Akreditasyonlar & Üyelikler",
     "items": [
-      { "icon": "shield", "title": "JCI Akreditasyonu", "issuer": "Joint Commission International", "desc": "Hastane hasta güvenliği ve kalite denetimleri için küresel altın standart." },
-      { "icon": "verified_user", "title": "ISO 9001:2015", "issuer": "Uluslararası Standardizasyon Örgütü", "desc": "Tüm klinik ve idari operasyonlarda sertifikalı kalite yönetim sistemi." },
-      { "icon": "health_and_safety", "title": "Sağlık Bakanlığı Yetki Belgesi", "issuer": "T.C. Sağlık Bakanlığı", "desc": "Uluslararası sağlık turizmi hizmeti sunma resmi lisansı." },
-      { "icon": "flight_takeoff", "title": "Turizm Kurulu A Grubu Lisansı", "issuer": "Türkiye Seyahat Acentaları Birliği", "desc": "Uluslararası hasta seyahat düzenlemeleri için yetkili operatör." },
-      { "icon": "cardiology", "title": "ISAPS Üyeliği", "issuer": "Uluslararası Estetik Plastik Cerrahi Derneği", "desc": "Küresel estetik cerrahi uygulama standartlarına sertifikalı cerrahlar." },
-      { "icon": "medical_information", "title": "ISHRS Üyeliği", "issuer": "Uluslararası Saç Restorasyon Cerrahisi Derneği", "desc": "Uluslararası cerrahi standartlarına sertifikalı saç restorasyonu cerrahları." }
+      {
+        "icon": "shield",
+        "title": "JCI Akreditasyonu",
+        "issuer": "Joint Commission International",
+        "desc": "Hastane hasta güvenliği ve kalite denetimleri için küresel altın standart."
+      },
+      {
+        "icon": "verified_user",
+        "title": "ISO 9001:2015",
+        "issuer": "Uluslararası Standardizasyon Örgütü",
+        "desc": "Tüm klinik ve idari operasyonlarda sertifikalı kalite yönetim sistemi."
+      },
+      {
+        "icon": "health_and_safety",
+        "title": "Sağlık Bakanlığı Yetki Belgesi",
+        "issuer": "T.C. Sağlık Bakanlığı",
+        "desc": "Uluslararası sağlık turizmi hizmeti sunma resmi lisansı."
+      },
+      {
+        "icon": "flight_takeoff",
+        "title": "Turizm Kurulu A Grubu Lisansı",
+        "issuer": "Türkiye Seyahat Acentaları Birliği",
+        "desc": "Uluslararası hasta seyahat düzenlemeleri için yetkili operatör."
+      },
+      {
+        "icon": "cardiology",
+        "title": "ISAPS Üyeliği",
+        "issuer": "Uluslararası Estetik Plastik Cerrahi Derneği",
+        "desc": "Küresel estetik cerrahi uygulama standartlarına sertifikalı cerrahlar."
+      },
+      {
+        "icon": "medical_information",
+        "title": "ISHRS Üyeliği",
+        "issuer": "Uluslararası Saç Restorasyon Cerrahisi Derneği",
+        "desc": "Uluslararası cerrahi standartlarına sertifikalı saç restorasyonu cerrahları."
+      }
     ],
     "doctorsEyebrow": "Hekim Sertifikasyonları",
     "doctorsTitle": "Bireysel Olarak Sertifikalı Cerrahlar",
@@ -772,9 +1198,18 @@
     "title": "Sağlık Yolculuğunuzu Birlikte Planlayalım",
     "desc": "Birkaç detay paylaşın, hasta koordinatörümüz 24 saat içinde kişiselleştirilmiş ve bağlayıcılığı olmayan bir planla size geri dönsün.",
     "metrics": [
-      { "value": "< 24s", "label": "Ortalama Yanıt Süresi" },
-      { "value": "%100", "label": "Gizli & Güvenli" },
-      { "value": "0", "label": "İlerleme Zorunluluğu" }
+      {
+        "value": "< 24s",
+        "label": "Ortalama Yanıt Süresi"
+      },
+      {
+        "value": "%100",
+        "label": "Gizli & Güvenli"
+      },
+      {
+        "value": "0",
+        "label": "İlerleme Zorunluluğu"
+      }
     ],
     "formTitle": "Bize Mesaj Gönderin",
     "formDesc": "Formu doldurun, ekibimiz kısa süre içinde sizinle iletişime geçsin.",
@@ -787,12 +1222,30 @@
     "treatmentLabel": "İlgilendiğiniz Tedavi",
     "treatmentPlaceholder": "Bir tedavi alanı seçin",
     "treatmentOptions": [
-      { "value": "hair", "label": "Saç Ekimi & Restorasyon" },
-      { "value": "plastic", "label": "Estetik & Plastik Cerrahi" },
-      { "value": "dental", "label": "Diş & Hollywood Smile" },
-      { "value": "bariatric", "label": "Obezite & Metabolik Cerrahi" },
-      { "value": "eye", "label": "Göz & Lazer Tedavileri" },
-      { "value": "other", "label": "Diğer / Genel Soru" }
+      {
+        "value": "hair",
+        "label": "Saç Ekimi & Restorasyon"
+      },
+      {
+        "value": "plastic",
+        "label": "Estetik & Plastik Cerrahi"
+      },
+      {
+        "value": "dental",
+        "label": "Diş & Hollywood Smile"
+      },
+      {
+        "value": "bariatric",
+        "label": "Obezite & Metabolik Cerrahi"
+      },
+      {
+        "value": "eye",
+        "label": "Göz & Lazer Tedavileri"
+      },
+      {
+        "value": "other",
+        "label": "Diğer / Genel Soru"
+      }
     ],
     "messageLabel": "Mesajınız",
     "messagePlaceholder": "Tıbbi geçmişiniz, hedefleriniz veya sorularınız hakkında bize bilgi verin...",
