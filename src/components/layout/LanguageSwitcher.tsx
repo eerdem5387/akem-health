@@ -51,15 +51,15 @@ export function LanguageSwitcher({ variant = "bar" }: LanguageSwitcherProps) {
     <div className="relative">
       <button
         aria-label="Language"
-        className="relative flex items-center rounded-full bg-surface-container-low px-2 py-1 shadow-[0_1px_4px_rgba(0,0,0,0.02)]"
+        className="flex items-center gap-1 rounded-full bg-surface-container-low px-2.5 py-1 shadow-[0_1px_4px_rgba(0,0,0,0.02)]"
         onClick={() => setOpen((v) => !v)}
         type="button"
       >
-        <Icon name="language" className="me-1 text-[16px] text-secondary" />
-        <span className="pe-3 text-label-md text-on-surface">{locale.toUpperCase()}</span>
+        <Icon name="language" className="shrink-0 text-[16px] text-secondary" />
+        <span className="text-label-md text-on-surface">{locale.toUpperCase()}</span>
         <Icon
           name="expand_more"
-          className={`pointer-events-none absolute end-1 text-[14px] text-on-surface-variant transition-transform ${open ? "rotate-180" : ""}`}
+          className={`shrink-0 text-[14px] text-on-surface-variant transition-transform ${open ? "rotate-180" : ""}`}
         />
       </button>
       <AnimatePresence>
