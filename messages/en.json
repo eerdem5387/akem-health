@@ -1,0 +1,779 @@
+{
+  "common": {
+    "siteName": "Akem Health",
+    "tagline": "International Care Network",
+    "metaTitle": "Akem Health – International Health Tourism",
+    "metaDescription": "JCI-accredited hospitals, VIP transfer and 5-star accommodation — an all-inclusive health tourism experience with Akem Health.",
+    "coordinatorTitle": "Your Patient Coordinator",
+    "coordinatorRole": "Senior Case Coordinator (EN / RU / AR)",
+    "whatsappDirect": "WhatsApp Direct",
+    "authorityLine": "Ministry of Health & Tourism Board Licensed",
+    "supportLine": "24/7 International Patient Support:",
+    "emergencyCall": "Emergency Clinic Line",
+    "languageLabel": "Language",
+    "ctaConsultation": "Free Consultation",
+    "menu": "Menu"
+  },
+  "nav": {
+    "home": "Home",
+    "treatments": "Treatments & Packages",
+    "about": "About Us",
+    "hospitals": "Partner Hospitals",
+    "certificates": "Certificates",
+    "vipExperience": "All-Inclusive VIP Experience",
+    "contact": "Contact",
+    "mobileHome": "Home",
+    "mobileTreatments": "Treatments",
+    "mobileVip": "VIP Care",
+    "mobileContact": "Contact"
+  },
+  "footer": {
+    "newsletterLabel": "VIP Health Bulletin",
+    "newsletterTitle": "2025 Medical Travel Guide & Price Catalogue",
+    "newsletterDesc": "Get a detailed e-catalogue on accredited hospitals in Türkiye, surgical success rates and VIP transfer packages.",
+    "emailPlaceholder": "Your email address",
+    "downloadButton": "Download Catalogue",
+    "badges": ["JCI Accredited", "Tourism Board Licensed", "Ministry of Health Registered"],
+    "description": "Your international health partner, bringing world-class surgical expertise, JCI-accredited hospitals and 5-star accommodation together in one flawless treatment journey.",
+    "popularTreatmentsTitle": "Popular Treatments",
+    "popularTreatmentsList": [
+      "Hair Transplant & Restoration",
+      "Aesthetic & Plastic Surgery",
+      "Smile Design & Implants",
+      "Obesity & Metabolic Surgery",
+      "Eye & Laser Treatments"
+    ],
+    "vipTitle": "VIP Experience & Stay",
+    "vipList": [
+      "5-Star Partner Residences",
+      "Private Airport VIP Transfer",
+      "Multilingual Patient Assistant",
+      "Istanbul Recovery Tours",
+      "Medical Insurance & Guarantee"
+    ],
+    "contactTitle": "Contact & Location",
+    "partnerLine": "5-Star Partner Residences Network",
+    "copyright": "© 2025 Akem Health. All rights reserved. Holder of the official International Health Tourism Authorization.",
+    "legalLinks": ["Privacy Notice", "Privacy Policy", "Terms of Use"]
+  },
+  "home": {
+    "mobileHero": {
+      "badge": "JCI & Ministry of Health Approved",
+      "ratingSuffix": "(2.4k+ Patients)",
+      "title": "World-Class Healthcare,",
+      "titleHighlight": "a Flawless Travel Experience",
+      "desc": "Trust Istanbul's accredited surgeons, 5-star Bosphorus-side stays and lifetime-guaranteed treatment protocols for your health journey.",
+      "overlayLabel": "All-Inclusive",
+      "overlayValue": "VIP Transfer + 5★ Hotel + Treatment",
+      "overlaySavings": "Up to 70% Savings",
+      "quoteCta": "Get a Free Quote",
+      "whatsappCta": "Ask on WhatsApp",
+      "statPatients": "14,800+",
+      "statPatientsLabel": "Happy Patients",
+      "statSuccess": "99.4%",
+      "statSuccessLabel": "Success Rate",
+      "statCountries": "48 Countries",
+      "statCountriesLabel": "Global Trust"
+    },
+    "hero": {
+      "badge": "International Accredited Health Network",
+      "badgeSecondary": "Ministry of Health Certified",
+      "title": "World-Class Healthcare,",
+      "titleHighlight": "a Flawless Travel Experience",
+      "desc": "JCI-accredited A+ hospitals, leading professor surgeons, private VIP transfer and 5-star hotel accommodation — with up to 70% cost advantage over Western Europe.",
+      "descStrong": "up to 70% cost advantage",
+      "patientsLine": "420+ patients scheduled this month",
+      "responseLine": "Average response time:",
+      "responseTime": "8 minutes",
+      "avatarMore": "+4k"
+    },
+    "metrics": [
+      { "value": "18,400+", "label": "Happy International Patients" },
+      { "value": "52 Countries", "label": "Global Preference" },
+      { "value": "99.3%", "label": "Clinical Success Score" },
+      { "value": "4.9", "label": "Independent Review Platforms" }
+    ],
+    "accreditationBanner": {
+      "title": "International Trust Standards",
+      "desc": "Audited under official Ministry of Health authorization, with globally recognised certifications."
+    },
+    "accreditations": [
+      { "icon": "shield", "label": "JCI Accreditation" },
+      { "icon": "verified_user", "label": "ISO 9001:2015" },
+      { "icon": "health_and_safety", "label": "Ministry of Health Licensed" },
+      { "icon": "flight_takeoff", "label": "Tourism Board A-Grade" },
+      { "icon": "cardiology", "label": "ISAPS Member Surgeons" }
+    ],
+    "treatmentsSection": {
+      "eyebrow": "Clinical Excellence Areas",
+      "titleMobile": "Popular Treatments",
+      "titleDesktop": "Featured Treatment Packages",
+      "descMobile": "Explore our comprehensive VIP packages",
+      "descDesktop": "Every package includes surgery, 5-star luxury accommodation, private VIP transfer and lifetime-guaranteed medical follow-up.",
+      "viewAllMobile": "All",
+      "viewAllDesktop": "Explore All Treatments (28+)",
+      "startingPrice": "Starting Price",
+      "packageStarting": "Package Starting",
+      "detailCta": "Details & Booking",
+      "exploreCta": "Explore"
+    },
+    "treatments": {
+      "hair": {
+        "title": "Sapphire FUE & DHI Hair Restoration",
+        "desc": "Maximum graft guarantee, needle-free anaesthesia, sedation option and a 12-month stem-cell support protocol.",
+        "tags": ["Sapphire Blade Technology", "Lifetime Guarantee Certificate"],
+        "priceNote": "/ All-Inclusive",
+        "topBadge": "3-Day VIP Package",
+        "bottomBadge": "75% Savings vs. UK Prices"
+      },
+      "plastic": {
+        "title": "Face & Body Plastic Surgery",
+        "desc": "Piezo ultrasonic rhinoplasty, Vaser liposuction, breast aesthetics and combined mommy-makeover procedures.",
+        "tags": ["Piezo Ultrasonic Surgery", "JCI Hospital Assurance"],
+        "priceNote": "/ All-Inclusive",
+        "topBadge": "7-Day VIP Recovery",
+        "bottomBadge": "3D Morpheus Simulation"
+      },
+      "dental": {
+        "title": "Hollywood Smile & Implantology",
+        "desc": "E-max porcelain veneers, premium zirconia crowns and same-day implant protocols with immediate loading.",
+        "tags": ["Premium Implant Systems", "3D Digital Mock-up"],
+        "priceNote": "/ All-Inclusive",
+        "topBadge": "5-Day Transformation",
+        "bottomBadge": "CAD/CAM Digital Design"
+      },
+      "bariatric": {
+        "title": "Gastric Sleeve & Bypass Surgery",
+        "desc": "Closed laparoscopic sleeve gastrectomy, leak tests, comprehensive cardio-metabolic check-up and dedicated companion support.",
+        "tags": ["A+ Surgical Equipment", "Online Follow-up Programme"],
+        "priceNote": "/ All-Inclusive",
+        "topBadge": "4-Day Hospital & Hotel",
+        "bottomBadge": "12-Month Bariatric Dietitian"
+      },
+      "eye": {
+        "title": "Laser Eye & Trifocal Smart Lens",
+        "desc": "No-touch laser and advanced trifocal cataract/presbyopia surgery for lifelong freedom from glasses.",
+        "tags": ["Advanced Laser Technology", "Painless 15-Minute Procedure"],
+        "priceNote": "/ Both Eyes Included",
+        "topBadge": "3-Day Package",
+        "bottomBadge": "Smart Lens Technology"
+      }
+    },
+    "ctaCard": {
+      "eyebrow": "Dedicated VIP Concierge",
+      "title": "A Personalised Treatment & Travel Plan",
+      "desc": "Can't find your treatment on the list? We open a dedicated case with Türkiye's leading professors across 40+ specialties, including orthopaedics, oncology, IVF and neurosurgery.",
+      "assistantLine": "Your Personal Medical Assistant, 24/7",
+      "whatsappCta": "Get a Custom Offer on WhatsApp"
+    },
+    "stepsSection": {
+      "eyebrow": "Stress-Free & Transparent Journey",
+      "title": "A 6-Step All-Inclusive Health Experience",
+      "desc": "From the first contact and your treatment, to exploring Istanbul's historic charm and your care after returning home — we're with you all the way."
+    },
+    "steps": [
+      {
+        "icon": "quick_reference_all",
+        "title": "Free Online Diagnosis & Assessment",
+        "desc": "Upload your reports and photos to our secure system. Our medical board reviews your case within 24 hours.",
+        "footer": "Average Response: 24 Hours",
+        "footerIcon": "timer"
+      },
+      {
+        "icon": "calendar_month",
+        "title": "Personalised Treatment & Travel Plan",
+        "desc": "A transparent quote with no hidden costs is prepared. Your surgery date, 5-star hotel booking and flight schedule are finalised.",
+        "footer": "Fixed Price Guarantee",
+        "footerIcon": "payments"
+      },
+      {
+        "icon": "airport_shuttle",
+        "title": "VIP Welcome & 5-Star Accommodation",
+        "desc": "You're greeted at the airport by your private driver and multilingual patient assistant, then transferred in a comfortable VIP vehicle to your hotel.",
+        "footer": "5-Star Partner Residences",
+        "footerIcon": "hotel"
+      },
+      {
+        "icon": "local_hospital",
+        "title": "Surgery at a JCI-Accredited Hospital",
+        "desc": "After comprehensive pre-op tests, the procedure is carried out by leading surgeons. Your personal interpreter stays with you throughout.",
+        "footer": "100% JCI Standards",
+        "footerIcon": "verified"
+      },
+      {
+        "icon": "sailing",
+        "title": "Recovery, Rest & a Bosphorus Tour",
+        "desc": "Once cleared by your physician, enjoy a light Istanbul culture tour or a Bosphorus cruise suited to your recovery.",
+        "footer": "Medical Wellness & Rest",
+        "footerIcon": "nature_people"
+      },
+      {
+        "icon": "clinical_notes",
+        "title": "Safe Return & 1-Year Online Follow-up",
+        "desc": "You're seen off with your flight-fitness certificate; your recovery is monitored at months 1, 3, 6 and 12 through regular video consultations.",
+        "footer": "365 Days of Active Physician Support",
+        "footerIcon": "support"
+      }
+    ],
+    "doctorsSection": {
+      "eyebrow": "Surgical Team",
+      "title": "Our Internationally Accredited Physicians",
+      "desc": "Each with 15+ years of surgical experience and membership in international medical associations.",
+      "certifiedLine": "ISAPS, EBOPRAS & ISHRS Certified",
+      "cvCta": "CV & Before/After Results"
+    },
+    "doctors": {
+      "doctor1": {
+        "name": "Prof. Dr. Cemal Yılmaz",
+        "specialty": "Plastic & Reconstructive Surgery",
+        "experience": "21 Years Surgical Experience",
+        "bio": "EBOPRAS-registered specialist in ultrasonic rhinoplasty and body contouring, with 6,500+ successful cases.",
+        "stats": [
+          { "value": "6.5k+", "label": "Operations" },
+          { "value": "99.4%", "label": "Satisfaction" },
+          { "value": "4 Languages", "label": "EN/RU/AR/TR" }
+        ]
+      },
+      "doctor2": {
+        "name": "Assoc. Prof. Dr. Leyla Kaya",
+        "specialty": "Hair Restoration & Trichological Surgery",
+        "experience": "16 Years of Expertise",
+        "bio": "ISHRS member. Sapphire FUE and DHI technique with a proven 98.8% graft survival rate.",
+        "stats": [
+          { "value": "8.2k+", "label": "Cases" },
+          { "value": "98.8%", "label": "Graft Survival" },
+          { "value": "3 Languages", "label": "EN/AR/TR" }
+        ]
+      },
+      "doctor3": {
+        "name": "Dr. Mehmet Arslan, DDS",
+        "specialty": "Prosthetic Dentistry & Implantology",
+        "experience": "18 Years Clinical Experience",
+        "bio": "Specialist in digital smile design, Hollywood Smile and same-day implant systems, with 5,000+ international patients.",
+        "stats": [
+          { "value": "5.1k+", "label": "Smile Designs" },
+          { "value": "99.7%", "label": "Success Rate" },
+          { "value": "3 Languages", "label": "EN/RU/TR" }
+        ]
+      }
+    },
+    "patientsSection": {
+      "eyebrow": "Transparent, Real Results",
+      "title": "Real Patients, Lasting Transformations",
+      "desc": "Experiences and verified clinical outcomes from patients across the UK, Germany, the US and the UAE.",
+      "verifiedLine": "Verified Patient Review"
+    },
+    "patients": {
+      "patient1": {
+        "location": "London, United Kingdom",
+        "flag": "🇬🇧",
+        "treatment": "DHI Hair Transplant (4,800 Grafts)",
+        "date": "Procedure: October 2024",
+        "quote": "Quotes in London were over £9,000. With Akem Health I got an incredible density at a third of the price, including a 5-star stay and VIP car. My coordinator was with me around the clock."
+      },
+      "patient2": {
+        "location": "Munich, Germany",
+        "flag": "🇩🇪",
+        "treatment": "Ultrasonic Piezo Rhinoplasty",
+        "date": "Procedure: January 2025",
+        "quote": "Surgeons in Germany weren't nearly as experienced with the Piezo technique. Almost no bruising or swelling, and my bandages were off by day 6. The result is completely natural and I breathe perfectly."
+      },
+      "patient3": {
+        "location": "Florida, USA",
+        "flag": "🇺🇸",
+        "treatment": "Full-Mouth E-Max Hollywood Smile",
+        "date": "Procedure: February 2025",
+        "quote": "This treatment would have cost a small fortune back home. In Istanbul I got my dream smile in 5 days — a luxury holiday and flawless teeth at once."
+      }
+    },
+    "costSection": {
+      "eyebrow": "Cost Transparency",
+      "title": "Why Türkiye and Akem Health?",
+      "desc": "Our internationally accredited hospitals use the same medical technology and FDA-approved implants as the UK and US, at savings of up to 70%.",
+      "tableBranch": "Treatment",
+      "tableUk": "UK / EU",
+      "tableUs": "Akem Health VIP",
+      "disclaimer": "All prices are all-inclusive packages covering surgery, accommodation, transfer and medication.",
+      "partnerLabel": "Our A+ Partner Network",
+      "partnerTitle": "Akem Partner Hospital Network",
+      "partnerDesc": "Türkiye's most modern operating theatres, with private suites that feel like a hotel.",
+      "assuranceLabel": "Regulatory Assurance",
+      "assuranceTitle": "Licensed Health Tourism Operator"
+    },
+    "costRows": [
+      { "name": "Sapphire FUE Hair Transplant", "uk": "£6,500", "price": "£1,650" },
+      { "name": "Piezo Rhinoplasty", "uk": "£7,200", "price": "£2,500" },
+      { "name": "Hollywood Smile (20 Teeth)", "uk": "£11,000", "price": "£2,950" },
+      { "name": "Gastric Sleeve Surgery", "uk": "£9,800", "price": "£2,800" }
+    ],
+    "faqSection": {
+      "eyebrow": "Common Questions",
+      "title": "Frequently Asked Questions",
+      "desc": "Everything you need to know when planning your health journey."
+    },
+    "faqs": [
+      {
+        "question": "Is it really safe to get treatment in Türkiye?",
+        "answer": "Yes. Türkiye holds one of the highest numbers of JCI (Joint Commission International) accreditations worldwide. All Akem Health surgeons are members of ISAPS, EBOPRAS or ISHRS, and procedures take place only in fully equipped A+ JCI-accredited hospitals."
+      },
+      {
+        "question": "How are flights and transfers arranged?",
+        "answer": "Your patient coordinator works with you to choose flight dates. You're greeted by name the moment you land in Istanbul, and your private VIP vehicle takes you straight to your 5-star partner hotel. All hospital-hotel-airport transfers are included in your package."
+      },
+      {
+        "question": "Will there be a language barrier?",
+        "answer": "Not at all. A personal medical interpreter who speaks your native language — English, Russian, Arabic, Turkish and more — accompanies you to every appointment throughout your treatment."
+      },
+      {
+        "question": "How is follow-up handled after I return home?",
+        "answer": "Our mobile and video follow-up protocol stays active for 1 year after treatment. At set intervals (months 1, 3, 6 and 12) your physician reviews photo check-ins and recovery results."
+      }
+    ],
+    "bottomCta": {
+      "eyebrow": "Don't Wait",
+      "title": "Start Your Health Journey Today",
+      "desc": "Get your completely free, no-obligation treatment plan and all-inclusive price quote from our specialists within 15 minutes.",
+      "features": ["No Hidden Costs", "Lifetime Surgical Guarantee", "5-Star VIP Accommodation"],
+      "primaryCta": "Free Medical Report Review",
+      "whatsappCta": "Chat on WhatsApp"
+    }
+  },
+  "heroVideo": {
+    "badge": "International Accredited Health Network",
+    "title": "World-Class Healthcare,",
+    "titleHighlight": "a Flawless Travel Experience",
+    "desc": "JCI-accredited A+ hospitals, leading professor surgeons, private VIP transfer and 5-star hotel accommodation — with up to 70% cost advantage over Western Europe.",
+    "scrollHint": "Scroll to explore"
+  },
+  "heroQuoteForm": {
+    "badge": "Quick Application Panel",
+    "title": "Free Medical Assessment",
+    "desc": "Share your reports or photos with our specialists and receive a personalised quote and treatment plan within 24 hours.",
+    "successMessage": "Your request has been sent to our medical board. Your patient coordinator will reach out within 15 minutes.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "e.g. David Miller",
+    "phoneLabel": "Phone / WhatsApp",
+    "phonePlaceholder": "+44 7911 123456",
+    "emailLabel": "Email",
+    "emailPlaceholder": "david@example.com",
+    "treatmentLabel": "Treatment Area",
+    "treatmentOptions": [
+      { "value": "hair", "label": "Hair Transplant & Restoration (Sapphire / DHI)" },
+      { "value": "aesthetic", "label": "Aesthetic & Plastic Surgery (Rhinoplasty / Breast / Lipo)" },
+      { "value": "dental", "label": "Hollywood Smile & Digital Implantology" },
+      { "value": "eye", "label": "Eye Surgery & Smart Multifocal Lens" },
+      { "value": "bariatric", "label": "Obesity & Bariatric Surgery (Gastric Sleeve)" },
+      { "value": "other", "label": "Other / General Medical Consultation" }
+    ],
+    "uploadLabel": "Upload Photo / X-ray (Optional)",
+    "uploadHint": "PNG, JPG, PDF (Max 15MB)",
+    "uploadButton": "Choose File",
+    "submitButton": "Request Free Treatment Plan & Quote",
+    "sslLabel": "256-bit SSL Privacy",
+    "responseLabel": "15-Minute Response"
+  },
+  "treatmentsPage": {
+    "badge": "JCI & Ministry of Health Standard of Care",
+    "title": "Transparent, Luxury and",
+    "titleHighlight": "All-Inclusive",
+    "titleEnd": "Treatment Packages",
+    "desc": "A curated health experience that brings European-standard medical expertise, 5-star hotels and private VIP chauffeured transfers together at one transparent price. No hidden costs, full guarantee.",
+    "savingsLabel": "Savings Rate",
+    "savingsValue": "60% – 70% vs. EU Prices",
+    "satisfactionLabel": "Satisfaction Rate",
+    "satisfactionValue": "4.96 / 5.0 (4,200+ Patients)",
+    "benefitsEyebrow": null,
+    "featuredEyebrow": "Most Popular",
+    "featuredTitle": "Featured Curated Packages",
+    "featuredDesc": "Explore our popular all-inclusive packages, built around selected hospitals, internationally accredited surgeons and VIP hospitality.",
+    "euPriceLabel": "EU / UK Avg.:",
+    "durationLabel": "Recommended Stay",
+    "includesLabel": "Included in the Package:",
+    "bookCta": "Reserve This Package",
+    "emptyTitle": "A featured package for this category is coming soon. Contact us for a personalised quote.",
+    "emptyCta": "Get a Free Quote",
+    "categories": [
+      { "id": "all", "label": "All Treatments (16)" },
+      { "id": "hair", "label": "Hair Transplant & Restoration" },
+      { "id": "dental", "label": "Dental & Hollywood Smile" },
+      { "id": "plastic", "label": "Plastic & Facial Surgery" },
+      { "id": "bariatric", "label": "Obesity & Metabolic Surgery" },
+      { "id": "eye", "label": "Eye Surgery & No-Touch Laser" }
+    ],
+    "benefits": [
+      { "icon": "hotel", "title": "5-Star Accommodation", "desc": "Partnered luxury hotel network" },
+      { "icon": "directions_car", "title": "VIP Chauffeured Transfer", "desc": "Airport, hotel and clinic transfers" },
+      { "icon": "translate", "title": "Personal Coordinator", "desc": "24/7 guidance in your language" },
+      { "icon": "security", "title": "Official Treatment Guarantee", "desc": "International insurance and certification" }
+    ],
+    "packages": {
+      "hair": {
+        "title": "VIP Sapphire FUE Hair Transplant Package",
+        "categoryLabel": "Hair Transplant & Trichological Surgery",
+        "badges": ["Most Popular", "Sapphire FUE Technique"],
+        "euPrice": "€5,400",
+        "price": "€1,850",
+        "savings": "65% Net Savings",
+        "duration": "3 Nights / 4 Days",
+        "metrics": [
+          { "icon": "timer", "label": "Back to Work", "value": "Day 3" },
+          { "icon": "flight_takeoff", "label": "Fly-Fit Clearance", "value": "48 Hours" },
+          { "icon": "workspace_premium", "label": "Guarantee", "value": "Lifetime" }
+        ],
+        "includes": [
+          { "title": "Maximum Graft Implantation", "desc": "4,500–5,500+ grafts without damaging the donor area" },
+          { "title": "Regenerative Support", "desc": "PRP therapy and oxygenated mesotherapy session included" },
+          { "title": "5-Star Accommodation", "desc": "Bosphorus-side partner hotel (3 nights, breakfast included)" },
+          { "title": "Private VIP Transport", "desc": "Airport–hotel–hospital transfers in a premium chauffeured vehicle" },
+          { "title": "Full Medical Care Kit", "desc": "1-year supply of biotin shampoo, lotion and a dedicated neck pillow" }
+        ]
+      },
+      "dental": {
+        "title": "Hollywood Smile & E-Max Porcelain Package",
+        "categoryLabel": "Cosmetic Dentistry & Smile Design",
+        "badges": ["Hollywood Smile", "Premium E-Max Porcelain"],
+        "euPrice": "€9,200",
+        "price": "€3,200",
+        "savings": "66% Net Savings",
+        "duration": "6 Nights / 7 Days",
+        "metrics": [
+          { "icon": "timer", "label": "Back to Work", "value": "Same Day" },
+          { "icon": "flight_takeoff", "label": "Fly-Fit Clearance", "value": "Final Session" },
+          { "icon": "workspace_premium", "label": "Guarantee", "value": "10-Year Official" }
+        ],
+        "includes": [
+          { "title": "16–20 Unit Premium E-Max / Zirconia", "desc": "Natural translucency and a custom shade selection" },
+          { "title": "3D Digital Smile Mock-up Simulation", "desc": "Preview your final smile before treatment begins" },
+          { "title": "6 Nights Luxury Boutique or 5★ Hotel", "desc": "Bosphorus-side or central city location" },
+          { "title": "Panoramic 3D Tomography & Cleaning", "desc": "Advanced diagnostics and hygiene package included" },
+          { "title": "VIP Chauffeured Transfers", "desc": "24/7 service for all appointments and the airport" }
+        ]
+      },
+      "plastic": {
+        "title": "Natural Rhinoplasty Package",
+        "categoryLabel": "Facial & Aesthetic Surgery",
+        "badges": ["Ultrasonic Piezo", "Bruise-Free Technique"],
+        "euPrice": "€7,500",
+        "price": "€2,750",
+        "savings": "63% Net Savings",
+        "duration": "6 Nights / 7 Days",
+        "metrics": [
+          { "icon": "timer", "label": "Back to Work", "value": "Day 7" },
+          { "icon": "flight_takeoff", "label": "Fly-Fit Clearance", "value": "Day 7 (Check-up)" },
+          { "icon": "workspace_premium", "label": "Accreditation", "value": "JCI Approved" }
+        ],
+        "includes": [
+          { "title": "Piezo Ultrasonic Surgery", "desc": "Gentle on bone tissue, minimal bruising and faster recovery" },
+          { "title": "1 Night JCI-Accredited Hospital Stay", "desc": "Private suite room with 24-hour nursing care" },
+          { "title": "5 Nights 5-Star Hotel Recovery", "desc": "In-room service with a specially prepared soft diet" },
+          { "title": "Check-up & Splint Removal", "desc": "Packing and splint removal performed personally by your surgeon" },
+          { "title": "Private City Recovery Package", "desc": "A Bosphorus cruise or a gentle recovery itinerary" }
+        ]
+      },
+      "bariatric": {
+        "title": "Gastric Sleeve & Metabolic Surgery Package",
+        "categoryLabel": "Obesity & Metabolic Health",
+        "badges": ["Metabolic Surgery", "Laparoscopic Sleeve"],
+        "euPrice": "€11,000",
+        "price": "€3,400",
+        "savings": "69% Net Savings",
+        "duration": "6 Nights / 7 Days",
+        "metrics": [
+          { "icon": "timer", "label": "Back to Work", "value": "10–14 Days" },
+          { "icon": "flight_takeoff", "label": "Fly-Fit Clearance", "value": "Day 6 (Leak Test)" },
+          { "icon": "workspace_premium", "label": "Support", "value": "12-Month Dietitian" }
+        ],
+        "includes": [
+          { "title": "40+ Comprehensive Pre-op Tests", "desc": "Endoscopy, cardiology and pulmonology consultation" },
+          { "title": "3 Nights Hospital + 3 Nights 5★ Hotel", "desc": "Accommodation and meals included for your companion" },
+          { "title": "Post-op Leak Tests", "desc": "Double fluoroscopic check before discharge" },
+          { "title": "12-Month Online Bariatric Dietitian", "desc": "Monthly online follow-up and menu planning after you return home" },
+          { "title": "Full Medication & Multivitamin Set", "desc": "First 3 months of medical supplements provided" }
+        ]
+      }
+    }
+  },
+  "vipPage": {
+    "badge": "International 5-Star Medical Hospitality Standard",
+    "title": "You Focus on",
+    "titleHighlight": "Healing",
+    "titleEnd": ". We've Thought of Everything Else.",
+    "desc": "With Akem Health, your treatment journey doesn't begin at an operating theatre door — it begins in the skies over Istanbul. From your private VIP driver to your 5-star Bosphorus-side stay, from your native-language coordinator to your 365-day digital follow-up, every second is planned.",
+    "metrics": [
+      { "value": "100%", "label": "End-to-End VIP Logistics" },
+      { "value": "24/7", "label": "Personal Medical Assistant" },
+      { "value": "12 Months", "label": "Remote Clinical Follow-up" }
+    ],
+    "primaryCta": "Build Your VIP Experience Package",
+    "secondaryCta": "Watch the Patient Journey",
+    "overlayTitle": "JCI & Tourism Board Assurance",
+    "overlayDesc": "Zero stress, maximum comfort and a full guarantee",
+    "arrivalLabel": "Welcome",
+    "arrivalValue": "Private Gate & VIP Lounge",
+    "stepsEyebrow": "A Flawless Plan, A to Z",
+    "stepsTitle": "The VIP Patient Journey — From Your Flight to Your Recovery",
+    "stepsDesc": "We've designed every detail for our international patients — medical travel with the comfort of home, without ever feeling like a stranger abroad.",
+    "steps": [
+      {
+        "icon": "support_agent",
+        "title": "Digital Pre-Consultation & File Review",
+        "desc": "Your test results and imaging are reviewed by our specialist surgeons, who provide a transparent treatment plan and fixed price guarantee.",
+        "footer": "Privacy-Protected Secure System",
+        "footerIcon": "verified_user"
+      },
+      {
+        "icon": "airport_shuttle",
+        "title": "VIP Welcome & Luxury Transfer",
+        "desc": "You're greeted by name at the Istanbul airport gate and taken to your private chauffeured vehicle.",
+        "footer": "Onboard Wi-Fi & Premium Refreshments",
+        "footerIcon": "wifi"
+      },
+      {
+        "icon": "apartment",
+        "title": "5-Star Recovery Accommodation",
+        "desc": "You begin your recovery at one of our partner luxury hotels, just minutes from the hospital, matched to your treatment protocol.",
+        "footer": "Medical Diet & Private Room Service",
+        "footerIcon": "restaurant"
+      },
+      {
+        "icon": "medical_services",
+        "title": "Surgery at a JCI-Accredited Hospital",
+        "desc": "You're admitted alongside your interpreter; the procedure is performed using the latest technology by internationally recognised physicians.",
+        "footer": "Uninterrupted Support in Your Language",
+        "footerIcon": "translate"
+      },
+      {
+        "icon": "sailing",
+        "title": "Check-up & a Gentle Bosphorus Tour",
+        "desc": "Once your physician approves, enjoy a relaxed, panoramic Istanbul experience with special, low-effort activities.",
+        "footer": "Light-Paced & Restful Route",
+        "footerIcon": "healing"
+      },
+      {
+        "icon": "devices",
+        "title": "1-Year Digital Follow-up & Guarantee",
+        "desc": "Once you're home, your month 1, 3, 6 and 12 check-ups continue via video consultation through our mobile patient portal.",
+        "footer": "Complication Insurance Coverage",
+        "footerIcon": "security"
+      }
+    ],
+    "transferEyebrow": "Uninterrupted Transport Guarantee",
+    "transferTitle": "Airport – Hotel – Hospital: Unlimited Private Transfers",
+    "transferDesc": "We remove the single biggest stress of international travel — getting around the city. A private VIP driver gets you to every appointment on time, without the traffic.",
+    "transferBadge": "Licensed Private Fleet",
+    "transferFeatures": [
+      { "icon": "person_pin", "title": "Named VIP Welcome", "desc": "Your coordinator or driver meets you at customs with a personalised name sign and carries your luggage." },
+      { "icon": "airline_seat_recline_extra", "title": "Premium-Equipped Comfort", "desc": "Adjustable ergonomic leather seats, sterile climate filters and Wi-Fi, designed with post-op comfort in mind." },
+      { "icon": "schedule", "title": "Flexible, Unlimited Trips", "desc": "Whenever you need a check-up, dressing change or pharmacy run, your car is ready within 20 minutes." }
+    ],
+    "hotelsEyebrow": "Peaceful Recovery Spaces",
+    "hotelsTitle": "5-Star Partner Residences & Medical Comfort",
+    "hotelsDesc": "Post-operative rest is the most critical stage of treatment. Our partner hotels are equipped with hygiene and dietary facilities designed for surgical patients.",
+    "hotels": {
+      "bosphorus": {
+        "name": "The Bosphorus Pearl Residence",
+        "badge": "Bosphorus View",
+        "desc": "Spacious balcony suites, 24-hour medical room service and a dedicated organic post-surgery menu.",
+        "features": ["Just 8 minutes from the hospital", "Hypoallergenic, sound-insulated rooms"]
+      },
+      "quasar": {
+        "name": "Quasar City Suites",
+        "badge": "City Centre",
+        "desc": "Close to our clinics, with smart-room technology and dedicated seating areas for companions.",
+        "features": ["In-room adjustable medical headboards", "24/7 nurse-call integration"]
+      },
+      "serenity": {
+        "name": "Serenity Garden Residence",
+        "badge": "Calm & Wellness",
+        "desc": "Set within a historic grove, with quiet gardens and dedicated lymphatic-drainage and rest support after surgery.",
+        "features": ["Freshly prepared post-surgery nutrition menu", "Private terraced walking paths"]
+      }
+    },
+    "ratingLabel": "5-Star Luxury",
+    "languageEyebrow": "No Language Barrier",
+    "languageTitle": "Your Personal Medical Assistant, Available 24/7",
+    "languageDesc": "Clear communication is critical when receiving care abroad. At Akem Health, every patient is assigned a licensed medical interpreter and case manager fluent in their native language.",
+    "languages": ["English", "Russian (Русский)", "Arabic (العربية)", "Georgian (ქართული)", "Romanian (Română)"],
+    "languageFeatures": [
+      { "icon": "clinical_notes", "title": "Medical Document Translation", "desc": "Your discharge summaries, lab results and prescriptions are translated into your native language by certified translators." },
+      { "icon": "prescriptions", "title": "Medication & Pharmacy Delivery", "desc": "All necessary creams, medication and compression garments are delivered to your hotel by your assistant." }
+    ],
+    "coordinatorCardTitle": "Your Assigned Patient Coordinator",
+    "coordinatorCertified": "Ministry of Health Certified",
+    "coordinatorStatus": "ACTIVE & ONLINE",
+    "coordinatorLocation": "Istanbul HQ",
+    "coordinatorPhoneLine": "24/7 Direct Line",
+    "coordinatorWhatsappLine": "Instant WhatsApp",
+    "testimonialQuote": "Selin was with me before I went into the operating room and when I woke up. I've never had this level of care in my own native language, even back home.",
+    "testimonialAuthor": "— Thomas M., Frankfurt (Hair Transplant & Dental Aesthetics)",
+    "wellnessEyebrow": "Rest for Body and Mind",
+    "wellnessTitle": "The Captivating Calm of Istanbul After Recovery",
+    "wellnessDesc": "Once your physician clears you for light travel and walking, we offer exclusive excursion options to discover Istanbul comfortably and without fatigue.",
+    "wellnessFeatures": [
+      { "icon": "directions_boat", "title": "Private Bosphorus Boat Tour", "desc": "A 2-hour panoramic Bosphorus cruise, away from the crowds, with fresh sea air to refresh your mind." },
+      { "icon": "spa", "title": "Gentle Wellness & Recovery Massage", "desc": "Light, swelling-reducing and relaxing therapy from expert physiotherapists, within your surgical clearance." },
+      { "icon": "palette", "title": "Private Guided Historic Peninsula Tour", "desc": "A fatigue-free visit to Hagia Sophia and Sultanahmet, with wheelchair or VIP vehicle support as needed." }
+    ],
+    "followUpEyebrow": "International Follow-up Protocol",
+    "followUpTitle": "You're Never Alone, Even Back Home.",
+    "followUpDesc": "For 365 days after leaving Türkiye, we track your medical progress through our digital mobile platform. Your physician is one tap away for any question.",
+    "followUpCard1Title": "Scheduled Check-ups",
+    "followUpCard1Desc": "Planned video consultations with your surgeon at months 1, 3, 6 and 12.",
+    "followUpCard2Title": "Visual Recovery Tracking",
+    "followUpCard2Desc": "Upload photos and reports to a secure portal and get an instant review.",
+    "complianceLine": "All your data is protected under HIPAA and GDPR international health-data security standards.",
+    "portalTitle": "Akem Health Care Portal",
+    "portalActive": "Active for 365 Days",
+    "portalRows": ["Video Consultation — Scheduled", "Recovery Photo — Reviewed", "Guarantee Certificate — Active"],
+    "portalCta": "Configure Your VIP Package"
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "Care Built Around You, from the First Call to a Lifetime of Follow-up",
+    "desc": "Akem Health connects international patients with Türkiye's most accredited hospitals and surgeons, wrapping every treatment in a seamless, VIP travel experience.",
+    "stats": [
+      { "value": "2016", "label": "Founded" },
+      { "value": "18,400+", "label": "Patients Treated" },
+      { "value": "52", "label": "Countries Served" },
+      { "value": "99.3%", "label": "Success Rate" }
+    ],
+    "valuesEyebrow": "What Guides Us",
+    "valuesTitle": "Mission, Vision & Values",
+    "values": [
+      { "icon": "flag", "title": "Our Mission", "desc": "To make world-class, accredited healthcare accessible and affordable to patients everywhere, without compromising safety or dignity." },
+      { "icon": "visibility", "title": "Our Vision", "desc": "To be the most trusted bridge between international patients and Türkiye's leading medical institutions." },
+      { "icon": "favorite", "title": "Patient-First Care", "desc": "Every decision — from hospital choice to hotel booking — is made around the patient's comfort and clinical outcome." }
+    ],
+    "storyEyebrow": "Our Story",
+    "storyTitle": "Why We Started Akem Health",
+    "storyParagraphs": [
+      "Akem Health was founded by a team of medical travel coordinators and clinicians who saw international patients repeatedly struggle with the same problems: unclear pricing, language barriers, and uncoordinated care between hospitals, hotels and transport.",
+      "We built Akem Health to remove every one of those frictions — a single, accountable partner who manages the entire journey, from your first online consultation to your final follow-up call a year later.",
+      "Today, we work exclusively with JCI-accredited hospitals and board-certified surgeons, and every package is built to the same standard: full transparency, no hidden costs, and a guarantee you can rely on."
+    ],
+    "whyEyebrow": "Why Patients Choose Us",
+    "whyTitle": "What Sets Akem Health Apart",
+    "why": [
+      { "icon": "verified", "title": "Accredited Network Only", "desc": "We work exclusively with JCI-accredited hospitals and internationally certified surgeons." },
+      { "icon": "payments", "title": "Transparent Fixed Pricing", "desc": "Your quote is final — no hidden fees appear after you arrive." },
+      { "icon": "translate", "title": "Your Language, Always", "desc": "A dedicated coordinator fluent in your language guides every step." },
+      { "icon": "support_agent", "title": "365-Day Support", "desc": "Follow-up care continues long after you've returned home." },
+      { "icon": "hotel", "title": "True All-Inclusive Packages", "desc": "Treatment, 5-star stay, transfer and aftercare in a single price." },
+      { "icon": "security", "title": "Guaranteed Protocols", "desc": "Every procedure is backed by a written treatment guarantee." }
+    ],
+    "ctaTitle": "Ready to Start Your Journey With Us?",
+    "ctaDesc": "Talk to a patient coordinator today and get a free, no-obligation treatment plan.",
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "Chat on WhatsApp"
+  },
+  "hospitals": {
+    "badge": "Our Partner Network",
+    "title": "Hospitals That Meet the Highest International Standards",
+    "desc": "Every Akem Health partner hospital is independently accredited and regularly audited for safety, hygiene and clinical outcomes.",
+    "accreditationTitle": "Shared Accreditation Standards",
+    "listEyebrow": "Partner Hospitals",
+    "listTitle": "Our Accredited Hospital Network",
+    "listDesc": "A placeholder overview of the hospital network — specific partner names and photos will be added once finalised.",
+    "specialtiesLabel": "Specialties",
+    "items": {
+      "central": {
+        "name": "Akem Central Hospital",
+        "city": "Istanbul, Levent",
+        "desc": "A flagship A+ JCI-accredited facility specialising in plastic surgery, dental aesthetics and general surgery, with dedicated international patient suites.",
+        "specialties": ["Plastic Surgery", "Dental Aesthetics", "General Surgery"],
+        "badges": ["JCI Accredited", "ISO 9001:2015"]
+      },
+      "bosphorus": {
+        "name": "Akem Bosphorus Medical Center",
+        "city": "Istanbul, Şişli",
+        "desc": "A specialist centre for hair restoration and ophthalmology, equipped with the latest sapphire FUE and laser-eye technology.",
+        "specialties": ["Hair Restoration", "Ophthalmology"],
+        "badges": ["JCI Accredited", "Ministry of Health Licensed"]
+      },
+      "metabolic": {
+        "name": "Akem Metabolic Health Institute",
+        "city": "Istanbul, Ataşehir",
+        "desc": "A dedicated bariatric and metabolic surgery institute with an intensive care unit and a full-time multidisciplinary dietitian team.",
+        "specialties": ["Bariatric Surgery", "Metabolic Health"],
+        "badges": ["JCI Accredited", "Ministry of Health Licensed"]
+      }
+    },
+    "ctaTitle": "Want to Know Which Hospital Fits Your Case?",
+    "ctaDesc": "Our coordinators match you to the right partner hospital for your specific treatment.",
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "Chat on WhatsApp"
+  },
+  "certificates": {
+    "badge": "Our Certifications",
+    "title": "Accreditation You Can Verify, Care You Can Trust",
+    "desc": "Akem Health and its partner hospitals hold a combination of international and national certifications, independently audited on a recurring basis.",
+    "listEyebrow": "Institutional Certifications",
+    "listTitle": "Accreditations & Memberships",
+    "items": [
+      { "icon": "shield", "title": "JCI Accreditation", "issuer": "Joint Commission International", "desc": "The global gold standard for hospital patient-safety and quality audits." },
+      { "icon": "verified_user", "title": "ISO 9001:2015", "issuer": "International Organization for Standardization", "desc": "Certified quality management system across all clinical and administrative operations." },
+      { "icon": "health_and_safety", "title": "Ministry of Health Authorization", "issuer": "Republic of Türkiye Ministry of Health", "desc": "Official licence to provide international health tourism services." },
+      { "icon": "flight_takeoff", "title": "Tourism Board A-Grade License", "issuer": "Turkish Travel Agencies Association", "desc": "Authorized operator for international patient travel arrangements." },
+      { "icon": "cardiology", "title": "ISAPS Membership", "issuer": "International Society of Aesthetic Plastic Surgery", "desc": "Surgeons certified to global aesthetic surgery practice standards." },
+      { "icon": "medical_information", "title": "ISHRS Membership", "issuer": "International Society of Hair Restoration Surgery", "desc": "Hair restoration surgeons certified to international surgical standards." }
+    ],
+    "doctorsEyebrow": "Physician Certifications",
+    "doctorsTitle": "Individually Certified Surgeons",
+    "doctorsDesc": "Beyond institutional accreditation, each lead surgeon holds personal board certification and association membership in their specialty.",
+    "ctaTitle": "Have a Question About Our Accreditations?",
+    "ctaDesc": "Our team can share detailed certification documents on request.",
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "Chat on WhatsApp"
+  },
+  "contact": {
+    "badge": "We're Here to Help",
+    "title": "Let's Plan Your Health Journey Together",
+    "desc": "Share a few details and a patient coordinator will get back to you within 24 hours with a personalised, no-obligation plan.",
+    "metrics": [
+      { "value": "< 24h", "label": "Average Response Time" },
+      { "value": "100%", "label": "Confidential & Secure" },
+      { "value": "0", "label": "Obligation to Proceed" }
+    ],
+    "formTitle": "Send Us a Message",
+    "formDesc": "Fill in the form and our team will contact you shortly.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Your full name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "phoneLabel": "Phone / WhatsApp",
+    "phonePlaceholder": "+1 555 123 4567",
+    "treatmentLabel": "Treatment of Interest",
+    "treatmentPlaceholder": "Select a treatment area",
+    "treatmentOptions": [
+      { "value": "hair", "label": "Hair Transplant & Restoration" },
+      { "value": "plastic", "label": "Aesthetic & Plastic Surgery" },
+      { "value": "dental", "label": "Dental & Hollywood Smile" },
+      { "value": "bariatric", "label": "Obesity & Metabolic Surgery" },
+      { "value": "eye", "label": "Eye & Laser Treatments" },
+      { "value": "other", "label": "Other / General Enquiry" }
+    ],
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us about your medical history, goals, or any questions you have...",
+    "submitButton": "Send Message",
+    "successTitle": "Thank You!",
+    "successDesc": "Your message has been received. A patient coordinator will contact you within 24 hours.",
+    "infoTitle": "Direct Contact",
+    "infoDesc": "Prefer to talk directly? Reach us through any of the channels below.",
+    "phonePanelLabel": "Phone",
+    "whatsappPanelLabel": "WhatsApp",
+    "emailPanelLabel": "Email",
+    "addressPanelLabel": "Office Address",
+    "hoursLabel": "Support Hours",
+    "hoursValue": "24/7 — International Patient Desk",
+    "whatsappCta": "Chat Now on WhatsApp"
+  },
+  "languages": {
+    "en": "English",
+    "ru": "Русский",
+    "ka": "ქართული",
+    "tr": "Türkçe",
+    "az": "Azərbaycanca",
+    "ar": "العربية",
+    "ro": "Română"
+  }
+}

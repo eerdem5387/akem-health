@@ -1,0 +1,779 @@
+{
+  "common": {
+    "siteName": "Akem Health",
+    "tagline": "Rețea Internațională de Sănătate",
+    "metaTitle": "Akem Health – Turism Medical Internațional",
+    "metaDescription": "Spitale acreditate JCI, transfer VIP și cazare de 5 stele — o experiență completă de turism medical cu Akem Health.",
+    "coordinatorTitle": "Coordonatorul Dumneavoastră de Pacienți",
+    "coordinatorRole": "Coordonator Senior de Caz (EN / RU / AR)",
+    "whatsappDirect": "WhatsApp Direct",
+    "authorityLine": "Licențiat de Ministerul Sănătății și Autoritatea de Turism",
+    "supportLine": "Suport Internațional pentru Pacienți 24/7:",
+    "emergencyCall": "Linie de Urgență a Clinicii",
+    "languageLabel": "Limbă",
+    "ctaConsultation": "Consultație Gratuită",
+    "menu": "Meniu"
+  },
+  "nav": {
+    "home": "Acasă",
+    "treatments": "Tratamente & Pachete",
+    "about": "Despre Noi",
+    "hospitals": "Spitale Partenere",
+    "certificates": "Certificările Noastre",
+    "vipExperience": "Experiență VIP All-Inclusive",
+    "contact": "Contact",
+    "mobileHome": "Acasă",
+    "mobileTreatments": "Tratamente",
+    "mobileVip": "Îngrijire VIP",
+    "mobileContact": "Contact"
+  },
+  "footer": {
+    "newsletterLabel": "Buletin VIP de Sănătate",
+    "newsletterTitle": "Ghidul Călătoriilor Medicale 2025 & Catalog de Prețuri",
+    "newsletterDesc": "Obțineți un catalog electronic detaliat despre spitalele acreditate din Turcia, ratele de succes chirurgical și pachetele de transfer VIP.",
+    "emailPlaceholder": "Adresa dumneavoastră de email",
+    "downloadButton": "Descarcă Catalogul",
+    "badges": ["Acreditare JCI", "Licențiat de Autoritatea de Turism", "Înregistrat la Ministerul Sănătății"],
+    "description": "Partenerul dumneavoastră internațional în sănătate, care reunește expertiza chirurgicală de talie mondială, spitalele acreditate JCI și cazarea de 5 stele într-o singură călătorie de tratament impecabilă.",
+    "popularTreatmentsTitle": "Tratamente Populare",
+    "popularTreatmentsList": [
+      "Transplant și Restaurare Păr",
+      "Chirurgie Estetică și Plastică",
+      "Design al Zâmbetului & Implanturi",
+      "Chirurgie a Obezității și Metabolică",
+      "Tratamente Oculare și Laser"
+    ],
+    "vipTitle": "Experiență VIP & Cazare",
+    "vipList": [
+      "Reședințe Partenere de 5 Stele",
+      "Transfer VIP Privat de la Aeroport",
+      "Asistent de Pacient Multilingv",
+      "Tururi de Recuperare în Istanbul",
+      "Asigurare Medicală & Garanție"
+    ],
+    "contactTitle": "Contact & Locație",
+    "partnerLine": "Rețea de Reședințe Partenere de 5 Stele",
+    "copyright": "© 2025 Akem Health. Toate drepturile rezervate. Deținătorul autorizației oficiale pentru turism medical internațional.",
+    "legalLinks": ["Notă de Confidențialitate", "Politica de Confidențialitate", "Termeni de Utilizare"]
+  },
+  "home": {
+    "mobileHero": {
+      "badge": "Aprobat JCI & Ministerul Sănătății",
+      "ratingSuffix": "(2.4k+ Pacienți)",
+      "title": "Îngrijire Medicală de Clasă Mondială,",
+      "titleHighlight": "O Experiență de Călătorie Impecabilă",
+      "desc": "Aveți încredere în chirurgii acreditați din Istanbul, șederi de 5 stele pe malul Bosforului și protocoale de tratament cu garanție pe viață.",
+      "overlayLabel": "All-Inclusive",
+      "overlayValue": "Transfer VIP + Hotel 5★ + Tratament",
+      "overlaySavings": "Economii de până la 70%",
+      "quoteCta": "Obțineți o Ofertă Gratuită",
+      "whatsappCta": "Întrebați pe WhatsApp",
+      "statPatients": "14.800+",
+      "statPatientsLabel": "Pacienți Mulțumiți",
+      "statSuccess": "99.4%",
+      "statSuccessLabel": "Rată de Succes",
+      "statCountries": "48 de Țări",
+      "statCountriesLabel": "Încredere Globală"
+    },
+    "hero": {
+      "badge": "Rețea Internațională de Sănătate Acreditată",
+      "badgeSecondary": "Certificat de Ministerul Sănătății",
+      "title": "Îngrijire Medicală de Clasă Mondială,",
+      "titleHighlight": "O Experiență de Călătorie Impecabilă",
+      "desc": "Spitale A+ acreditate JCI, chirurgi profesori de top, transfer VIP privat și cazare în hoteluri de 5 stele — cu un avantaj de cost de până la 70% față de Europa de Vest.",
+      "descStrong": "avantaj de cost de până la 70%",
+      "patientsLine": "420+ pacienți programați luna aceasta",
+      "responseLine": "Timp mediu de răspuns:",
+      "responseTime": "8 minute",
+      "avatarMore": "+4k"
+    },
+    "metrics": [
+      { "value": "18.400+", "label": "Pacienți Internaționali Mulțumiți" },
+      { "value": "52 de Țări", "label": "Preferință Globală" },
+      { "value": "99.3%", "label": "Scor Clinic de Succes" },
+      { "value": "4.9", "label": "Platforme Independente de Recenzii" }
+    ],
+    "accreditationBanner": {
+      "title": "Standarde Internaționale de Încredere",
+      "desc": "Auditat sub autorizația oficială a Ministerului Sănătății, cu certificări recunoscute global."
+    },
+    "accreditations": [
+      { "icon": "shield", "label": "Acreditare JCI" },
+      { "icon": "verified_user", "label": "ISO 9001:2015" },
+      { "icon": "health_and_safety", "label": "Licențiat de Ministerul Sănătății" },
+      { "icon": "flight_takeoff", "label": "Autoritatea de Turism Categoria A" },
+      { "icon": "cardiology", "label": "Chirurgi Membri ISAPS" }
+    ],
+    "treatmentsSection": {
+      "eyebrow": "Domenii de Excelență Clinică",
+      "titleMobile": "Tratamente Populare",
+      "titleDesktop": "Pachete de Tratament Recomandate",
+      "descMobile": "Explorați pachetele noastre VIP complete",
+      "descDesktop": "Fiecare pachet include intervenția chirurgicală, cazare de lux de 5 stele, transfer VIP privat și monitorizare medicală garantată pe viață.",
+      "viewAllMobile": "Toate",
+      "viewAllDesktop": "Explorați Toate Tratamentele (28+)",
+      "startingPrice": "Preț de Start",
+      "packageStarting": "Pachet de la",
+      "detailCta": "Detalii & Programare",
+      "exploreCta": "Explorați"
+    },
+    "treatments": {
+      "hair": {
+        "title": "Restaurare Păr Sapphire FUE & DHI",
+        "desc": "Garanție de graft maxim, anestezie fără ac, opțiune de sedare și un protocol de suport cu celule stem pe 12 luni.",
+        "tags": ["Tehnologie Lamă Safir", "Certificat de Garanție pe Viață"],
+        "priceNote": "/ All-Inclusive",
+        "topBadge": "Pachet VIP de 3 Zile",
+        "bottomBadge": "Economii de 75% față de Prețurile din UK"
+      },
+      "plastic": {
+        "title": "Chirurgie Plastică Facială & Corporală",
+        "desc": "Rinoplastie ultrasonică Piezo, liposucție Vaser, estetică mamară și proceduri combinate mommy-makeover.",
+        "tags": ["Chirurgie Ultrasonică Piezo", "Garanție Spital JCI"],
+        "priceNote": "/ All-Inclusive",
+        "topBadge": "Recuperare VIP de 7 Zile",
+        "bottomBadge": "Simulare 3D Morpheus"
+      },
+      "dental": {
+        "title": "Hollywood Smile & Implantologie",
+        "desc": "Fațete de porțelan E-max, coroane premium din zirconiu și protocoale de implant cu încărcare imediată.",
+        "tags": ["Sisteme de Implant Premium", "Machetă Digitală 3D"],
+        "priceNote": "/ All-Inclusive",
+        "topBadge": "Transformare în 5 Zile",
+        "bottomBadge": "Design Digital CAD/CAM"
+      },
+      "bariatric": {
+        "title": "Gastric Sleeve & Bypass",
+        "desc": "Gastrectomie laparoscopică închisă, teste de scurgere, evaluare cardio-metabolică completă și suport dedicat pentru acompaniator.",
+        "tags": ["Echipament Chirurgical A+", "Program de Monitorizare Online"],
+        "priceNote": "/ All-Inclusive",
+        "topBadge": "4 Zile Spital & Hotel",
+        "bottomBadge": "Dietetician Bariatric 12 Luni"
+      },
+      "eye": {
+        "title": "Chirurgie Laser Ocular & Lentilă Inteligentă Trifocală",
+        "desc": "Laser fără contact și chirurgie avansată trifocală pentru cataractă/presbiopie, pentru o viață fără ochelari.",
+        "tags": ["Tehnologie Laser Avansată", "Procedură Nedureroasă de 15 Minute"],
+        "priceNote": "/ Ambii Ochi Incluși",
+        "topBadge": "Pachet de 3 Zile",
+        "bottomBadge": "Tehnologie Lentilă Inteligentă"
+      }
+    },
+    "ctaCard": {
+      "eyebrow": "Serviciu Concierge VIP Dedicat",
+      "title": "Un Plan Personalizat de Tratament și Călătorie",
+      "desc": "Nu găsiți tratamentul dumneavoastră în listă? Deschidem un dosar dedicat cu profesorii de top ai Turciei în peste 40 de specialități, inclusiv ortopedie, oncologie, FIV și neurochirurgie.",
+      "assistantLine": "Asistentul Dumneavoastră Medical Personal, 24/7",
+      "whatsappCta": "Obțineți o Ofertă Personalizată pe WhatsApp"
+    },
+    "stepsSection": {
+      "eyebrow": "O Călătorie Fără Stres & Transparentă",
+      "title": "O Experiență Medicală All-Inclusive în 6 Pași",
+      "desc": "De la primul contact și tratamentul dumneavoastră, la explorarea farmecului istoric al Istanbulului și îngrijirea de după revenirea acasă — suntem alături de dumneavoastră tot timpul."
+    },
+    "steps": [
+      {
+        "icon": "quick_reference_all",
+        "title": "Diagnostic & Evaluare Online Gratuite",
+        "desc": "Încărcați rapoartele și fotografiile în sistemul nostru securizat. Comitetul nostru medical analizează cazul dumneavoastră în 24 de ore.",
+        "footer": "Răspuns Mediu: 24 de Ore",
+        "footerIcon": "timer"
+      },
+      {
+        "icon": "calendar_month",
+        "title": "Plan Personalizat de Tratament și Călătorie",
+        "desc": "Se pregătește o ofertă transparentă fără costuri ascunse. Se finalizează data intervenției, rezervarea hotelului de 5 stele și programul zborului.",
+        "footer": "Garanție de Preț Fix",
+        "footerIcon": "payments"
+      },
+      {
+        "icon": "airport_shuttle",
+        "title": "Întâmpinare VIP & Cazare de 5 Stele",
+        "desc": "Sunteți întâmpinat la aeroport de șoferul privat și asistentul multilingv de pacienți, apoi transferat confortabil la hotel.",
+        "footer": "Reședințe Partenere de 5 Stele",
+        "footerIcon": "hotel"
+      },
+      {
+        "icon": "local_hospital",
+        "title": "Intervenție într-un Spital Acreditat JCI",
+        "desc": "După teste pre-operatorii complete, procedura este efectuată de chirurgi de top. Interpretul personal rămâne alături de dumneavoastră pe tot parcursul.",
+        "footer": "100% Standarde JCI",
+        "footerIcon": "verified"
+      },
+      {
+        "icon": "sailing",
+        "title": "Recuperare, Odihnă & Tur pe Bosfor",
+        "desc": "Odată ce medicul vă permite, vă puteți bucura de un tur cultural ușor în Istanbul sau de o croazieră pe Bosfor, adaptată recuperării dumneavoastră.",
+        "footer": "Wellness Medical & Odihnă",
+        "footerIcon": "nature_people"
+      },
+      {
+        "icon": "clinical_notes",
+        "title": "Revenire Sigură & Monitorizare Online 1 An",
+        "desc": "Sunteți condus cu certificatul de aptitudine de zbor; recuperarea dumneavoastră este monitorizată la 1, 3, 6 și 12 luni prin consultații video regulate.",
+        "footer": "365 de Zile de Suport Medical Activ",
+        "footerIcon": "support"
+      }
+    ],
+    "doctorsSection": {
+      "eyebrow": "Echipa Chirurgicală",
+      "title": "Medicii Noștri cu Acreditare Internațională",
+      "desc": "Fiecare cu peste 15 ani de experiență chirurgicală și membru al asociațiilor medicale internaționale.",
+      "certifiedLine": "Certificați ISAPS, EBOPRAS & ISHRS",
+      "cvCta": "CV & Rezultate Înainte/După"
+    },
+    "doctors": {
+      "doctor1": {
+        "name": "Prof. Dr. Cemal Yılmaz",
+        "specialty": "Chirurgie Plastică & Reconstructivă",
+        "experience": "21 de Ani de Experiență Chirurgicală",
+        "bio": "Specialist înregistrat EBOPRAS în rinoplastie ultrasonică și remodelarea corpului, cu peste 6.500 de cazuri de succes.",
+        "stats": [
+          { "value": "6.5k+", "label": "Operații" },
+          { "value": "99.4%", "label": "Satisfacție" },
+          { "value": "4 Limbi", "label": "EN/RU/AR/TR" }
+        ]
+      },
+      "doctor2": {
+        "name": "Conf. Dr. Leyla Kaya",
+        "specialty": "Restaurare Păr & Chirurgie Tricologică",
+        "experience": "16 Ani de Expertiză",
+        "bio": "Membru ISHRS. Tehnica Sapphire FUE și DHI cu o rată dovedită de supraviețuire a graftului de 98.8%.",
+        "stats": [
+          { "value": "8.2k+", "label": "Cazuri" },
+          { "value": "98.8%", "label": "Supraviețuire Graft" },
+          { "value": "3 Limbi", "label": "EN/AR/TR" }
+        ]
+      },
+      "doctor3": {
+        "name": "Dr. Mehmet Arslan, Medic Stomatolog",
+        "specialty": "Dentistică Protetică & Implantologie",
+        "experience": "18 Ani de Experiență Clinică",
+        "bio": "Specialist în design digital al zâmbetului, Hollywood Smile și sisteme de implant cu încărcare imediată, cu peste 5.000 de pacienți internaționali.",
+        "stats": [
+          { "value": "5.1k+", "label": "Designuri de Zâmbet" },
+          { "value": "99.7%", "label": "Rată de Succes" },
+          { "value": "3 Limbi", "label": "EN/RU/TR" }
+        ]
+      }
+    },
+    "patientsSection": {
+      "eyebrow": "Rezultate Reale & Transparente",
+      "title": "Pacienți Reali, Transformări Durabile",
+      "desc": "Experiențe și rezultate clinice verificate de la pacienți din Regatul Unit, Germania, SUA și Emiratele Arabe Unite.",
+      "verifiedLine": "Recenzie Verificată a Pacientului"
+    },
+    "patients": {
+      "patient1": {
+        "location": "Londra, Regatul Unit",
+        "flag": "🇬🇧",
+        "treatment": "Transplant de Păr DHI (4.800 Graft-uri)",
+        "date": "Procedură: Octombrie 2024",
+        "quote": "Ofertele din Londra erau peste 9.000 de lire sterline. Cu Akem Health am obținut o densitate incredibilă la o treime din preț, incluzând cazare de 5 stele și mașină VIP. Coordonatorul meu a fost alături de mine non-stop."
+      },
+      "patient2": {
+        "location": "Munchen, Germania",
+        "flag": "🇩🇪",
+        "treatment": "Rinoplastie Ultrasonică Piezo",
+        "date": "Procedură: Ianuarie 2025",
+        "quote": "Chirurgii din Germania nu erau nici pe departe la fel de experimentați în tehnica Piezo. Aproape fără vânătăi sau edem, bandajele mi-au fost scoase în ziua 6. Rezultatul este complet natural și respir perfect."
+      },
+      "patient3": {
+        "location": "Florida, SUA",
+        "flag": "🇺🇸",
+        "treatment": "Hollywood Smile E-Max pe Toată Gura",
+        "date": "Procedură: Februarie 2025",
+        "quote": "Acest tratament ar fi costat o avere acasă. În Istanbul am obținut zâmbetul visat în 5 zile — o vacanță de lux și dinți impecabili în același timp."
+      }
+    },
+    "costSection": {
+      "eyebrow": "Transparența Costurilor",
+      "title": "De Ce Turcia și Akem Health?",
+      "desc": "Spitalele noastre acreditate internațional folosesc aceeași tehnologie medicală și implanturi aprobate FDA ca în Regatul Unit și SUA, cu economii de până la 70%.",
+      "tableBranch": "Tratament",
+      "tableUk": "UK / UE",
+      "tableUs": "Akem Health VIP",
+      "disclaimer": "Toate prețurile sunt pachete all-inclusive care acoperă intervenția, cazarea, transferul și medicația.",
+      "partnerLabel": "Rețeaua Noastră de Parteneri A+",
+      "partnerTitle": "Rețeaua de Spitale Partenere Akem",
+      "partnerDesc": "Cele mai moderne săli de operație din Turcia, cu camere private care se simt ca un hotel.",
+      "assuranceLabel": "Garanție de Reglementare",
+      "assuranceTitle": "Operator Licențiat de Turism Medical"
+    },
+    "costRows": [
+      { "name": "Transplant de Păr Sapphire FUE", "uk": "£6.500", "price": "£1.650" },
+      { "name": "Rinoplastie Piezo", "uk": "£7.200", "price": "£2.500" },
+      { "name": "Hollywood Smile (20 de Dinți)", "uk": "£11.000", "price": "£2.950" },
+      { "name": "Operație Gastric Sleeve", "uk": "£9.800", "price": "£2.800" }
+    ],
+    "faqSection": {
+      "eyebrow": "Întrebări Frecvente",
+      "title": "Întrebări Frecvente",
+      "desc": "Tot ce trebuie să știți când vă planificați călătoria de sănătate."
+    },
+    "faqs": [
+      {
+        "question": "Este sigur să te tratezi în Turcia?",
+        "answer": "Da. Turcia deține unul dintre cele mai mari numere de acreditări JCI (Joint Commission International) la nivel mondial. Toți chirurgii Akem Health sunt membri ISAPS, EBOPRAS sau ISHRS, iar procedurile au loc doar în spitale complet echipate, acreditate JCI de categoria A+."
+      },
+      {
+        "question": "Cum sunt organizate zborurile și transferurile?",
+        "answer": "Coordonatorul dumneavoastră de pacienți lucrează cu dumneavoastră pentru a alege datele de zbor. Sunteți întâmpinat pe nume imediat ce aterizați în Istanbul, iar vehiculul VIP privat vă duce direct la hotelul partener de 5 stele. Toate transferurile spital-hotel-aeroport sunt incluse în pachet."
+      },
+      {
+        "question": "Va exista o barieră lingvistică?",
+        "answer": "Deloc. Un interpret medical personal care vorbește limba dumneavoastră maternă — engleză, rusă, arabă, turcă și altele — vă acompaniază la fiecare programare pe durata tratamentului."
+      },
+      {
+        "question": "Cum se face monitorizarea după revenirea acasă?",
+        "answer": "Protocolul nostru de monitorizare mobilă și video rămâne activ timp de 1 an după tratament. La intervale stabilite (lunile 1, 3, 6 și 12), medicul dumneavoastră analizează fotografiile și rezultatele recuperării."
+      }
+    ],
+    "bottomCta": {
+      "eyebrow": "Nu Așteptați",
+      "title": "Începeți-vă Călătoria de Sănătate Astăzi",
+      "desc": "Obțineți planul dumneavoastră de tratament complet gratuit, fără obligații, și oferta de preț all-inclusive de la specialiștii noștri în 15 minute.",
+      "features": ["Fără Costuri Ascunse", "Garanție Chirurgicală pe Viață", "Cazare VIP de 5 Stele"],
+      "primaryCta": "Analiză Gratuită a Raportului Medical",
+      "whatsappCta": "Discutați pe WhatsApp"
+    }
+  },
+  "heroVideo": {
+    "badge": "Rețea Internațională de Sănătate Acreditată",
+    "title": "Îngrijire Medicală de Clasă Mondială,",
+    "titleHighlight": "O Experiență de Călătorie Impecabilă",
+    "desc": "Spitale A+ acreditate JCI, chirurgi profesori de top, transfer VIP privat și cazare în hoteluri de 5 stele — cu un avantaj de cost de până la 70% față de Europa de Vest.",
+    "scrollHint": "Derulați pentru a explora"
+  },
+  "heroQuoteForm": {
+    "badge": "Panou de Aplicare Rapidă",
+    "title": "Evaluare Medicală Gratuită",
+    "desc": "Trimiteți rapoartele sau fotografiile dumneavoastră specialiștilor noștri și primiți o ofertă personalizată și un plan de tratament în 24 de ore.",
+    "successMessage": "Cererea dumneavoastră a fost trimisă comitetului medical. Coordonatorul dumneavoastră de pacienți vă va contacta în 15 minute.",
+    "nameLabel": "Nume Complet",
+    "namePlaceholder": "ex: David Miller",
+    "phoneLabel": "Telefon / WhatsApp",
+    "phonePlaceholder": "+44 7911 123456",
+    "emailLabel": "Email",
+    "emailPlaceholder": "david@example.com",
+    "treatmentLabel": "Zona de Tratament",
+    "treatmentOptions": [
+      { "value": "hair", "label": "Transplant și Restaurare Păr (Sapphire / DHI)" },
+      { "value": "aesthetic", "label": "Chirurgie Estetică și Plastică (Rinoplastie / Mamară / Lipo)" },
+      { "value": "dental", "label": "Hollywood Smile & Implantologie Digitală" },
+      { "value": "eye", "label": "Chirurgie Oculară & Lentilă Inteligentă Multifocală" },
+      { "value": "bariatric", "label": "Chirurgie Obezitate & Bariatrică (Gastric Sleeve)" },
+      { "value": "other", "label": "Altceva / Consultație Medicală Generală" }
+    ],
+    "uploadLabel": "Încărcați Fotografie / Radiografie (Opțional)",
+    "uploadHint": "PNG, JPG, PDF (Max 15MB)",
+    "uploadButton": "Alegeți Fișierul",
+    "submitButton": "Solicitați Plan de Tratament Gratuit & Ofertă",
+    "sslLabel": "Confidențialitate SSL pe 256-bit",
+    "responseLabel": "Răspuns în 15 Minute"
+  },
+  "treatmentsPage": {
+    "badge": "Standard de Îngrijire JCI & Ministerul Sănătății",
+    "title": "Pachete de Tratament Transparente, de Lux și",
+    "titleHighlight": "All-Inclusive",
+    "titleEnd": "",
+    "desc": "O experiență medicală curată care reunește expertiza medicală la standarde europene, hoteluri de 5 stele și transferuri VIP private cu șofer la un singur preț transparent. Fără costuri ascunse, garanție completă.",
+    "savingsLabel": "Rata de Economii",
+    "savingsValue": "Economii de 60% – 70% față de Prețurile din UE",
+    "satisfactionLabel": "Rata de Satisfacție",
+    "satisfactionValue": "4.96 / 5.0 (4.200+ Pacienți)",
+    "benefitsEyebrow": null,
+    "featuredEyebrow": "Cele Mai Populare",
+    "featuredTitle": "Pachete Curate Recomandate",
+    "featuredDesc": "Explorați pachetele noastre populare all-inclusive, construite în jurul spitalelor selectate, al chirurgilor cu acreditare internațională și al ospitalității VIP.",
+    "euPriceLabel": "Medie UE / UK:",
+    "durationLabel": "Durata Recomandată",
+    "includesLabel": "Inclus în Pachet:",
+    "bookCta": "Rezervați Acest Pachet",
+    "emptyTitle": "Un pachet recomandat pentru această categorie va fi disponibil în curând. Contactați-ne pentru o ofertă personalizată.",
+    "emptyCta": "Obțineți o Ofertă Gratuită",
+    "categories": [
+      { "id": "all", "label": "Toate Tratamentele (16)" },
+      { "id": "hair", "label": "Transplant și Restaurare Păr" },
+      { "id": "dental", "label": "Dentare & Hollywood Smile" },
+      { "id": "plastic", "label": "Chirurgie Plastică & Facială" },
+      { "id": "bariatric", "label": "Chirurgie a Obezității și Metabolică" },
+      { "id": "eye", "label": "Chirurgie Oculară & Laser Fără Contact" }
+    ],
+    "benefits": [
+      { "icon": "hotel", "title": "Cazare de 5 Stele", "desc": "Rețea de hoteluri de lux partenere" },
+      { "icon": "directions_car", "title": "Transfer VIP cu Șofer", "desc": "Transferuri de la aeroport, hotel și clinică" },
+      { "icon": "translate", "title": "Coordonator Personal", "desc": "Ghidare 24/7 în limba dumneavoastră" },
+      { "icon": "security", "title": "Garanție Oficială de Tratament", "desc": "Asigurare și certificare internațională" }
+    ],
+    "packages": {
+      "hair": {
+        "title": "Pachet VIP de Transplant de Păr Sapphire FUE",
+        "categoryLabel": "Transplant de Păr & Chirurgie Tricologică",
+        "badges": ["Cel Mai Popular", "Tehnica Sapphire FUE"],
+        "euPrice": "€5.400",
+        "price": "€1.850",
+        "savings": "65% Economii Nete",
+        "duration": "3 Nopți / 4 Zile",
+        "metrics": [
+          { "icon": "timer", "label": "Revenire la Muncă", "value": "Ziua 3" },
+          { "icon": "flight_takeoff", "label": "Aptitudine de Zbor", "value": "48 de Ore" },
+          { "icon": "workspace_premium", "label": "Garanție", "value": "Pe Viață" }
+        ],
+        "includes": [
+          { "title": "Implantare Maximă de Graft", "desc": "4.500–5.500+ graft-uri fără a afecta zona donatoare" },
+          { "title": "Suport Regenerativ", "desc": "Terapie PRP și o sesiune de mezoterapie cu oxigen incluse" },
+          { "title": "Cazare de 5 Stele", "desc": "Hotel partener pe malul Bosforului (3 nopți, mic dejun inclus)" },
+          { "title": "Transport VIP Privat", "desc": "Transferuri aeroport–hotel–spital într-un vehicul premium cu șofer" },
+          { "title": "Kit Complet de Îngrijire Medicală", "desc": "Șampon cu biotină pentru 1 an, loțiune și o pernă dedicată pentru gât" }
+        ]
+      },
+      "dental": {
+        "title": "Pachet Hollywood Smile & Porțelan E-Max",
+        "categoryLabel": "Stomatologie Cosmetică & Design al Zâmbetului",
+        "badges": ["Hollywood Smile", "Porțelan Premium E-Max"],
+        "euPrice": "€9.200",
+        "price": "€3.200",
+        "savings": "66% Economii Nete",
+        "duration": "6 Nopți / 7 Zile",
+        "metrics": [
+          { "icon": "timer", "label": "Revenire la Muncă", "value": "Aceeași Zi" },
+          { "icon": "flight_takeoff", "label": "Aptitudine de Zbor", "value": "Ultima Ședință" },
+          { "icon": "workspace_premium", "label": "Garanție", "value": "10 Ani Oficial" }
+        ],
+        "includes": [
+          { "title": "16–20 Unități Premium E-Max / Zirconiu", "desc": "Translucență naturală și selecție personalizată a nuanței" },
+          { "title": "Simulare 3D a Machetei Digitale a Zâmbetului", "desc": "Previzualizați-vă zâmbetul final înainte de începerea tratamentului" },
+          { "title": "6 Nopți în Hotel Boutique de Lux sau 5★", "desc": "Pe malul Bosforului sau în centrul orașului" },
+          { "title": "Tomografie 3D Panoramică & Curățare", "desc": "Diagnostic avansat și pachet de igienă incluse" },
+          { "title": "Transferuri VIP cu Șofer", "desc": "Serviciu 24/7 pentru toate programările și aeroport" }
+        ]
+      },
+      "plastic": {
+        "title": "Pachet de Rinoplastie Naturală",
+        "categoryLabel": "Chirurgie Facială & Estetică",
+        "badges": ["Piezo Ultrasonic", "Tehnică Fără Vânătăi"],
+        "euPrice": "€7.500",
+        "price": "€2.750",
+        "savings": "63% Economii Nete",
+        "duration": "6 Nopți / 7 Zile",
+        "metrics": [
+          { "icon": "timer", "label": "Revenire la Muncă", "value": "Ziua 7" },
+          { "icon": "flight_takeoff", "label": "Aptitudine de Zbor", "value": "Ziua 7 (Control)" },
+          { "icon": "workspace_premium", "label": "Acreditare", "value": "Aprobat JCI" }
+        ],
+        "includes": [
+          { "title": "Chirurgie Ultrasonică Piezo", "desc": "Blândă cu țesutul osos, vânătăi minime și recuperare mai rapidă" },
+          { "title": "1 Noapte în Spital Acreditat JCI", "desc": "Cameră privată de tip suită cu îngrijire medicală 24 de ore" },
+          { "title": "5 Nopți de Recuperare în Hotel de 5 Stele", "desc": "Serviciu în cameră cu o dietă moale special pregătită" },
+          { "title": "Control & Îndepărtarea Splintului", "desc": "Îndepărtarea tamponului și a splintului efectuată personal de chirurg" },
+          { "title": "Pachet Privat de Recuperare în Oraș", "desc": "O croazieră pe Bosfor sau un itinerar blând de recuperare" }
+        ]
+      },
+      "bariatric": {
+        "title": "Pachet Gastric Sleeve & Chirurgie Metabolică",
+        "categoryLabel": "Obezitate & Sănătate Metabolică",
+        "badges": ["Chirurgie Metabolică", "Sleeve Laparoscopic"],
+        "euPrice": "€11.000",
+        "price": "€3.400",
+        "savings": "69% Economii Nete",
+        "duration": "6 Nopți / 7 Zile",
+        "metrics": [
+          { "icon": "timer", "label": "Revenire la Muncă", "value": "10–14 Zile" },
+          { "icon": "flight_takeoff", "label": "Aptitudine de Zbor", "value": "Ziua 6 (Test de Scurgere)" },
+          { "icon": "workspace_premium", "label": "Suport", "value": "Dietetician 12 Luni" }
+        ],
+        "includes": [
+          { "title": "40+ Teste Pre-operatorii Complete", "desc": "Endoscopie, consultație de cardiologie și pneumologie" },
+          { "title": "3 Nopți Spital + 3 Nopți Hotel 5★", "desc": "Cazare și mese incluse pentru acompaniatorul dumneavoastră" },
+          { "title": "Teste de Scurgere Post-operatorii", "desc": "Verificare fluoroscopică dublă înainte de externare" },
+          { "title": "Dietetician Online pe 12 Luni", "desc": "Monitorizare online lunară și planificare a meniului după revenirea acasă" },
+          { "title": "Set Complet de Medicamente & Multivitamine", "desc": "Suplimente medicale furnizate pentru primele 3 luni" }
+        ]
+      }
+    }
+  },
+  "vipPage": {
+    "badge": "Standard Internațional de Ospitalitate Medicală de 5 Stele",
+    "title": "Dumneavoastră Vă Concentrați pe",
+    "titleHighlight": "Vindecare",
+    "titleEnd": ". Noi Ne-am Gândit la Restul.",
+    "desc": "Cu Akem Health, călătoria dumneavoastră de tratament nu începe la ușa sălii de operație — începe pe cerul Istanbulului. De la șoferul dumneavoastră privat VIP la șederea de 5 stele pe malul Bosforului, de la coordonatorul dumneavoastră în limba maternă la monitorizarea digitală de 365 de zile, fiecare secundă este planificată.",
+    "metrics": [
+      { "value": "100%", "label": "Logistică VIP Completă" },
+      { "value": "24/7", "label": "Asistent Medical Personal" },
+      { "value": "12 Luni", "label": "Monitorizare Clinică la Distanță" }
+    ],
+    "primaryCta": "Construiți-vă Pachetul VIP",
+    "secondaryCta": "Urmăriți Călătoria Pacientului",
+    "overlayTitle": "Garanție JCI & Autoritatea de Turism",
+    "overlayDesc": "Zero stres, confort maxim și o garanție completă",
+    "arrivalLabel": "Întâmpinare",
+    "arrivalValue": "Poartă Privată & Salon VIP",
+    "stepsEyebrow": "Un Plan Impecabil, de la A la Z",
+    "stepsTitle": "Călătoria Pacientului VIP — De la Zbor la Recuperare",
+    "stepsDesc": "Am proiectat fiecare detaliu pentru pacienții noștri internaționali — o călătorie medicală cu confortul de acasă, fără a vă simți niciodată ca un străin în altă țară.",
+    "steps": [
+      {
+        "icon": "support_agent",
+        "title": "Consultație Digitală Preliminară & Analiza Dosarului",
+        "desc": "Rezultatele testelor și imagistica dumneavoastră sunt analizate de chirurgii noștri specialiști, care oferă un plan de tratament transparent și o garanție de preț fix.",
+        "footer": "Sistem Securizat de Protecție a Confidențialității",
+        "footerIcon": "verified_user"
+      },
+      {
+        "icon": "airport_shuttle",
+        "title": "Întâmpinare VIP & Transfer de Lux",
+        "desc": "Sunteți întâmpinat pe nume la poarta aeroportului din Istanbul și condus la vehiculul dumneavoastră privat cu șofer.",
+        "footer": "Wi-Fi la Bord & Băuturi Premium",
+        "footerIcon": "wifi"
+      },
+      {
+        "icon": "apartment",
+        "title": "Cazare de Recuperare de 5 Stele",
+        "desc": "Vă începeți recuperarea la unul dintre hotelurile noastre partenere de lux, la câteva minute de spital, adaptat protocolului dumneavoastră de tratament.",
+        "footer": "Dietă Medicală & Serviciu Privat în Cameră",
+        "footerIcon": "restaurant"
+      },
+      {
+        "icon": "medical_services",
+        "title": "Intervenție într-un Spital Acreditat JCI",
+        "desc": "Sunteți internat alături de interpretul dumneavoastră; procedura este efectuată cu cea mai recentă tehnologie de către medici recunoscuți internațional.",
+        "footer": "Suport Neîntrerupt în Limba Dumneavoastră",
+        "footerIcon": "translate"
+      },
+      {
+        "icon": "sailing",
+        "title": "Control & un Tur Blând pe Bosfor",
+        "desc": "Odată aprobat de medicul dumneavoastră, bucurați-vă de o experiență panoramică relaxată în Istanbul, cu activități speciale, cu efort minim.",
+        "footer": "Traseu Lin și Odihnitor",
+        "footerIcon": "healing"
+      },
+      {
+        "icon": "devices",
+        "title": "Monitorizare Digitală & Garanție pe 1 An",
+        "desc": "Odată ajuns acasă, controalele dumneavoastră de la lunile 1, 3, 6 și 12 continuă prin consultație video prin portalul nostru mobil de pacienți.",
+        "footer": "Acoperire a Asigurării pentru Complicații",
+        "footerIcon": "security"
+      }
+    ],
+    "transferEyebrow": "Garanție de Transport Neîntrerupt",
+    "transferTitle": "Aeroport – Hotel – Spital: Transferuri Private Nelimitate",
+    "transferDesc": "Eliminăm cea mai mare sursă de stres din călătoriile internaționale — deplasarea prin oraș. Un șofer privat VIP vă duce la fiecare programare la timp, fără trafic.",
+    "transferBadge": "Flotă Privată Licențiată",
+    "transferFeatures": [
+      { "icon": "person_pin", "title": "Întâmpinare VIP cu Nume", "desc": "Coordonatorul sau șoferul dumneavoastră vă întâmpină la vamă cu un afiș personalizat cu numele dumneavoastră și vă transportă bagajele." },
+      { "icon": "airline_seat_recline_extra", "title": "Confort cu Echipare Premium", "desc": "Scaune de piele ortopedice reglabile, filtre de climatizare sterile și Wi-Fi, concepute cu confortul post-operator în minte." },
+      { "icon": "schedule", "title": "Călătorii Flexibile și Nelimitate", "desc": "Ori de câte ori aveți nevoie de un control, o schimbare de pansament sau o vizită la farmacie, mașina dumneavoastră este pregătită în 20 de minute." }
+    ],
+    "hotelsEyebrow": "Spații Liniștite de Recuperare",
+    "hotelsTitle": "Reședințe Partenere de 5 Stele & Confort Medical",
+    "hotelsDesc": "Odihna post-operatorie este etapa cea mai critică a tratamentului. Hotelurile noastre partenere sunt echipate cu facilități de igienă și dietă concepute pentru pacienții chirurgicali.",
+    "hotels": {
+      "bosphorus": {
+        "name": "The Bosphorus Pearl Residence",
+        "badge": "Priveliște spre Bosfor",
+        "desc": "Suite spațioase cu balcon, serviciu medical în cameră 24 de ore și un meniu organic dedicat post-operator.",
+        "features": ["Doar 8 minute de la spital", "Camere hipoalergenice, izolate fonic"]
+      },
+      "quasar": {
+        "name": "Quasar City Suites",
+        "badge": "Centrul Orașului",
+        "desc": "Aproape de clinicile noastre, cu tehnologie de cameră inteligentă și zone de ședere dedicate pentru acompaniatori.",
+        "features": ["Tetiere medicale reglabile în cameră", "Integrare de apel al asistentei medicale 24/7"]
+      },
+      "serenity": {
+        "name": "Serenity Garden Residence",
+        "badge": "Calm & Wellness",
+        "desc": "Situat într-un crâng istoric, cu grădini liniștite și suport dedicat pentru drenaj limfatic și odihnă post-operatorie.",
+        "features": ["Meniu nutrițional proaspăt post-operator", "Poteci private de plimbare pe terasă"]
+      }
+    },
+    "ratingLabel": "Lux de 5 Stele",
+    "languageEyebrow": "Fără Barieră Lingvistică",
+    "languageTitle": "Asistentul Dumneavoastră Medical Personal, Disponibil 24/7",
+    "languageDesc": "Comunicarea clară este critică atunci când primiți îngrijire în străinătate. La Akem Health, fiecărui pacient i se alocă un interpret medical licențiat și un manager de caz fluent în limba sa maternă.",
+    "languages": ["Engleză", "Rusă (Русский)", "Arabă (العربية)", "Georgiană (ქართული)", "Română"],
+    "languageFeatures": [
+      { "icon": "clinical_notes", "title": "Traducerea Documentelor Medicale", "desc": "Rezumatele dumneavoastră de externare, rezultatele de laborator și prescripțiile sunt traduse în limba dumneavoastră maternă de traducători certificați." },
+      { "icon": "prescriptions", "title": "Livrare de Medicamente & Farmacie", "desc": "Toate cremele, medicamentele și dispozitivele de compresie necesare sunt livrate la hotelul dumneavoastră de către asistentul dumneavoastră." }
+    ],
+    "coordinatorCardTitle": "Coordonatorul Dumneavoastră de Pacienți Alocat",
+    "coordinatorCertified": "Certificat de Ministerul Sănătății",
+    "coordinatorStatus": "ACTIV & ONLINE",
+    "coordinatorLocation": "Sediul din Istanbul",
+    "coordinatorPhoneLine": "Linie Directă 24/7",
+    "coordinatorWhatsappLine": "WhatsApp Instant",
+    "testimonialQuote": "Selin a fost alături de mine înainte de a intra în sala de operație și când m-am trezit. Nu am mai avut niciodată acest nivel de îngrijire în limba mea maternă, nici chiar acasă.",
+    "testimonialAuthor": "— Thomas M., Frankfurt (Transplant de Păr & Estetică Dentară)",
+    "wellnessEyebrow": "Odihnă pentru Corp și Minte",
+    "wellnessTitle": "Calmul Captivant al Istanbulului După Recuperare",
+    "wellnessDesc": "Odată ce medicul dumneavoastră vă permite călătorii ușoare și plimbări, oferim opțiuni exclusive de excursii pentru a descoperi Istanbulul confortabil și fără oboseală.",
+    "wellnessFeatures": [
+      { "icon": "directions_boat", "title": "Tur Privat cu Barca pe Bosfor", "desc": "O croazieră panoramică de 2 ore pe Bosfor, departe de mulțime, cu aer marin proaspăt pentru a vă revigora mintea." },
+      { "icon": "spa", "title": "Masaj Ușor de Wellness & Recuperare", "desc": "Terapie ușoară, care reduce umflarea și relaxantă, oferită de fizioterapeuți experți, în limitele aprobării chirurgicale." },
+      { "icon": "palette", "title": "Tur Privat Ghidat al Peninsulei Istorice", "desc": "O vizită fără oboseală la Hagia Sofia și Sultanahmet, cu suport de scaun cu rotile sau vehicul VIP, după cum este necesar." }
+    ],
+    "followUpEyebrow": "Protocol Internațional de Monitorizare",
+    "followUpTitle": "Nu Sunteți Niciodată Singur, Chiar Acasă.",
+    "followUpDesc": "Timp de 365 de zile după ce ați plecat din Turcia, vă urmărim progresul medical prin platforma noastră digitală mobilă. Medicul dumneavoastră este la o apăsare distanță pentru orice întrebare.",
+    "followUpCard1Title": "Controale Programate",
+    "followUpCard1Desc": "Consultații video programate cu chirurgul dumneavoastră la lunile 1, 3, 6 și 12.",
+    "followUpCard2Title": "Monitorizare Vizuală a Recuperării",
+    "followUpCard2Desc": "Încărcați fotografii și rapoarte într-un portal securizat și obțineți o evaluare instantanee.",
+    "complianceLine": "Toate datele dumneavoastră sunt protejate conform standardelor internaționale de securitate a datelor medicale HIPAA și GDPR.",
+    "portalTitle": "Akem Health Care Portal",
+    "portalActive": "Activ Timp de 365 de Zile",
+    "portalRows": ["Consultație Video — Programată", "Fotografie de Recuperare — Revizuită", "Certificat de Garanție — Activ"],
+    "portalCta": "Configurați-vă Pachetul VIP"
+  },
+  "about": {
+    "badge": "Povestea Noastră",
+    "title": "Îngrijire Construită în Jurul Dumneavoastră, de la Primul Apel la o Viață de Monitorizare",
+    "desc": "Akem Health conectează pacienții internaționali cu cele mai acreditate spitale și chirurgi din Turcia, înfășurând fiecare tratament într-o experiență de călătorie VIP impecabilă.",
+    "stats": [
+      { "value": "2016", "label": "Fondată" },
+      { "value": "18.400+", "label": "Pacienți Tratați" },
+      { "value": "52", "label": "Țări Deservite" },
+      { "value": "99.3%", "label": "Rată de Succes" }
+    ],
+    "valuesEyebrow": "Ce Ne Ghidează",
+    "valuesTitle": "Misiune, Viziune & Valori",
+    "values": [
+      { "icon": "flag", "title": "Misiunea Noastră", "desc": "Să facem îngrijirea medicală acreditată, de talie mondială, accesibilă și la prețuri avantajoase pentru pacienți de oriunde, fără a compromite siguranța sau demnitatea." },
+      { "icon": "visibility", "title": "Viziunea Noastră", "desc": "Să fim cea mai de încredere punte între pacienții internaționali și instituțiile medicale de top din Turcia." },
+      { "icon": "favorite", "title": "Îngrijire Centrată pe Pacient", "desc": "Fiecare decizie — de la alegerea spitalului la rezervarea hotelului — este luată în jurul confortului pacientului și al rezultatului clinic." }
+    ],
+    "storyEyebrow": "Povestea Noastră",
+    "storyTitle": "De Ce Am Înființat Akem Health",
+    "storyParagraphs": [
+      "Akem Health a fost fondată de o echipă de coordonatori de călătorii medicale și clinicieni care au văzut pacienții internaționali confruntându-se în mod repetat cu aceleași probleme: prețuri neclare, bariere lingvistice și îngrijire necoordonată între spitale, hoteluri și transport.",
+      "Am construit Akem Health pentru a elimina fiecare dintre aceste piedici — un singur partener responsabil care gestionează întreaga călătorie, de la prima dumneavoastră consultație online până la apelul final de monitorizare, un an mai târziu.",
+      "Astăzi, lucrăm exclusiv cu spitale acreditate JCI și chirurgi certificați, iar fiecare pachet este construit la același standard: transparență totală, fără costuri ascunse și o garanție pe care vă puteți baza."
+    ],
+    "whyEyebrow": "De Ce Ne Aleg Pacienții",
+    "whyTitle": "Ce Face Akem Health Diferit",
+    "why": [
+      { "icon": "verified", "title": "Doar Rețea Acreditată", "desc": "Lucrăm exclusiv cu spitale acreditate JCI și chirurgi certificați internațional." },
+      { "icon": "payments", "title": "Prețuri Fixe și Transparente", "desc": "Oferta dumneavoastră este finală — nu apar taxe ascunse după sosire." },
+      { "icon": "translate", "title": "Întotdeauna în Limba Dumneavoastră", "desc": "Un coordonator dedicat, fluent în limba dumneavoastră, vă ghidează la fiecare pas." },
+      { "icon": "support_agent", "title": "Suport 365 de Zile", "desc": "Îngrijirea de monitorizare continuă mult timp după ce v-ați întors acasă." },
+      { "icon": "hotel", "title": "Pachete All-Inclusive Reale", "desc": "Tratament, ședere de 5 stele, transfer și îngrijire ulterioară la un singur preț." },
+      { "icon": "security", "title": "Protocoale Garantate", "desc": "Fiecare procedură este susținută de o garanție de tratament scrisă." }
+    ],
+    "ctaTitle": "Sunteți Pregătit Să Vă Începeți Călătoria cu Noi?",
+    "ctaDesc": "Vorbiți astăzi cu un coordonator de pacienți și obțineți un plan de tratament gratuit, fără obligații.",
+    "ctaPrimary": "Contactați-ne",
+    "ctaSecondary": "Discutați pe WhatsApp"
+  },
+  "hospitals": {
+    "badge": "Rețeaua Noastră de Parteneri",
+    "title": "Spitale care Respectă Cele Mai Înalte Standarde Internaționale",
+    "desc": "Fiecare spital partener Akem Health este acreditat independent și auditat periodic pentru siguranță, igienă și rezultate clinice.",
+    "accreditationTitle": "Standarde Comune de Acreditare",
+    "listEyebrow": "Spitale Partenere",
+    "listTitle": "Rețeaua Noastră de Spitale Acreditate",
+    "listDesc": "O prezentare generală provizorie a rețelei de spitale — numele partenerilor specifici și fotografiile vor fi adăugate după finalizare.",
+    "specialtiesLabel": "Specialități",
+    "items": {
+      "central": {
+        "name": "Akem Central Hospital",
+        "city": "Istanbul, Levent",
+        "desc": "O unitate de referință A+ acreditată JCI, specializată în chirurgie plastică, estetică dentară și chirurgie generală, cu suite dedicate pacienților internaționali.",
+        "specialties": ["Chirurgie Plastică", "Estetică Dentară", "Chirurgie Generală"],
+        "badges": ["Acreditare JCI", "ISO 9001:2015"]
+      },
+      "bosphorus": {
+        "name": "Akem Bosphorus Medical Center",
+        "city": "Istanbul, Șișli",
+        "desc": "Un centru specializat în restaurarea părului și oftalmologie, echipat cu cea mai recentă tehnologie sapphire FUE și laser ocular.",
+        "specialties": ["Restaurare Păr", "Oftalmologie"],
+        "badges": ["Acreditare JCI", "Licențiat de Ministerul Sănătății"]
+      },
+      "metabolic": {
+        "name": "Akem Metabolic Health Institute",
+        "city": "Istanbul, Ataşehir",
+        "desc": "Un institut dedicat chirurgiei bariatrice și metabolice, cu o unitate de terapie intensivă și o echipă multidisciplinară de dieteticieni cu normă întreagă.",
+        "specialties": ["Chirurgie Bariatrică", "Sănătate Metabolică"],
+        "badges": ["Acreditare JCI", "Licențiat de Ministerul Sănătății"]
+      }
+    },
+    "ctaTitle": "Vreți Să Aflați Care Spital Se Potrivește Cazului Dumneavoastră?",
+    "ctaDesc": "Coordonatorii noștri vă asociază cu spitalul partener potrivit pentru tratamentul dumneavoastră specific.",
+    "ctaPrimary": "Contactați-ne",
+    "ctaSecondary": "Discutați pe WhatsApp"
+  },
+  "certificates": {
+    "badge": "Certificările Noastre",
+    "title": "Acreditare pe care o Puteți Verifica, Îngrijire în care Puteți Avea Încredere",
+    "desc": "Akem Health și spitalele sale partenere dețin o combinație de certificări internaționale și naționale, auditate independent în mod recurent.",
+    "listEyebrow": "Certificări Instituționale",
+    "listTitle": "Acreditări & Afilieri",
+    "items": [
+      { "icon": "shield", "title": "Acreditare JCI", "issuer": "Joint Commission International", "desc": "Standardul de aur global pentru auditurile de siguranță a pacienților și calitate în spitale." },
+      { "icon": "verified_user", "title": "ISO 9001:2015", "issuer": "Organizația Internațională pentru Standardizare", "desc": "Sistem de management al calității certificat în toate operațiunile clinice și administrative." },
+      { "icon": "health_and_safety", "title": "Autorizația Ministerului Sănătății", "issuer": "Ministerul Sănătății al Republicii Turcia", "desc": "Licență oficială pentru a oferi servicii de turism medical internațional." },
+      { "icon": "flight_takeoff", "title": "Licență Categoria A a Autorității de Turism", "issuer": "Asociația Agențiilor de Turism din Turcia", "desc": "Operator autorizat pentru organizarea călătoriilor pacienților internaționali." },
+      { "icon": "cardiology", "title": "Afiliere ISAPS", "issuer": "Societatea Internațională de Chirurgie Plastică Estetică", "desc": "Chirurgi certificați conform standardelor globale de practică a chirurgiei estetice." },
+      { "icon": "medical_information", "title": "Afiliere ISHRS", "issuer": "Societatea Internațională de Chirurgie de Restaurare a Părului", "desc": "Chirurgi de restaurare a părului certificați conform standardelor chirurgicale internaționale." }
+    ],
+    "doctorsEyebrow": "Certificări ale Medicilor",
+    "doctorsTitle": "Chirurgi Certificați Individual",
+    "doctorsDesc": "Dincolo de acreditarea instituțională, fiecare chirurg principal deține certificare personală de board și afiliere la asociații în specialitatea sa.",
+    "ctaTitle": "Aveți o Întrebare despre Acreditările Noastre?",
+    "ctaDesc": "Echipa noastră poate furniza documente de certificare detaliate la cerere.",
+    "ctaPrimary": "Contactați-ne",
+    "ctaSecondary": "Discutați pe WhatsApp"
+  },
+  "contact": {
+    "badge": "Suntem Aici Să Vă Ajutăm",
+    "title": "Să Vă Planificăm Împreună Călătoria de Sănătate",
+    "desc": "Partajați câteva detalii, iar un coordonator de pacienți vă va răspunde în 24 de ore cu un plan personalizat, fără obligații.",
+    "metrics": [
+      { "value": "< 24h", "label": "Timp Mediu de Răspuns" },
+      { "value": "100%", "label": "Confidențial & Securizat" },
+      { "value": "0", "label": "Obligația de a Continua" }
+    ],
+    "formTitle": "Trimiteți-ne un Mesaj",
+    "formDesc": "Completați formularul, iar echipa noastră vă va contacta în scurt timp.",
+    "nameLabel": "Nume Complet",
+    "namePlaceholder": "Numele dumneavoastră complet",
+    "emailLabel": "Email",
+    "emailPlaceholder": "dumneavoastra@example.com",
+    "phoneLabel": "Telefon / WhatsApp",
+    "phonePlaceholder": "+1 555 123 4567",
+    "treatmentLabel": "Tratament de Interes",
+    "treatmentPlaceholder": "Selectați o zonă de tratament",
+    "treatmentOptions": [
+      { "value": "hair", "label": "Transplant și Restaurare Păr" },
+      { "value": "plastic", "label": "Chirurgie Estetică și Plastică" },
+      { "value": "dental", "label": "Dentare & Hollywood Smile" },
+      { "value": "bariatric", "label": "Chirurgie a Obezității și Metabolică" },
+      { "value": "eye", "label": "Tratamente Oculare și Laser" },
+      { "value": "other", "label": "Altceva / Întrebare Generală" }
+    ],
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Spuneți-ne despre istoricul dumneavoastră medical, obiective sau orice întrebări aveți...",
+    "submitButton": "Trimiteți Mesajul",
+    "successTitle": "Vă Mulțumim!",
+    "successDesc": "Mesajul dumneavoastră a fost primit. Un coordonator de pacienți vă va contacta în 24 de ore.",
+    "infoTitle": "Contact Direct",
+    "infoDesc": "Preferați să vorbiți direct? Contactați-ne prin orice canal de mai jos.",
+    "phonePanelLabel": "Telefon",
+    "whatsappPanelLabel": "WhatsApp",
+    "emailPanelLabel": "Email",
+    "addressPanelLabel": "Adresa Birou",
+    "hoursLabel": "Ore de Suport",
+    "hoursValue": "24/7 — Birou pentru Pacienți Internaționali",
+    "whatsappCta": "Discutați Acum pe WhatsApp"
+  },
+  "languages": {
+    "en": "English",
+    "ru": "Русский",
+    "ka": "ქართული",
+    "tr": "Türkçe",
+    "az": "Azərbaycanca",
+    "ar": "العربية",
+    "ro": "Română"
+  }
+}
