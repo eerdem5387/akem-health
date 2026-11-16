@@ -1,18 +1,20 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion/Reveal";
 import { Icon } from "@/components/ui/Icon";
 import { Link } from "@/i18n/navigation";
+import { accreditationPartners } from "@/lib/home";
 import { hospitalsMeta } from "@/lib/hospitals";
 import { site } from "@/lib/site";
 
-type Accreditation = { icon: string; label: string };
+type Partner = { id: string; label: string };
 
 export default async function HospitalsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("hospitals");
   const tHome = await getTranslations("home");
-  const accreditations = tHome.raw("accreditations") as Accreditation[];
+  const accreditationLabels = tHome.raw("accreditationSection.partners") as Partner[];
 
   return (
     <div className="flex w-full flex-col">
@@ -35,13 +37,25 @@ export default async function HospitalsPage({ params }: { params: Promise<{ loca
       <section className="w-full bg-surface-container-lowest py-space-lg shadow-sm">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-space-lg px-6 lg:px-12">
           <p className="text-headline-sm font-bold text-primary">{t("accreditationTitle")}</p>
-          <div className="flex flex-wrap items-center gap-6 lg:gap-8">
-            {accreditations.map((a) => (
-              <div key={a.label} className="flex items-center gap-2 rounded-full bg-surface-container px-3 py-1.5">
-                <Icon name={a.icon} className="text-lg text-secondary" />
-                <span className="text-label-md font-semibold text-primary">{a.label}</span>
-              </div>
-            ))}
+          <div className="flex flex-wrap items-center gap-4">
+            {accreditationPartners.map((partner) => {
+              const label = accreditationLabels.find((p) => p.id === partner.id)?.label ?? partner.id;
+              return (
+                <div
+                  key={partner.id}
+                  className="flex h-14 w-28 items-center justify-center rounded-lg bg-surface-container-low p-2"
+                >
+                  <Image
+                    alt={label}
+                    className="h-full max-h-10 w-full rounded object-contain"
+                    height={40}
+                    width={112}
+                    src={partner.image}
+                    unoptimized
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
