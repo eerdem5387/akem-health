@@ -93,56 +93,79 @@
     },
     "metrics": [
       {
-        "value": "18.400+",
-        "label": "Məmnun Beynəlxalq Xəstə"
-      },
-      {
-        "value": "52 Ölkə",
-        "label": "Qlobal Seçim"
-      },
-      {
-        "value": "99.3%",
-        "label": "Klinik Uğur Göstəricisi"
-      },
-      {
-        "value": "4.9",
-        "label": "Müstəqil Rəy Platformaları"
-      }
-    ],
-    "accreditationBanner": {
-      "title": "Beynəlxalq Etibar Standartları",
-      "desc": "Rəsmi Səhiyyə Nazirliyi icazəsi ilə yoxlanılan və qlobal sertifikatlara malik infrastruktur."
-    },
-    "accreditations": [
-      {
-        "icon": "shield",
-        "label": "JCI Akkreditasiyası"
-      },
-      {
-        "icon": "verified_user",
-        "label": "ISO 9001:2015"
-      },
-      {
-        "icon": "health_and_safety",
-        "label": "Səhiyyə Nazirliyi Lisenziyalı"
-      },
-      {
         "icon": "flight_takeoff",
-        "label": "Turizm Şurası A Qrupu"
+        "label": "Ölkənizdən Müalicəyə Transfer"
       },
       {
-        "icon": "cardiology",
-        "label": "ISAPS Üzvü Cərrahlar"
+        "icon": "hotel",
+        "label": "Müalicədən Sonra Qonaqlıq İmkanları"
+      },
+      {
+        "icon": "flight_land",
+        "label": "Müalicədən Sonra Evinizə Transfer"
+      },
+      {
+        "icon": "monitor_heart",
+        "label": "Nəzarət və İzləmə Xidmətləri"
       }
     ],
-    "getawaySection": {
-      "eyebrow": "Səyahətə Dəyər Bir Müalicə",
-      "title": "Müalicənizi Tətilə Çevirin",
-      "desc": "Pulsuz VIP hava limanı transferi, 5 ulduzlu yerləşmə və dünya standartlarında mütəxəssislərlə müalicəniz, qorxulacaq bir şey deyil, səyahətinizin zövqlü bir hissəsinə çevrilir. Sağalarkən, yanınızdakı xüsusi koordinatorunuzla İstanbulu öz sürətinizdə kəşf edin.",
+    "serviceBranchSection": {
+      "eyebrow": "Xidmət Göstərdiyimiz Sahələr",
+      "title": "Tibbi Müalicələr",
+      "desc": "Tərəfdaş xəstəxana və klinikalarımızda diaqnozdan müalicəyə, əməliyyatdan baxıma qədər bütün prosesi tək bir çətir altında idarə edirik.",
+      "stages": [
+        "Diaqnoz",
+        "Müalicə",
+        "Ağır Dərman Müalicələri",
+        "Əməliyyat",
+        "Baxım"
+      ],
+      "branches": [
+        { "icon": "face_retouching_natural", "label": "Estetik Cərrahiyyə" },
+        { "icon": "dentistry", "label": "Diş Müalicələri" },
+        { "icon": "cardiology", "label": "Kardiologiya" },
+        { "icon": "oncology", "label": "Onkologiya" },
+        { "icon": "orthopedics", "label": "Ortopediya" },
+        { "icon": "urology", "label": "Urologiya" },
+        { "icon": "gynecology", "label": "Qadın Xəstəlikləri" },
+        { "icon": "biotech", "label": "İmmunologiya" },
+        { "icon": "stethoscope", "label": "Daxili Xəstəliklər" },
+        { "icon": "monitor_heart", "label": "Reanimasiya" },
+        { "icon": "back_hand", "label": "Əl Cərrahiyyəsi" },
+        { "icon": "monitor_weight", "label": "Piylənmə (Bariatrik)" }
+      ]
+    },
+    "accreditationSection": {
+      "eyebrow": "Akkreditasiya və Tərəfdaşlar",
+      "title": "Rəsmi Qurumlarla Əməkdaşlıq Edirik",
+      "desc": "Sağlamlıq turizmi fəaliyyətimiz Türkiyənin rəsmi sağlamlıq turizmi ekosistemini idarə edən qurumlarla uyğun şəkildə aparılır.",
+      "partners": [
+        {
+          "id": "healthturkiye",
+          "label": "HealthTürkiye"
+        },
+        {
+          "id": "ushas",
+          "label": "USHAŞ"
+        },
+        {
+          "id": "saglikbakanligi",
+          "label": "Türkiyə Respublikasının Səhiyyə Nazirliyi"
+        },
+        {
+          "id": "tursab",
+          "label": "TÜRSAB"
+        }
+      ]
+    },
+    "remoteConsultSection": {
+      "eyebrow": "Uzaqdan Konsultasiya",
+      "title": "Evdən Çıxmadan İlkin Qiymətləndirmənizi Alın",
+      "desc": "Şəxsi və sağlamlıq məlumatlarınızı paylaşın, mütəxəssis həkim komandamız müraciətinizi araşdıraraq sizə uyğun tövsiyə hazırlasın.",
       "checklist": [
-        "Pulsuz VIP Hava Limanı Transferi",
-        "5 Ulduzlu Otel Yerləşməsi",
-        "Dünya Standartlarında Müalicə Seçimləri"
+        "Tamamilə Pulsuz İlkin Qiymətləndirmə",
+        "Mütəxəssis Həkimlər Tərəfindən Baxış",
+        "15 Dəqiqə Ərzində Cavab"
       ]
     },
     "servicesSection": {
@@ -478,10 +501,10 @@
     }
   },
   "heroVideo": {
-    "badge": "Beynəlxalq Akkreditə Olunmuş Səhiyyə Şəbəkəsi",
-    "title": "Dünya Standartlarında Səhiyyə Xidməti,",
-    "titleHighlight": "Qüsursuz Səyahət Təcrübəsi",
-    "desc": "JCI akkreditasiyalı A+ xəstəxanalar, öncül professor cərrahlar, xüsusi VIP transfer və 5 ulduzlu otel yerləşməsi ilə Qərbi Avropa standartlarında səhiyyə xidmətində 70%-ə qədər xərc üstünlüyü.",
+    "badge": "Rəsmi Dövlət və Özəl Səhiyyə Müəssisələrinin Səlahiyyətli Agentliyi",
+    "title": "AkemHealth",
+    "titleHighlight": "Beynəlxalq Sağlamlıq Turizmi və Xidmətləri",
+    "desc": "Türkiyənin hər şəhərində şəhər xəstəxanaları, dövlət xəstəxanaları, özəl xəstəxanalar, özəl kosmetik və estetik klinikalar və sağlam həyat tərzi mütəxəssislərindən ibarət geniş bir şəbəkə ilə xidmət göstəririk.",
     "scrollHint": "Kəşf etmək üçün sürüşdürün"
   },
   "heroQuoteForm": {
@@ -528,6 +551,48 @@
     "submitButton": "Pulsuz Müalicə Planı & Qiymət İstə",
     "sslLabel": "256-bit SSL Məxfilik",
     "responseLabel": "15 Dəqiqədə Geri Dönüş"
+  },
+  "remoteConsultForm": {
+    "badge": "Sağlamlıq Sorğu Formu",
+    "title": "Pulsuz İlkin Qiymətləndirmənizi Tələb Edin",
+    "desc": "Aşağıdakı məlumatları paylaşın, mütəxəssis həkim komandamız 15 dəqiqə ərzində sizinlə əlaqə saxlasın.",
+    "nameLabel": "Ad və Soyad",
+    "namePlaceholder": "məs. David Miller",
+    "ageLabel": "Yaş",
+    "agePlaceholder": "məs. 34",
+    "genderLabel": "Cins",
+    "genderOptions": [
+      {
+        "value": "female",
+        "label": "Qadın"
+      },
+      {
+        "value": "male",
+        "label": "Kişi"
+      },
+      {
+        "value": "preferNot",
+        "label": "Bildirmək İstəmirəm"
+      }
+    ],
+    "phoneLabel": "Telefon / WhatsApp",
+    "phonePlaceholder": "+44 7911 123456",
+    "emailLabel": "E-poçt",
+    "emailPlaceholder": "david@example.com",
+    "branchLabel": "Maraqlandığınız Sahə",
+    "branchPlaceholder": "Seçin",
+    "healthInfoLabel": "Sağlamlıq Vəziyyətinizi Qısaca Təsvir Edin",
+    "healthInfoPlaceholder": "Şikayətiniz, əvvəlki diaqnozunuz və ya maraqlandığınız müalicə haqqında qısa məlumat verin.",
+    "uploadLabel": "Hesabat / Şəkil Yükləyin (İstəyə Bağlı)",
+    "uploadHint": "PNG, JPG, PDF (Maks. 15MB)",
+    "uploadButton": "Fayl Seçin",
+    "submitButton": "İlkin Qiymətləndirməmi Al",
+    "successTitle": "Müraciətiniz Qəbul Edildi!",
+    "successDesc": "Mütəxəssis həkim komandamız məlumatlarınızı araşdırır və 15 dəqiqə ərzində sizə uyğun ilkin qiymətləndirmə ilə geri dönəcək.",
+    "branchResultLabel": "Seçilmiş Sahə",
+    "freeLabel": "Tamamilə Pulsuz",
+    "reviewLabel": "Mütəxəssis Həkim Baxışı",
+    "responseLabel": "15 Dəqiqədə Cavab"
   },
   "treatmentsPage": {
     "badge": "JCI & Səhiyyə Nazirliyi Standartında Xidmət",

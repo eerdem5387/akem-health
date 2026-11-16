@@ -1,16 +1,17 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { HeroVideoBanner } from "@/components/home/HeroVideoBanner";
+import { RemoteConsultationForm } from "@/components/home/RemoteConsultationForm";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion/Reveal";
 import { FaqAccordion } from "@/components/ui/FaqAccordion";
 import { Icon } from "@/components/ui/Icon";
-import { homeDoctorsMeta, homePatientsMeta, homeTreatmentsMeta, hospitalImage } from "@/lib/home";
+import { accreditationPartners, homeDoctorsMeta, homePatientsMeta, homeTreatmentsMeta, hospitalImage } from "@/lib/home";
 import { Link } from "@/i18n/navigation";
 import { site } from "@/lib/site";
-import { vipImages } from "@/lib/vip";
 
 type Step = { icon: string; title: string; desc: string; footer: string; footerIcon: string };
-type Accreditation = { icon: string; label: string };
+type Branch = { icon: string; label: string };
+type Partner = { id: string; label: string };
 type CostRow = { name: string; uk: string; price: string };
 type FaqItem = { question: string; answer: string };
 type ServiceItem = { icon: string; title: string; desc: string };
@@ -21,12 +22,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const t = await getTranslations("home");
 
   const steps = t.raw("steps") as Step[];
-  const accreditations = t.raw("accreditations") as Accreditation[];
+  const serviceStages = t.raw("serviceBranchSection.stages") as string[];
+  const serviceBranches = t.raw("serviceBranchSection.branches") as Branch[];
   const costRows = t.raw("costRows") as CostRow[];
   const faqs = t.raw("faqs") as FaqItem[];
-  const getawayChecklist = t.raw("getawaySection.checklist") as string[];
+  const accreditationLabels = t.raw("accreditationSection.partners") as Partner[];
+  const remoteConsultChecklist = t.raw("remoteConsultSection.checklist") as string[];
   const serviceItems = t.raw("servicesSection.items") as ServiceItem[];
-  const dentalImage = homeTreatmentsMeta.find((p) => p.id === "dental")!.image;
 
   return (
     <div className="flex w-full flex-col">
@@ -50,44 +52,97 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* Accreditations - desktop */}
-      <section className="hidden w-full bg-surface-container-lowest py-space-lg shadow-sm lg:block">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-space-lg px-6 lg:px-12">
-          <div className="flex items-center gap-3">
-            <Icon name="verified" className="text-3xl text-secondary" />
-            <div>
-              <p className="text-headline-sm font-bold text-primary">{t("accreditationBanner.title")}</p>
-              <p className="text-body-sm text-on-surface-variant">{t("accreditationBanner.desc")}</p>
-            </div>
-          </div>
-          <div className="flex flex-wrap items-center gap-6 lg:gap-8">
-            {accreditations.map((a) => (
-              <div
-                key={a.label}
-                className="flex items-center gap-2 rounded-full bg-surface-container px-3 py-1.5"
-              >
-                <Icon name={a.icon} className="text-lg text-secondary" />
-                <span className="text-label-md font-semibold text-primary">{a.label}</span>
+      {/* Service branches */}
+      <section className="w-full bg-surface-container-lowest py-space-xl lg:py-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-12">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <span className="text-label-badge font-bold tracking-wider text-secondary uppercase">
+              {t("serviceBranchSection.eyebrow")}
+            </span>
+            <h2 className="mt-1 text-headline-lg-mobile font-bold text-primary lg:text-headline-lg">
+              {t("serviceBranchSection.title")}
+            </h2>
+            <p className="mt-3 text-body-md text-on-surface-variant">{t("serviceBranchSection.desc")}</p>
+          </Reveal>
+
+          <Reveal className="mt-space-md flex flex-wrap items-center justify-center gap-2" delay={0.05}>
+            {serviceStages.map((stage, i) => (
+              <div key={stage} className="flex items-center gap-2">
+                <span className="rounded-full bg-surface-container px-3 py-1 text-label-md font-semibold text-primary">
+                  {stage}
+                </span>
+                {i < serviceStages.length - 1 && (
+                  <Icon name="arrow_forward" className="rtl-flip text-base text-outline" />
+                )}
               </div>
             ))}
-          </div>
+          </Reveal>
+
+          <StaggerGroup className="mt-space-lg grid grid-cols-3 gap-3 sm:grid-cols-4 lg:grid-cols-6 lg:gap-4">
+            {serviceBranches.map((branch) => (
+              <StaggerItem key={branch.label}>
+                <div className="flex h-full flex-col items-center gap-2.5 rounded-xl bg-surface-container-lowest p-4 text-center shadow-sm ring-1 ring-outline-variant/40 transition-transform hover:-translate-y-1 hover:shadow-md">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary/15 text-secondary">
+                    <Icon name={branch.icon} className="text-2xl" />
+                  </span>
+                  <span className="text-label-md leading-snug font-semibold text-on-surface">{branch.label}</span>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
         </div>
       </section>
 
-      {/* Treatment-as-getaway */}
+      {/* Accreditation reference banner */}
+      <section className="w-full bg-surface py-space-lg lg:py-20">
+        <div className="mx-auto max-w-7xl px-6 lg:px-12">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <span className="text-label-badge font-bold tracking-wider text-secondary uppercase">
+              {t("accreditationSection.eyebrow")}
+            </span>
+            <h2 className="mt-1 text-headline-lg-mobile font-bold text-primary lg:text-headline-lg">
+              {t("accreditationSection.title")}
+            </h2>
+            <p className="mt-3 text-body-md text-on-surface-variant">{t("accreditationSection.desc")}</p>
+          </Reveal>
+
+          <Reveal className="mt-space-lg grid grid-cols-2 gap-4 sm:grid-cols-4" delay={0.05}>
+            {accreditationPartners.map((partner) => {
+              const label = accreditationLabels.find((p) => p.id === partner.id)?.label ?? partner.id;
+              return (
+                <div
+                  key={partner.id}
+                  className="flex h-40 items-center justify-center rounded-xl bg-surface-container-low p-5"
+                >
+                  <Image
+                    alt={label}
+                    className="h-full max-h-32 w-full rounded-lg object-contain"
+                    height={128}
+                    width={240}
+                    src={partner.image}
+                    unoptimized
+                  />
+                </div>
+              );
+            })}
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Remote consultation */}
       <section className="bg-surface-container-low py-space-xl lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-12">
           <div className="grid grid-cols-1 items-center gap-space-xl lg:grid-cols-12">
-            <Reveal className="lg:col-span-6">
+            <Reveal className="lg:col-span-5">
               <span className="text-label-badge font-bold tracking-wider text-secondary uppercase">
-                {t("getawaySection.eyebrow")}
+                {t("remoteConsultSection.eyebrow")}
               </span>
               <h2 className="mt-1 text-headline-lg-mobile font-bold text-primary lg:text-headline-lg">
-                {t("getawaySection.title")}
+                {t("remoteConsultSection.title")}
               </h2>
-              <p className="mt-3 text-body-md text-on-surface-variant">{t("getawaySection.desc")}</p>
+              <p className="mt-3 text-body-md text-on-surface-variant">{t("remoteConsultSection.desc")}</p>
               <ul className="mt-6 flex flex-col gap-space-sm">
-                {getawayChecklist.map((item) => (
+                {remoteConsultChecklist.map((item) => (
                   <li key={item} className="flex items-center gap-space-sm">
                     <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-secondary/15 text-secondary">
                       <Icon name="check" className="text-base" />
@@ -97,41 +152,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 ))}
               </ul>
             </Reveal>
-            <Reveal className="lg:col-span-6" delay={0.1}>
-              <div className="grid grid-cols-5 gap-3 sm:gap-4">
-                <div className="relative col-span-2 h-72 overflow-hidden rounded-2xl shadow-lg sm:h-80">
-                  <Image
-                    alt={t("getawaySection.title")}
-                    className="object-cover"
-                    fill
-                    sizes="(max-width:1024px) 40vw, 240px"
-                    src={dentalImage}
-                    unoptimized
-                  />
-                </div>
-                <div className="col-span-3 flex flex-col gap-3 sm:gap-4">
-                  <div className="relative h-36 overflow-hidden rounded-2xl shadow-lg sm:h-[9.5rem]">
-                    <Image
-                      alt=""
-                      className="object-cover"
-                      fill
-                      sizes="(max-width:1024px) 60vw, 360px"
-                      src={hospitalImage}
-                      unoptimized
-                    />
-                  </div>
-                  <div className="relative h-32 overflow-hidden rounded-2xl shadow-lg sm:h-36">
-                    <Image
-                      alt=""
-                      className="object-cover"
-                      fill
-                      sizes="(max-width:1024px) 60vw, 360px"
-                      src={vipImages.spa}
-                      unoptimized
-                    />
-                  </div>
-                </div>
-              </div>
+            <Reveal className="lg:col-span-7" delay={0.1}>
+              <RemoteConsultationForm branchOptions={serviceBranches.map((b) => b.label)} />
             </Reveal>
           </div>
         </div>

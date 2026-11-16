@@ -27,7 +27,7 @@ export function HeroVideoBanner() {
   const tHome = useTranslations("home");
   const [videoFailed, setVideoFailed] = useState(false);
 
-  const metrics = tHome.raw("metrics") as { value: string; label: string }[];
+  const metrics = tHome.raw("metrics") as { icon: string; label: string }[];
 
   return (
     <section className="relative isolate min-h-[640px] w-full overflow-hidden lg:min-h-[94vh]">
@@ -85,10 +85,10 @@ export function HeroVideoBanner() {
             {metrics.map((m) => (
               <div
                 key={m.label}
-                className="flex flex-col rounded-lg bg-surface-container-lowest/10 p-3 backdrop-blur-md"
+                className="flex flex-col gap-1.5 rounded-lg bg-surface-container-lowest/10 p-3 backdrop-blur-md"
               >
-                <span className="text-headline-md font-bold text-on-primary">{m.value}</span>
-                <span className="text-label-md text-surface-container-high">{m.label}</span>
+                <Icon name={m.icon} className="text-2xl text-secondary-fixed" />
+                <span className="text-label-md leading-snug text-surface-container-high">{m.label}</span>
               </div>
             ))}
           </motion.div>

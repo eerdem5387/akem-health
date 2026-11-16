@@ -73,6 +73,13 @@ export const hospitalImage =
 export const mobileHeroImage =
   "https://lh3.googleusercontent.com/aida-public/AB6AXuBzdX3FE0e0L3nYcgdqff4umfXwDlq_8x_eHHgsJ0K18-bUe9AS6l5EFWrqSm1GBh7QX4taxjCrqC3bTYmw3rycp51WcN-bLCJiIufHi32V2YHvB_hvCpgYFuNF4YTcTHhjot-khAziwmHlJmUVMhvkRrVwanS0XXPL2jFFDdvY2ymhfFCcYJbxzg2hsvwcA4JKT8zeUVyLV3ZazL3jkJlwhf6rdU9soZLFHMsHdEPT";
 
+export const accreditationPartners = [
+  { id: "healthturkiye", image: "/images/accreditations/health-turkiye.svg" },
+  { id: "ushas", image: "/images/accreditations/ushas.svg" },
+  { id: "saglikbakanligi", image: "/images/accreditations/saglik-bakanligi.svg" },
+  { id: "tursab", image: "/images/accreditations/tursab.svg" },
+] as const;
+
 export const patientAvatars = [
   "https://lh3.googleusercontent.com/aida-public/AB6AXuBlk67P6qflZkGUJvIs_UgYzFpx9rf4l39scFWR1eUmX2XTLCAwYJ0MvVV-xZCjnW-nE_WbyZ3PthIuw66HtHa5WWjLba_EFenG7jl1rsNH2Z2y-C3VwA3OBAlzOGRX45qCCY8WGkxelE_LFfE1oF3IE-reHlWrpGOMXuIPRL3UqwQvr_1tpl_1KC0Svavd0y7v8cEpQYZJrtmvG22jnYklpbenK2qiFcx5cT-4fgIW",
   "https://lh3.googleusercontent.com/aida-public/AB6AXuCC26uAEbiXi-7il0MQb814p0sq7_JieZAH8ptmU2oEEwB586xyLvkDIKbGiZ_ayAd66SMisJMo53z5CO3W0RLImL-_cN8DxA3K1e2ArWlIklKU2zVKnJdWTv4YjkU6fZN5WqmdW7HH2S24TieOF44dz-8ff-uqNk52Ka6HI5WmkttmIWH9nPmq23VIvz8MJBusq5xW19T63n_nfZ2FDvlXmfkrCFMOvwH-fN9g7GiH",

@@ -93,56 +93,79 @@
     },
     "metrics": [
       {
-        "value": "18.400+",
-        "label": "Memnun Uluslararası Hasta"
-      },
-      {
-        "value": "52 Ülke",
-        "label": "Global Tercih"
-      },
-      {
-        "value": "%99.3",
-        "label": "Klinik Başarı Skoru"
-      },
-      {
-        "value": "4.9",
-        "label": "Bağımsız Değerlendirme Platformları"
-      }
-    ],
-    "accreditationBanner": {
-      "title": "Uluslararası Güven Standartları",
-      "desc": "Resmi Sağlık Bakanlığı yetkisiyle denetlenen ve küresel sertifikalara sahip altyapı."
-    },
-    "accreditations": [
-      {
-        "icon": "shield",
-        "label": "JCI Akreditasyonu"
-      },
-      {
-        "icon": "verified_user",
-        "label": "ISO 9001:2015"
-      },
-      {
-        "icon": "health_and_safety",
-        "label": "Sağlık Bakanlığı Lisanslı"
-      },
-      {
         "icon": "flight_takeoff",
-        "label": "Turizm Kurulu A Grubu"
+        "label": "Ülkenizden Tedaviye Transfer"
       },
       {
-        "icon": "cardiology",
-        "label": "ISAPS Üyesi Cerrahlar"
+        "icon": "hotel",
+        "label": "Tedavi Sonrası Misafirlik İmkanları"
+      },
+      {
+        "icon": "flight_land",
+        "label": "Tedavi Sonrası Evinize Transfer"
+      },
+      {
+        "icon": "monitor_heart",
+        "label": "Kontrol ve Takip Hizmetleri"
       }
     ],
-    "getawaySection": {
-      "eyebrow": "Seyahate Değer Bir Tedavi",
-      "title": "Tedavinizi Bir Tatile Dönüştürün",
-      "desc": "Ücretsiz VIP havalimanı transferi, 5 yıldızlı konaklama ve dünya standartlarında uzmanlarla tedaviniz, korkulan bir şey değil seyahatinizin keyifli bir parçası haline gelir. İyileşirken, yanınızdaki özel koordinatörünüzle İstanbul'u kendi hızınızda keşfedin.",
+    "serviceBranchSection": {
+      "eyebrow": "Hizmet Verdiğimiz Alanlar",
+      "title": "Medikal Tedaviler",
+      "desc": "Anlaşmalı hastane ve kliniklerimizde teşhisten tedaviye, operasyondan bakıma kadar tüm süreci tek çatı altında yönetiyoruz.",
+      "stages": [
+        "Teşhis",
+        "Tedavi",
+        "Ağır İlaçlı Tedaviler",
+        "Operasyon",
+        "Bakım"
+      ],
+      "branches": [
+        { "icon": "face_retouching_natural", "label": "Estetik Cerrahi" },
+        { "icon": "dentistry", "label": "Diş Tedavileri" },
+        { "icon": "cardiology", "label": "Kardiyoloji" },
+        { "icon": "oncology", "label": "Onkoloji" },
+        { "icon": "orthopedics", "label": "Ortopedi" },
+        { "icon": "urology", "label": "Üroloji" },
+        { "icon": "gynecology", "label": "Kadın Hastalıkları" },
+        { "icon": "biotech", "label": "İmmünoloji" },
+        { "icon": "stethoscope", "label": "Dahiliye" },
+        { "icon": "monitor_heart", "label": "Yoğun Bakım" },
+        { "icon": "back_hand", "label": "El Cerrahisi" },
+        { "icon": "monitor_weight", "label": "Obezite" }
+      ]
+    },
+    "accreditationSection": {
+      "eyebrow": "Akreditasyon & Referanslarımız",
+      "title": "Resmi Kurum ve Kuruluşlarla İş Birliği İçindeyiz",
+      "desc": "Sağlık turizmi süreçlerimiz, Türkiye'nin resmi sağlık turizmi ekosistemini yöneten kurum ve kuruluşlarla uyumlu şekilde yürütülür.",
+      "partners": [
+        {
+          "id": "healthturkiye",
+          "label": "HealthTürkiye"
+        },
+        {
+          "id": "ushas",
+          "label": "USHAŞ"
+        },
+        {
+          "id": "saglikbakanligi",
+          "label": "T.C. Sağlık Bakanlığı"
+        },
+        {
+          "id": "tursab",
+          "label": "TÜRSAB"
+        }
+      ]
+    },
+    "remoteConsultSection": {
+      "eyebrow": "Uzaktan Konsültasyon",
+      "title": "Evinizden Çıkmadan Ön Değerlendirmenizi Alın",
+      "desc": "Kişisel ve sağlık bilgilerinizi paylaşın, uzman hekim ekibimiz talebinizi inceleyerek size özel bir yönlendirme hazırlasın.",
       "checklist": [
-        "Ücretsiz VIP Havalimanı Transferi",
-        "5 Yıldızlı Otel Konaklaması",
-        "Dünya Standartlarında Tedavi Seçenekleri"
+        "Tamamen Ücretsiz Ön Değerlendirme",
+        "Uzman Hekim Ekibi İncelemesi",
+        "15 Dakika İçinde Geri Dönüş"
       ]
     },
     "servicesSection": {
@@ -478,10 +501,10 @@
     }
   },
   "heroVideo": {
-    "badge": "Uluslararası Akredite Sağlık Ağı",
-    "title": "Dünya Standartlarında Sağlık Hizmeti,",
-    "titleHighlight": "Kusursuz Seyahat Deneyimi",
-    "desc": "JCI akreditasyonlu A+ hastaneler, alanında öncü profesör cerrahlar, özel VIP transfer ve 5 yıldızlı otel konaklamasıyla Avrupa standartlarında sağlık hizmetinde %70'e varan maliyet avantajı.",
+    "badge": "Resmi Kamu ve Özel Sağlık Kuruluşları Yetkili Acentesi",
+    "title": "AkemHealth",
+    "titleHighlight": "Uluslararası Sağlık Turizmi ve Hizmetleri",
+    "desc": "Türkiye'nin her şehrindeki şehir hastaneleri, devlet hastaneleri, özel hastaneler, özel kozmetik ve estetik klinikleri ile sağlıklı yaşam uzmanlarından oluşan geniş bir ağla hizmet veriyoruz.",
     "scrollHint": "Keşfetmek için kaydırın"
   },
   "heroQuoteForm": {
@@ -528,6 +551,48 @@
     "submitButton": "Ücretsiz Tedavi Planı & Fiyat İste",
     "sslLabel": "256-bit SSL Gizlilik",
     "responseLabel": "15 Dakikada Geri Dönüş"
+  },
+  "remoteConsultForm": {
+    "badge": "Sağlık Danışma Formu",
+    "title": "Ücretsiz Ön Değerlendirme Talebi",
+    "desc": "Aşağıdaki bilgileri paylaşın, uzman hekim ekibimiz 15 dakika içinde sizinle iletişime geçsin.",
+    "nameLabel": "Adınız & Soyadınız",
+    "namePlaceholder": "Örn: David Miller",
+    "ageLabel": "Yaşınız",
+    "agePlaceholder": "Örn: 34",
+    "genderLabel": "Cinsiyet",
+    "genderOptions": [
+      {
+        "value": "female",
+        "label": "Kadın"
+      },
+      {
+        "value": "male",
+        "label": "Erkek"
+      },
+      {
+        "value": "preferNot",
+        "label": "Belirtmek İstemiyorum"
+      }
+    ],
+    "phoneLabel": "Telefon / WhatsApp",
+    "phonePlaceholder": "+44 7911 123456",
+    "emailLabel": "E-Posta",
+    "emailPlaceholder": "david@example.com",
+    "branchLabel": "İlgilendiğiniz Branş",
+    "branchPlaceholder": "Seçiniz",
+    "healthInfoLabel": "Sağlık Durumunuzu Kısaca Anlatın",
+    "healthInfoPlaceholder": "Şikayetiniz, varsa önceki teşhisiniz veya ilgilendiğiniz tedavi hakkında kısa bilgi verin.",
+    "uploadLabel": "Rapor / Görsel Yükle (Opsiyonel)",
+    "uploadHint": "PNG, JPG, PDF (Maks 15MB)",
+    "uploadButton": "Dosya Seç",
+    "submitButton": "Ön Değerlendirmemi Al",
+    "successTitle": "Talebiniz Alındı!",
+    "successDesc": "Uzman hekim ekibimiz bilgilerinizi inceliyor ve size özel ön değerlendirmenizle birlikte 15 dakika içinde dönüş yapacak.",
+    "branchResultLabel": "Seçilen Branş",
+    "freeLabel": "Tamamen Ücretsiz",
+    "reviewLabel": "Uzman Hekim İncelemesi",
+    "responseLabel": "15 Dakikada Yanıt"
   },
   "treatmentsPage": {
     "badge": "JCI & Sağlık Bakanlığı Standartlarında Hizmet",

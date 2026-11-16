@@ -93,56 +93,79 @@
     },
     "metrics": [
       {
-        "value": "18,400+",
-        "label": "Happy International Patients"
-      },
-      {
-        "value": "52 Countries",
-        "label": "Global Preference"
-      },
-      {
-        "value": "99.3%",
-        "label": "Clinical Success Score"
-      },
-      {
-        "value": "4.9",
-        "label": "Independent Review Platforms"
-      }
-    ],
-    "accreditationBanner": {
-      "title": "International Trust Standards",
-      "desc": "Audited under official Ministry of Health authorization, with globally recognised certifications."
-    },
-    "accreditations": [
-      {
-        "icon": "shield",
-        "label": "JCI Accreditation"
-      },
-      {
-        "icon": "verified_user",
-        "label": "ISO 9001:2015"
-      },
-      {
-        "icon": "health_and_safety",
-        "label": "Ministry of Health Licensed"
-      },
-      {
         "icon": "flight_takeoff",
-        "label": "Tourism Board A-Grade"
+        "label": "Transfer from Your Country to Treatment"
       },
       {
-        "icon": "cardiology",
-        "label": "ISAPS Member Surgeons"
+        "icon": "hotel",
+        "label": "Post-Treatment Hospitality Options"
+      },
+      {
+        "icon": "flight_land",
+        "label": "Transfer Back Home After Treatment"
+      },
+      {
+        "icon": "monitor_heart",
+        "label": "Check-up & Follow-up Services"
       }
     ],
-    "getawaySection": {
-      "eyebrow": "A Treatment Worth Travelling For",
-      "title": "Turn Your Treatment Into a Getaway",
-      "desc": "Free VIP airport transfer, a 5-star stay and world-class specialists — your treatment becomes part of the trip, not the reason you dread it. While you recover, enjoy Istanbul at your own pace with a dedicated coordinator by your side.",
+    "serviceBranchSection": {
+      "eyebrow": "Areas We Serve",
+      "title": "Medical Treatments",
+      "desc": "Across our partner hospitals and clinics, we manage the full journey under one roof — from diagnosis to treatment, surgery and aftercare.",
+      "stages": [
+        "Diagnosis",
+        "Treatment",
+        "Intensive Medication",
+        "Surgery",
+        "Aftercare"
+      ],
+      "branches": [
+        { "icon": "face_retouching_natural", "label": "Aesthetic Surgery" },
+        { "icon": "dentistry", "label": "Dental Care" },
+        { "icon": "cardiology", "label": "Cardiology" },
+        { "icon": "oncology", "label": "Oncology" },
+        { "icon": "orthopedics", "label": "Orthopedics" },
+        { "icon": "urology", "label": "Urology" },
+        { "icon": "gynecology", "label": "Gynecology" },
+        { "icon": "biotech", "label": "Immunology" },
+        { "icon": "stethoscope", "label": "Internal Medicine" },
+        { "icon": "monitor_heart", "label": "Intensive Care" },
+        { "icon": "back_hand", "label": "Hand Surgery" },
+        { "icon": "monitor_weight", "label": "Obesity (Bariatric)" }
+      ]
+    },
+    "accreditationSection": {
+      "eyebrow": "Accreditation & References",
+      "title": "We Work in Partnership With Official Institutions",
+      "desc": "Our health tourism operations run in line with the institutions that govern Türkiye's official health tourism ecosystem.",
+      "partners": [
+        {
+          "id": "healthturkiye",
+          "label": "HealthTürkiye"
+        },
+        {
+          "id": "ushas",
+          "label": "USHAŞ"
+        },
+        {
+          "id": "saglikbakanligi",
+          "label": "Republic of Türkiye Ministry of Health"
+        },
+        {
+          "id": "tursab",
+          "label": "TÜRSAB"
+        }
+      ]
+    },
+    "remoteConsultSection": {
+      "eyebrow": "Remote Consultation",
+      "title": "Get Your Pre-Assessment Without Leaving Home",
+      "desc": "Share your personal and health details and our specialist medical team will review your request and prepare a tailored recommendation.",
       "checklist": [
-        "Free VIP Airport Transfer",
-        "5-Star Hotel Accommodation",
-        "World-Class Treatment Options"
+        "Completely Free Pre-Assessment",
+        "Reviewed by Specialist Physicians",
+        "Response Within 15 Minutes"
       ]
     },
     "servicesSection": {
@@ -478,10 +501,10 @@
     }
   },
   "heroVideo": {
-    "badge": "International Accredited Health Network",
-    "title": "World-Class Healthcare,",
-    "titleHighlight": "a Flawless Travel Experience",
-    "desc": "JCI-accredited A+ hospitals, leading professor surgeons, private VIP transfer and 5-star hotel accommodation — with up to 70% cost advantage over Western Europe.",
+    "badge": "Official Public and Private Healthcare Authorized Agency",
+    "title": "AkemHealth",
+    "titleHighlight": "International Health Tourism & Services",
+    "desc": "We work with a broad network across every city in Türkiye — city hospitals, state hospitals, private hospitals, private cosmetic and aesthetic clinics, and healthy-living specialists.",
     "scrollHint": "Scroll to explore"
   },
   "heroQuoteForm": {
@@ -527,6 +550,48 @@
     "uploadButton": "Choose File",
     "submitButton": "Request Free Treatment Plan & Quote",
     "sslLabel": "256-bit SSL Privacy",
+    "responseLabel": "15-Minute Response"
+  },
+  "remoteConsultForm": {
+    "badge": "Health Enquiry Form",
+    "title": "Request Your Free Pre-Assessment",
+    "desc": "Share the details below and our specialist medical team will get in touch within 15 minutes.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "e.g. David Miller",
+    "ageLabel": "Age",
+    "agePlaceholder": "e.g. 34",
+    "genderLabel": "Gender",
+    "genderOptions": [
+      {
+        "value": "female",
+        "label": "Female"
+      },
+      {
+        "value": "male",
+        "label": "Male"
+      },
+      {
+        "value": "preferNot",
+        "label": "Prefer Not to Say"
+      }
+    ],
+    "phoneLabel": "Phone / WhatsApp",
+    "phonePlaceholder": "+44 7911 123456",
+    "emailLabel": "Email",
+    "emailPlaceholder": "david@example.com",
+    "branchLabel": "Area of Interest",
+    "branchPlaceholder": "Select an option",
+    "healthInfoLabel": "Briefly Describe Your Health Condition",
+    "healthInfoPlaceholder": "Tell us about your complaint, any prior diagnosis, or the treatment you're interested in.",
+    "uploadLabel": "Upload Report / Photo (Optional)",
+    "uploadHint": "PNG, JPG, PDF (Max 15MB)",
+    "uploadButton": "Choose File",
+    "submitButton": "Get My Pre-Assessment",
+    "successTitle": "Your Request Has Been Received!",
+    "successDesc": "Our specialist medical team is reviewing your details and will get back to you with a tailored pre-assessment within 15 minutes.",
+    "branchResultLabel": "Selected Area",
+    "freeLabel": "Completely Free",
+    "reviewLabel": "Specialist Physician Review",
     "responseLabel": "15-Minute Response"
   },
   "treatmentsPage": {

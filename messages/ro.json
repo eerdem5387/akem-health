@@ -93,56 +93,79 @@
     },
     "metrics": [
       {
-        "value": "18.400+",
-        "label": "Pacienți Internaționali Mulțumiți"
-      },
-      {
-        "value": "52 de Țări",
-        "label": "Preferință Globală"
-      },
-      {
-        "value": "99.3%",
-        "label": "Scor Clinic de Succes"
-      },
-      {
-        "value": "4.9",
-        "label": "Platforme Independente de Recenzii"
-      }
-    ],
-    "accreditationBanner": {
-      "title": "Standarde Internaționale de Încredere",
-      "desc": "Auditat sub autorizația oficială a Ministerului Sănătății, cu certificări recunoscute global."
-    },
-    "accreditations": [
-      {
-        "icon": "shield",
-        "label": "Acreditare JCI"
-      },
-      {
-        "icon": "verified_user",
-        "label": "ISO 9001:2015"
-      },
-      {
-        "icon": "health_and_safety",
-        "label": "Licențiat de Ministerul Sănătății"
-      },
-      {
         "icon": "flight_takeoff",
-        "label": "Autoritatea de Turism Categoria A"
+        "label": "Transfer din Țara Dumneavoastră către Tratament"
       },
       {
-        "icon": "cardiology",
-        "label": "Chirurgi Membri ISAPS"
+        "icon": "hotel",
+        "label": "Opțiuni de Ospitalitate După Tratament"
+      },
+      {
+        "icon": "flight_land",
+        "label": "Transfer Acasă După Tratament"
+      },
+      {
+        "icon": "monitor_heart",
+        "label": "Servicii de Control și Monitorizare"
       }
     ],
-    "getawaySection": {
-      "eyebrow": "Un Tratament Pentru Care Merită Să Călătoriți",
-      "title": "Transformați Tratamentul Într-o Escapadă",
-      "desc": "Transfer VIP gratuit de la aeroport, o ședere de 5 stele și specialiști de talie mondială — tratamentul dumneavoastră devine o parte plăcută a călătoriei, nu un motiv de îngrijorare. În timp ce vă recuperați, bucurați-vă de Istanbul în ritmul propriu, alături de coordonatorul dumneavoastră dedicat.",
+    "serviceBranchSection": {
+      "eyebrow": "Domenii în care oferim servicii",
+      "title": "Tratamente Medicale",
+      "desc": "În spitalele și clinicile noastre partenere, gestionăm întregul parcurs sub un singur acoperiș — de la diagnostic la tratament, intervenție chirurgicală și îngrijire ulterioară.",
+      "stages": [
+        "Diagnostic",
+        "Tratament",
+        "Tratamente Medicamentoase Intensive",
+        "Operație",
+        "Îngrijire"
+      ],
+      "branches": [
+        { "icon": "face_retouching_natural", "label": "Chirurgie Estetică" },
+        { "icon": "dentistry", "label": "Tratamente Dentare" },
+        { "icon": "cardiology", "label": "Cardiologie" },
+        { "icon": "oncology", "label": "Oncologie" },
+        { "icon": "orthopedics", "label": "Ortopedie" },
+        { "icon": "urology", "label": "Urologie" },
+        { "icon": "gynecology", "label": "Ginecologie" },
+        { "icon": "biotech", "label": "Imunologie" },
+        { "icon": "stethoscope", "label": "Medicină Internă" },
+        { "icon": "monitor_heart", "label": "Terapie Intensivă" },
+        { "icon": "back_hand", "label": "Chirurgia Mâinii" },
+        { "icon": "monitor_weight", "label": "Obezitate (Bariatrică)" }
+      ]
+    },
+    "accreditationSection": {
+      "eyebrow": "Acreditare și Parteneri",
+      "title": "Colaborăm cu Instituții Oficiale",
+      "desc": "Activitatea noastră de turism medical se desfășoară în conformitate cu instituțiile care reglementează ecosistemul oficial de turism medical din Turcia.",
+      "partners": [
+        {
+          "id": "healthturkiye",
+          "label": "HealthTürkiye"
+        },
+        {
+          "id": "ushas",
+          "label": "USHAŞ"
+        },
+        {
+          "id": "saglikbakanligi",
+          "label": "Ministerul Sănătății al Republicii Turcia"
+        },
+        {
+          "id": "tursab",
+          "label": "TÜRSAB"
+        }
+      ]
+    },
+    "remoteConsultSection": {
+      "eyebrow": "Consultație la Distanță",
+      "title": "Obțineți Evaluarea Preliminară Fără a Ieși din Casă",
+      "desc": "Distribuiți datele personale și medicale, iar echipa noastră de medici specialiști vă va analiza cererea și vă va pregăti o recomandare personalizată.",
       "checklist": [
-        "Transfer VIP Gratuit de la Aeroport",
-        "Cazare la Hotel de 5 Stele",
-        "Opțiuni de Tratament de Talie Mondială"
+        "Evaluare Preliminară Complet Gratuită",
+        "Analizată de Medici Specialiști",
+        "Răspuns în 15 Minute"
       ]
     },
     "servicesSection": {
@@ -478,10 +501,10 @@
     }
   },
   "heroVideo": {
-    "badge": "Rețea Internațională de Sănătate Acreditată",
-    "title": "Îngrijire Medicală de Clasă Mondială,",
-    "titleHighlight": "O Experiență de Călătorie Impecabilă",
-    "desc": "Spitale A+ acreditate JCI, chirurgi profesori de top, transfer VIP privat și cazare în hoteluri de 5 stele — cu un avantaj de cost de până la 70% față de Europa de Vest.",
+    "badge": "Agenție Autorizată Oficial de Instituții de Sănătate Publice și Private",
+    "title": "AkemHealth",
+    "titleHighlight": "Turism Medical Internațional și Servicii",
+    "desc": "Lucrăm cu o rețea amplă în fiecare oraș din Turcia — spitale orășenești, spitale de stat, spitale private, clinici private de cosmetică și estetică, precum și specialiști în stil de viață sănătos.",
     "scrollHint": "Derulați pentru a explora"
   },
   "heroQuoteForm": {
@@ -527,6 +550,48 @@
     "uploadButton": "Alegeți Fișierul",
     "submitButton": "Solicitați Plan de Tratament Gratuit & Ofertă",
     "sslLabel": "Confidențialitate SSL pe 256-bit",
+    "responseLabel": "Răspuns în 15 Minute"
+  },
+  "remoteConsultForm": {
+    "badge": "Formular de Solicitare Medicală",
+    "title": "Solicitați Evaluarea Preliminară Gratuită",
+    "desc": "Distribuiți datele de mai jos, iar echipa noastră de medici specialiști vă va contacta în 15 minute.",
+    "nameLabel": "Nume Complet",
+    "namePlaceholder": "ex. David Miller",
+    "ageLabel": "Vârstă",
+    "agePlaceholder": "ex. 34",
+    "genderLabel": "Gen",
+    "genderOptions": [
+      {
+        "value": "female",
+        "label": "Feminin"
+      },
+      {
+        "value": "male",
+        "label": "Masculin"
+      },
+      {
+        "value": "preferNot",
+        "label": "Prefer să Nu Spun"
+      }
+    ],
+    "phoneLabel": "Telefon / WhatsApp",
+    "phonePlaceholder": "+44 7911 123456",
+    "emailLabel": "Email",
+    "emailPlaceholder": "david@example.com",
+    "branchLabel": "Domeniul de Interes",
+    "branchPlaceholder": "Selectați o opțiune",
+    "healthInfoLabel": "Descrieți pe Scurt Starea Dumneavoastră de Sănătate",
+    "healthInfoPlaceholder": "Spuneți-ne despre afecțiunea dumneavoastră, orice diagnostic anterior sau tratamentul care vă interesează.",
+    "uploadLabel": "Încărcați Raport / Fotografie (Opțional)",
+    "uploadHint": "PNG, JPG, PDF (Max. 15MB)",
+    "uploadButton": "Alegeți Fișierul",
+    "submitButton": "Obțineți Evaluarea Preliminară",
+    "successTitle": "Solicitarea Dumneavoastră a Fost Primită!",
+    "successDesc": "Echipa noastră de medici specialiști vă analizează datele și vă va contacta cu o evaluare preliminară personalizată în 15 minute.",
+    "branchResultLabel": "Domeniul Selectat",
+    "freeLabel": "Complet Gratuit",
+    "reviewLabel": "Analiză de Medic Specialist",
     "responseLabel": "Răspuns în 15 Minute"
   },
   "treatmentsPage": {
