@@ -5,7 +5,7 @@ type LogoProps = {
 };
 
 export function Logo({ size = "sm" }: LogoProps) {
-  const badgeSize = size === "sm" ? "h-9 w-9" : "h-11 w-11";
+  const badgeSize = size === "sm" ? "h-14 w-14" : "h-16 w-16";
   const textSize = size === "sm" ? "text-headline-sm" : "text-headline-md";
 
   return (
@@ -13,8 +13,8 @@ export function Logo({ size = "sm" }: LogoProps) {
       <Image
         alt="Akem Health"
         className={`${badgeSize} shrink-0 object-contain`}
-        height={44}
-        width={44}
+        height={64}
+        width={64}
         src="/images/brand/logo-mark.png"
         unoptimized
       />
